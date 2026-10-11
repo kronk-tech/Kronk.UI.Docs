@@ -1,0 +1,2949 @@
+{
+  "version": "2.0.0-alpha.3",
+  "generatedAt": "2026-10-11T20:27:17.837Z",
+  "components": [
+    {
+      "tag": "ui-alert",
+      "className": "UIAlert",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-alert",
+        "modifiers": {
+          "variant": "ui-alert--{}"
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "variant",
+          "attribute": "variant",
+          "type": "string",
+          "default": "info",
+          "description": "info, success, warning or danger."
+        },
+        {
+          "name": "heading",
+          "attribute": "heading",
+          "type": "string",
+          "default": "",
+          "description": "Alert title."
+        }
+      ],
+      "docs": {
+        "summary": "Inline status message.",
+        "category": "Feedback",
+        "props": {
+          "variant": "info, success, warning or danger.",
+          "heading": "Alert title."
+        },
+        "slots": {
+          "": "Message body."
+        },
+        "examples": [
+          "<ui-alert variant=\"warning\" heading=\"Attention\">Check your input.</ui-alert>",
+          "<ui-alert variant=\"success\">Saved.</ui-alert>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-avatar",
+      "className": "UIAvatar",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-avatar",
+        "modifiers": {
+          "size": "ui-avatar--{}"
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "src",
+          "attribute": "src",
+          "type": "string",
+          "default": "",
+          "description": "Image URL."
+        },
+        {
+          "name": "name",
+          "attribute": "name",
+          "type": "string",
+          "default": "",
+          "description": "Full name used for initials and alt text."
+        },
+        {
+          "name": "size",
+          "attribute": "size",
+          "type": "string",
+          "default": "md",
+          "description": "sm, md or lg."
+        }
+      ],
+      "docs": {
+        "summary": "User avatar with image, initials or icon fallback.",
+        "category": "Display",
+        "props": {
+          "src": "Image URL.",
+          "name": "Full name used for initials and alt text.",
+          "size": "sm, md or lg."
+        },
+        "examples": [
+          "<ui-avatar name=\"Ada Lovelace\"></ui-avatar>",
+          "<ui-avatar size=\"lg\"></ui-avatar>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-badge",
+      "className": "UIBadge",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-badge",
+        "modifiers": {
+          "variant": "ui-badge--{}",
+          "outline": "ui-badge--outline"
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "variant",
+          "attribute": "variant",
+          "type": "string",
+          "default": "",
+          "description": "Colour variant: primary, success, warning, danger or info."
+        },
+        {
+          "name": "outline",
+          "attribute": "outline",
+          "type": "boolean",
+          "default": false,
+          "description": "Use the transparent outline style."
+        }
+      ],
+      "docs": {
+        "summary": "Small status label.",
+        "category": "Display",
+        "status": "stable",
+        "since": "2.0.0",
+        "props": {
+          "variant": "Colour variant: primary, success, warning, danger or info.",
+          "outline": "Use the transparent outline style."
+        },
+        "slots": {
+          "": "Badge text or icon."
+        },
+        "examples": [
+          "<ui-badge>Default</ui-badge>",
+          "<ui-badge variant=\"success\">Success</ui-badge>",
+          "<ui-badge outline>Outline</ui-badge>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-breadcrumbs",
+      "className": "UIBreadcrumbs",
+      "base": "_UIElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Breadcrumb trail.",
+        "category": "Navigation",
+        "slots": {
+          "": "Links; the last element is the current page."
+        },
+        "examples": [
+          "<ui-breadcrumbs><a href=\"/\">Home</a><a href=\"/p\">Projects</a><span>Current</span></ui-breadcrumbs>",
+          "<ui-breadcrumbs><a href=\"/\">Home</a><span>Here</span></ui-breadcrumbs>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-button",
+      "className": "UIButton",
+      "base": "_UIElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "type",
+          "attribute": "type",
+          "type": "string",
+          "default": "button",
+          "description": "Native button type (button, submit, reset)."
+        },
+        {
+          "name": "href",
+          "attribute": "href",
+          "type": "string",
+          "default": "",
+          "description": "When set, renders an anchor."
+        },
+        {
+          "name": "variant",
+          "attribute": "variant",
+          "type": "string",
+          "default": "",
+          "description": "Visual variant."
+        },
+        {
+          "name": "primary",
+          "attribute": "primary",
+          "type": "boolean",
+          "default": false,
+          "description": "Primary emphasis."
+        }
+      ],
+      "docs": {
+        "summary": "Styled button or link.",
+        "category": "Forms",
+        "status": "stable",
+        "since": "2.0.0",
+        "props": {
+          "type": "Native button type (button, submit, reset).",
+          "href": "When set, renders an anchor.",
+          "variant": "Visual variant.",
+          "primary": "Primary emphasis."
+        },
+        "slots": {
+          "": "Button content."
+        },
+        "examples": [
+          "<ui-button>Save</ui-button>",
+          "<ui-button primary type=\"submit\">Submit</ui-button>",
+          "<ui-button href=\"https://example.com\">Link</ui-button>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-card",
+      "className": "UICard",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-card",
+        "modifiers": {
+          "size": "ui-card--{}",
+          "flat": "ui-card--flat",
+          "ghost": "ui-card--ghost",
+          "primary": "ui-card--primary",
+          "dashed": "ui-card--dashed"
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "size",
+          "attribute": "size",
+          "type": "string",
+          "default": "md",
+          "description": "sm, md or lg."
+        },
+        {
+          "name": "flat",
+          "attribute": "flat",
+          "type": "boolean",
+          "default": false,
+          "description": "Remove shadow."
+        },
+        {
+          "name": "ghost",
+          "attribute": "ghost",
+          "type": "boolean",
+          "default": false,
+          "description": "Transparent surface."
+        },
+        {
+          "name": "primary",
+          "attribute": "primary",
+          "type": "boolean",
+          "default": false,
+          "description": "Primary accent."
+        },
+        {
+          "name": "dashed",
+          "attribute": "dashed",
+          "type": "boolean",
+          "default": false,
+          "description": "Dashed border."
+        }
+      ],
+      "docs": {
+        "summary": "Surface container with optional header, body and footer.",
+        "category": "Display",
+        "props": {
+          "size": "sm, md or lg.",
+          "flat": "Remove shadow.",
+          "ghost": "Transparent surface.",
+          "primary": "Primary accent.",
+          "dashed": "Dashed border."
+        },
+        "slots": {
+          "": "ui-card-header, ui-card-body, ui-card-footer."
+        },
+        "examples": [
+          "<ui-card><ui-card-header>Title</ui-card-header><ui-card-body>Body</ui-card-body></ui-card>",
+          "<ui-card dashed size=\"lg\"><ui-card-body>Dashed</ui-card-body></ui-card>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-card-body",
+      "className": "UICardBody",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-card__body",
+        "modifiers": {}
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Card body.",
+        "category": "Display",
+        "slots": {
+          "": "Content."
+        },
+        "examples": [
+          "<ui-card><ui-card-body>Content</ui-card-body></ui-card>",
+          "<ui-card><ui-card-body><strong>Rich</strong> content</ui-card-body></ui-card>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-card-footer",
+      "className": "UICardFooter",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-card__footer",
+        "modifiers": {}
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Card footer.",
+        "category": "Display",
+        "slots": {
+          "": "Content."
+        },
+        "examples": [
+          "<ui-card><ui-card-footer>Content</ui-card-footer></ui-card>",
+          "<ui-card><ui-card-footer><strong>Rich</strong> content</ui-card-footer></ui-card>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-card-header",
+      "className": "UICardHeader",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-card__header",
+        "modifiers": {}
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Card header.",
+        "category": "Display",
+        "slots": {
+          "": "Content."
+        },
+        "examples": [
+          "<ui-card><ui-card-header>Content</ui-card-header></ui-card>",
+          "<ui-card><ui-card-header><strong>Rich</strong> content</ui-card-header></ui-card>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-cluster",
+      "className": "UICluster",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-cluster",
+        "modifiers": {
+          "gap": "ui-cluster--{}",
+          "between": "ui-cluster--between",
+          "end": "ui-cluster--end",
+          "nowrap": "ui-cluster--nowrap"
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "gap",
+          "attribute": "gap",
+          "type": "string",
+          "default": "md",
+          "description": "Spacing: xs, sm, md, lg or xl."
+        },
+        {
+          "name": "between",
+          "attribute": "between",
+          "type": "boolean",
+          "default": false,
+          "description": "Distribute with space-between."
+        },
+        {
+          "name": "end",
+          "attribute": "end",
+          "type": "boolean",
+          "default": false,
+          "description": "Align to the end."
+        },
+        {
+          "name": "nowrap",
+          "attribute": "nowrap",
+          "type": "boolean",
+          "default": false,
+          "description": "Disable wrapping."
+        }
+      ],
+      "docs": {
+        "summary": "Horizontal, wrapping layout primitive.",
+        "category": "Layout",
+        "props": {
+          "gap": "Spacing: xs, sm, md, lg or xl.",
+          "between": "Distribute with space-between.",
+          "end": "Align to the end.",
+          "nowrap": "Disable wrapping."
+        },
+        "slots": {
+          "": "Inline content."
+        },
+        "examples": [
+          "<ui-cluster><ui-badge>A</ui-badge><ui-badge>B</ui-badge></ui-cluster>",
+          "<ui-cluster between><span>Left</span><span>Right</span></ui-cluster>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-container",
+      "className": "UIContainer",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-container",
+        "modifiers": {
+          "size": "ui-container--{}"
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "size",
+          "attribute": "size",
+          "type": "string",
+          "default": "md",
+          "description": "Max width: sm, md, lg, xl or full."
+        }
+      ],
+      "docs": {
+        "summary": "Centred, width-constrained page container.",
+        "category": "Layout",
+        "props": {
+          "size": "Max width: sm, md, lg, xl or full."
+        },
+        "slots": {
+          "": "Page content."
+        },
+        "examples": [
+          "<ui-container size=\"sm\"><p>Narrow content</p></ui-container>",
+          "<ui-container size=\"xl\"><p>Wide content</p></ui-container>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-details",
+      "className": "UIDetails",
+      "base": "_UIElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "open",
+          "attribute": "open",
+          "type": "boolean",
+          "default": false,
+          "description": "Expanded state (reflected)."
+        },
+        {
+          "name": "heading",
+          "attribute": "heading",
+          "type": "string",
+          "default": "",
+          "description": "Summary heading."
+        },
+        {
+          "name": "subheading",
+          "attribute": "subheading",
+          "type": "string",
+          "default": "",
+          "description": "Secondary line."
+        },
+        {
+          "name": "group",
+          "attribute": "group",
+          "type": "string",
+          "default": "",
+          "description": "Exclusive group name."
+        }
+      ],
+      "docs": {
+        "summary": "Disclosure built on native <details>.",
+        "category": "Display",
+        "props": {
+          "open": "Expanded state (reflected).",
+          "heading": "Summary heading.",
+          "subheading": "Secondary line.",
+          "group": "Exclusive group name."
+        },
+        "events": {
+          "ui-toggle": "Opened or closed; detail { open }."
+        },
+        "slots": {
+          "": "Content."
+        },
+        "examples": [
+          "<ui-details heading=\"More\" subheading=\"Click to expand\">Hidden content</ui-details>",
+          "<ui-details heading=\"A\" group=\"g\">One</ui-details><ui-details heading=\"B\" group=\"g\">Two</ui-details>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-empty-state",
+      "className": "UIEmptyState",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-empty-state"
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "heading",
+          "attribute": "heading",
+          "type": "string",
+          "default": "",
+          "description": "Title."
+        },
+        {
+          "name": "description",
+          "attribute": "description",
+          "type": "string",
+          "default": "",
+          "description": "Explanation."
+        },
+        {
+          "name": "icon",
+          "attribute": "icon",
+          "type": "string",
+          "default": "",
+          "description": "Font Awesome icon name."
+        }
+      ],
+      "docs": {
+        "summary": "Placeholder for empty content with an optional action.",
+        "category": "Feedback",
+        "props": {
+          "heading": "Title.",
+          "description": "Explanation.",
+          "icon": "Font Awesome icon name."
+        },
+        "slots": {
+          "action": "Call to action."
+        },
+        "examples": [
+          "<ui-empty-state heading=\"No projects\" description=\"Create one to start.\" icon=\"folder-open\"></ui-empty-state>",
+          "<ui-empty-state heading=\"Nothing here\"></ui-empty-state>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-grid",
+      "className": "UIGrid",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-grid",
+        "modifiers": {
+          "cols": "ui-grid--{}",
+          "gap": "ui-grid--gap-{}"
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "cols",
+          "attribute": "cols",
+          "type": "string",
+          "default": "",
+          "description": "Column count: 2, 3, 4, 6 or 12."
+        },
+        {
+          "name": "gap",
+          "attribute": "gap",
+          "type": "string",
+          "default": "md",
+          "description": "Spacing: xs, sm, md, lg or xl."
+        }
+      ],
+      "docs": {
+        "summary": "Column grid.",
+        "category": "Layout",
+        "props": {
+          "cols": "Column count: 2, 3, 4, 6 or 12.",
+          "gap": "Spacing: xs, sm, md, lg or xl."
+        },
+        "slots": {
+          "": "ui-grid-col children or any content."
+        },
+        "examples": [
+          "<ui-grid cols=\"2\"><div>1</div><div>2</div></ui-grid>",
+          "<ui-grid cols=\"3\" gap=\"lg\"><div>1</div><div>2</div><div>3</div></ui-grid>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-grid-col",
+      "className": "UIGridCol",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-grid__col",
+        "modifiers": {
+          "span": "ui-grid__col--span-{}"
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "span",
+          "attribute": "span",
+          "type": "string",
+          "default": "",
+          "description": "Number of columns to span (2, 3, 4, 6 or 12)."
+        }
+      ],
+      "docs": {
+        "summary": "Grid column spanning several tracks.",
+        "category": "Layout",
+        "props": {
+          "span": "Number of columns to span (2, 3, 4, 6 or 12)."
+        },
+        "slots": {
+          "": "Column content."
+        },
+        "examples": [
+          "<ui-grid cols=\"4\"><ui-grid-col span=\"3\">Wide</ui-grid-col><ui-grid-col>Narrow</ui-grid-col></ui-grid>",
+          "<ui-grid cols=\"2\"><ui-grid-col span=\"2\">Full</ui-grid-col></ui-grid>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-header",
+      "className": "UIHeader",
+      "base": "_UIElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "level",
+          "attribute": "level",
+          "type": "number",
+          "default": 2,
+          "description": "Heading level 1–6."
+        },
+        {
+          "name": "size",
+          "attribute": "size",
+          "type": "string",
+          "default": "",
+          "description": "Visual size override xs–3xl."
+        },
+        {
+          "name": "muted",
+          "attribute": "muted",
+          "type": "boolean",
+          "default": false,
+          "description": "Muted colour."
+        }
+      ],
+      "docs": {
+        "summary": "Semantic heading.",
+        "category": "Display",
+        "props": {
+          "level": "Heading level 1–6.",
+          "size": "Visual size override xs–3xl.",
+          "muted": "Muted colour."
+        },
+        "slots": {
+          "": "Heading text."
+        },
+        "examples": [
+          "<ui-header level=\"1\">Title</ui-header>",
+          "<ui-header level=\"3\" size=\"xl\" muted>Subtitle</ui-header>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-icon",
+      "className": "UIIcon",
+      "base": "_UIElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "name",
+          "attribute": "name",
+          "type": "string",
+          "default": "",
+          "description": "Icon name without prefix."
+        },
+        {
+          "name": "iconStyle",
+          "attribute": "icon-style",
+          "type": "string",
+          "default": "solid",
+          "description": "solid, regular, light, brands…"
+        },
+        {
+          "name": "label",
+          "attribute": "label",
+          "type": "string",
+          "default": "",
+          "description": "Accessible label; omit for decorative icons."
+        }
+      ],
+      "docs": {
+        "summary": "Font Awesome icon.",
+        "category": "Display",
+        "props": {
+          "name": "Icon name without prefix.",
+          "iconStyle": "solid, regular, light, brands…",
+          "label": "Accessible label; omit for decorative icons."
+        },
+        "examples": [
+          "<ui-icon name=\"check\" label=\"Completed\"></ui-icon>",
+          "<ui-icon name=\"star\" icon-style=\"regular\"></ui-icon>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-input",
+      "className": "UIInput",
+      "base": "UIFormElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "name",
+          "attribute": "name",
+          "type": "string",
+          "default": "",
+          "description": "Form field name."
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string",
+          "default": "",
+          "description": "Current value."
+        },
+        {
+          "name": "label",
+          "attribute": "label",
+          "type": "string",
+          "default": "",
+          "description": "Visible label."
+        },
+        {
+          "name": "required",
+          "attribute": "required",
+          "type": "boolean",
+          "default": false,
+          "description": "Mark as required."
+        },
+        {
+          "name": "readonly",
+          "attribute": "readonly",
+          "type": "boolean",
+          "default": false,
+          "description": "Read-only."
+        },
+        {
+          "name": "primary",
+          "attribute": "primary",
+          "type": "boolean",
+          "default": false,
+          "description": "Primary label emphasis."
+        },
+        {
+          "name": "type",
+          "attribute": "type",
+          "type": "string",
+          "default": "text",
+          "description": "Native input type."
+        },
+        {
+          "name": "checked",
+          "attribute": "checked",
+          "type": "boolean",
+          "default": false,
+          "description": "Checked state for checkbox and radio."
+        },
+        {
+          "name": "placeholder",
+          "attribute": "placeholder",
+          "type": "string",
+          "default": "",
+          "description": "Placeholder text."
+        }
+      ],
+      "docs": {
+        "summary": "Labelled native input (text, email, password, number, date, file, color, checkbox, radio, range, …).",
+        "category": "Forms",
+        "status": "stable",
+        "since": "2.0.0",
+        "props": {
+          "type": "Native input type.",
+          "value": "Current value.",
+          "checked": "Checked state for checkbox and radio.",
+          "placeholder": "Placeholder text.",
+          "name": "Form field name.",
+          "label": "Visible label.",
+          "required": "Mark as required.",
+          "readonly": "Read-only.",
+          "primary": "Primary label emphasis."
+        },
+        "events": {
+          "ui-change": "Native change; detail { value, previous }.",
+          "ui-input": "Native input; detail { value }."
+        },
+        "slots": {},
+        "examples": [
+          "<ui-input label=\"Email\" type=\"email\" name=\"email\"></ui-input>",
+          "<ui-input label=\"Volume\" type=\"range\" value=\"40\"></ui-input>",
+          "<ui-input label=\"Password\" type=\"password\"></ui-input>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-kbd",
+      "className": "UIKbd",
+      "base": "_UIElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "keys",
+          "attribute": "keys",
+          "type": "string",
+          "default": "",
+          "description": "Combo such as \"mod+k\"."
+        }
+      ],
+      "docs": {
+        "summary": "Keyboard shortcut hint.",
+        "category": "Display",
+        "props": {
+          "keys": "Combo such as \"mod+k\"."
+        },
+        "examples": [
+          "<ui-kbd keys=\"mod+k\"></ui-kbd>",
+          "<ui-kbd keys=\"shift+/\"></ui-kbd>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-listbox",
+      "className": "UIListbox",
+      "base": "_UIElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "filterable",
+          "attribute": "filterable",
+          "type": "boolean",
+          "default": false,
+          "description": "Show a filter input."
+        },
+        {
+          "name": "numbered",
+          "attribute": "numbered",
+          "type": "boolean",
+          "default": false,
+          "description": "Number the items."
+        },
+        {
+          "name": "hotkeys",
+          "attribute": "hotkeys",
+          "type": "boolean",
+          "default": false,
+          "description": "Digits 1–9 select the n-th item."
+        },
+        {
+          "name": "emptyText",
+          "attribute": "empty-text",
+          "type": "string",
+          "default": "No items",
+          "description": "Text when nothing matches."
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string",
+          "default": "",
+          "description": "Selected item key."
+        }
+      ],
+      "docs": {
+        "summary": "Keyed, filterable list with keyboard navigation and a custom item template.",
+        "category": "Lists",
+        "props": {
+          "filterable": "Show a filter input.",
+          "numbered": "Number the items.",
+          "hotkeys": "Digits 1–9 select the n-th item.",
+          "emptyText": "Text when nothing matches.",
+          "value": "Selected item key."
+        },
+        "events": {
+          "ui-change": "Selection changed; detail { value, item, index, previous, source }.",
+          "ui-activate": "Item activated (Enter / double click); detail { item, index }.",
+          "ui-filter": "Filter changed; detail { query }."
+        },
+        "methods": {
+          "setItems": "Replace all items.",
+          "addItem": "addItem(item, index?).",
+          "removeItem": "removeItem(key).",
+          "updateItem": "updateItem(key, patch).",
+          "select": "select(key, { emit }).",
+          "next": "Move active item.",
+          "prev": "Move active item.",
+          "first": "First item.",
+          "last": "Last item.",
+          "focusItem": "Make an item active.",
+          "scrollToItem": "Scroll an item into view."
+        },
+        "examples": [
+          "<ui-listbox id=\"lb1\" filterable></ui-listbox><script>document.getElementById(\"lb1\").setItems([{id:\"a\",label:\"Alpha\"},{id:\"b\",label:\"Beta\"}])</script>",
+          "<ui-listbox id=\"lb2\" numbered></ui-listbox><script>document.getElementById(\"lb2\").setItems([{id:\"1\",label:\"One\"},{id:\"2\",label:\"Two\"}])</script>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-modal",
+      "className": "UIModal",
+      "base": "UIOverlayElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "open",
+          "attribute": "open",
+          "type": "boolean",
+          "default": false,
+          "description": "Open state (reflected)."
+        },
+        {
+          "name": "heading",
+          "attribute": "heading",
+          "type": "string",
+          "default": "",
+          "description": "Dialog heading."
+        },
+        {
+          "name": "size",
+          "attribute": "size",
+          "type": "string",
+          "default": "md",
+          "description": "sm, md or lg."
+        },
+        {
+          "name": "dismissible",
+          "attribute": "dismissible",
+          "type": "boolean",
+          "default": true,
+          "description": "Escape and backdrop dismissal."
+        },
+        {
+          "name": "modal",
+          "attribute": "modal",
+          "type": "boolean",
+          "default": true,
+          "description": "Use showModal() (default) or non-modal show()."
+        }
+      ],
+      "docs": {
+        "summary": "Native <dialog> with promise-based open and close.",
+        "category": "Overlays",
+        "status": "stable",
+        "since": "2.0.0",
+        "props": {
+          "open": "Open state (reflected).",
+          "heading": "Dialog heading.",
+          "size": "sm, md or lg.",
+          "dismissible": "Escape and backdrop dismissal.",
+          "modal": "Use showModal() (default) or non-modal show()."
+        },
+        "events": {
+          "ui-open": "Fired after opening.",
+          "ui-before-close": "Cancelable; detail { reason, result }.",
+          "ui-close": "Fired after closing; detail { result, reason }."
+        },
+        "methods": {
+          "show": "Open; returns a promise resolving with the close result.",
+          "hide": "Close with an optional result."
+        },
+        "slots": {
+          "header": "Custom header.",
+          "": "Body.",
+          "footer": "Footer actions."
+        },
+        "examples": [
+          "<ui-modal id=\"m\" heading=\"Hello\">Body text</ui-modal><ui-button onclick=\"document.getElementById('m').show()\">Open</ui-button>",
+          "<ui-modal id=\"m2\" heading=\"Sized\" size=\"sm\">Small dialog</ui-modal><ui-button onclick=\"document.getElementById('m2').show()\">Open small</ui-button>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-nav",
+      "className": "UINav",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-nav",
+        "modifiers": {}
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Navigation list.",
+        "category": "Shell",
+        "slots": {
+          "": "Content."
+        },
+        "examples": [
+          "<ui-nav>Content</ui-nav>",
+          "<ui-nav><strong>Rich</strong></ui-nav>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-nav-item",
+      "className": "UINavItem",
+      "base": "_UIElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "href",
+          "attribute": "href",
+          "type": "string",
+          "default": "",
+          "description": "Link target."
+        },
+        {
+          "name": "icon",
+          "attribute": "icon",
+          "type": "string",
+          "default": "",
+          "description": "Font Awesome icon name."
+        },
+        {
+          "name": "match",
+          "attribute": "match",
+          "type": "string",
+          "default": "",
+          "description": "exact or prefix: derive active state from location."
+        }
+      ],
+      "docs": {
+        "summary": "Navigation item with icon and label.",
+        "category": "Shell",
+        "props": {
+          "href": "Link target.",
+          "icon": "Font Awesome icon name.",
+          "match": "exact or prefix: derive active state from location."
+        },
+        "slots": {
+          "": "Label text."
+        },
+        "examples": [
+          "<ui-nav><ui-nav-item href=\"/\" icon=\"house\">Home</ui-nav-item></ui-nav>",
+          "<ui-nav><ui-nav-item href=\"/docs\" match=\"prefix\">Docs</ui-nav-item></ui-nav>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-nav-section",
+      "className": "UINavSection",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-nav__section",
+        "modifiers": {}
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Navigation section.",
+        "category": "Shell",
+        "slots": {
+          "": "Content."
+        },
+        "examples": [
+          "<ui-nav-section>Content</ui-nav-section>",
+          "<ui-nav-section><strong>Rich</strong></ui-nav-section>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-navbar-link",
+      "className": "UINavbarLink",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-navbar-link"
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "href",
+          "attribute": "href",
+          "type": "string",
+          "default": "",
+          "description": "Link target."
+        },
+        {
+          "name": "icon",
+          "attribute": "data-icon",
+          "type": "string",
+          "default": "",
+          "description": "Font Awesome icon name."
+        }
+      ],
+      "docs": {
+        "summary": "Top bar link with optional icon.",
+        "category": "Shell",
+        "props": {
+          "href": "Link target.",
+          "icon": "Font Awesome icon name."
+        },
+        "slots": {
+          "": "Label."
+        },
+        "examples": [
+          "<ui-navbar-link href=\"/\">Home</ui-navbar-link>",
+          "<ui-navbar-link href=\"/x\" icon=\"gear\">Settings</ui-navbar-link>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-option",
+      "className": "UIOption",
+      "base": "_UIElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": "Prevents selection."
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string",
+          "default": "",
+          "description": "Submitted option value."
+        }
+      ],
+      "docs": {
+        "summary": "Declarative option for ui-select.",
+        "category": "Forms",
+        "props": {
+          "value": "Submitted option value.",
+          "disabled": "Prevents selection."
+        },
+        "slots": {
+          "": "Visible label; may contain a ui-option-meta."
+        },
+        "examples": [
+          "<ui-select label=\"Pick\"><ui-option value=\"a\">Alpha</ui-option></ui-select>",
+          "<ui-select label=\"Pick\"><ui-option value=\"b\" disabled>Beta</ui-option></ui-select>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-option-group",
+      "className": "UIOptionGroup",
+      "base": "_UIElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "label",
+          "attribute": "label",
+          "type": "string",
+          "default": "",
+          "description": "Group heading."
+        }
+      ],
+      "docs": {
+        "summary": "Group of ui-option elements.",
+        "category": "Forms",
+        "props": {
+          "label": "Group heading."
+        },
+        "slots": {
+          "": "ui-option children."
+        },
+        "examples": [
+          "<ui-select label=\"Pick\"><ui-option-group label=\"Letters\"><ui-option value=\"a\">A</ui-option></ui-option-group></ui-select>",
+          "<ui-select label=\"Pick\"><ui-option-group label=\"Numbers\"><ui-option value=\"1\">1</ui-option></ui-option-group></ui-select>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-option-meta",
+      "className": "UIOptionMeta",
+      "base": "_UIElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Secondary text displayed beside an option label (excluded from filtering and the selected label).",
+        "category": "Forms",
+        "slots": {
+          "": "Metadata text."
+        },
+        "examples": [
+          "<ui-select label=\"Pick\"><ui-option value=\"a\">Alpha<ui-option-meta>first</ui-option-meta></ui-option></ui-select>",
+          "<ui-select label=\"Pick\"><ui-option value=\"b\">Beta<ui-option-meta>second</ui-option-meta></ui-option></ui-select>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-pagination",
+      "className": "UIPagination",
+      "base": "_UIElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "page",
+          "attribute": "page",
+          "type": "number",
+          "default": 1,
+          "description": "Current page (1-based)."
+        },
+        {
+          "name": "pages",
+          "attribute": "pages",
+          "type": "number",
+          "default": 1,
+          "description": "Total pages."
+        }
+      ],
+      "docs": {
+        "summary": "Page selector.",
+        "category": "Navigation",
+        "props": {
+          "page": "Current page (1-based).",
+          "pages": "Total pages."
+        },
+        "events": {
+          "ui-change": "Page changed; detail { page, previous, source }."
+        },
+        "methods": {
+          "select": "select(page, { emit })."
+        },
+        "examples": [
+          "<ui-pagination page=\"3\" pages=\"12\"></ui-pagination>",
+          "<ui-pagination pages=\"3\"></ui-pagination>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-progress",
+      "className": "UIProgress",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-progress",
+        "modifiers": {
+          "size": "ui-progress--{}",
+          "variant": "ui-progress--{}",
+          "indeterminate": "ui-progress--indeterminate"
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "number",
+          "default": 0,
+          "description": "Current value."
+        },
+        {
+          "name": "max",
+          "attribute": "max",
+          "type": "number",
+          "default": 100,
+          "description": "Maximum value."
+        },
+        {
+          "name": "indeterminate",
+          "attribute": "indeterminate",
+          "type": "boolean",
+          "default": false,
+          "description": "Unknown progress."
+        },
+        {
+          "name": "size",
+          "attribute": "size",
+          "type": "string",
+          "default": "md",
+          "description": "sm, md or lg."
+        },
+        {
+          "name": "variant",
+          "attribute": "variant",
+          "type": "string",
+          "default": "",
+          "description": "Colour variant."
+        }
+      ],
+      "docs": {
+        "summary": "Progress bar.",
+        "category": "Feedback",
+        "props": {
+          "value": "Current value.",
+          "max": "Maximum value.",
+          "indeterminate": "Unknown progress.",
+          "size": "sm, md or lg.",
+          "variant": "Colour variant."
+        },
+        "examples": [
+          "<ui-progress value=\"40\"></ui-progress>",
+          "<ui-progress indeterminate></ui-progress>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-select",
+      "className": "UISelect",
+      "base": "UIListElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "name",
+          "attribute": "name",
+          "type": "string",
+          "default": "",
+          "description": "Name of the form control."
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string",
+          "default": "",
+          "description": "Selected option value."
+        },
+        {
+          "name": "label",
+          "attribute": "label",
+          "type": "string",
+          "default": "",
+          "description": "Visible label."
+        },
+        {
+          "name": "required",
+          "attribute": "required",
+          "type": "boolean",
+          "default": false,
+          "description": "Mark as required."
+        },
+        {
+          "name": "readonly",
+          "attribute": "readonly",
+          "type": "boolean",
+          "default": false,
+          "description": "Read-only."
+        },
+        {
+          "name": "primary",
+          "attribute": "primary",
+          "type": "boolean",
+          "default": false,
+          "description": "Primary label emphasis."
+        },
+        {
+          "name": "filterText",
+          "attribute": "filter-text",
+          "type": "string",
+          "default": "",
+          "description": "Current filter query."
+        },
+        {
+          "name": "multiple",
+          "attribute": "multiple",
+          "type": "boolean",
+          "default": false,
+          "description": "Reserved; not implemented in this build."
+        },
+        {
+          "name": "hotkeys",
+          "attribute": "hotkeys",
+          "type": "boolean",
+          "default": false,
+          "description": "Select with digits 1–9 when no filter is active."
+        },
+        {
+          "name": "numbered",
+          "attribute": "numbered",
+          "type": "boolean",
+          "default": false,
+          "description": "Show option numbering."
+        },
+        {
+          "name": "mode",
+          "attribute": "mode",
+          "type": "string",
+          "default": "combobox",
+          "description": "combobox, native or inline."
+        },
+        {
+          "name": "placeholder",
+          "attribute": "placeholder",
+          "type": "string",
+          "default": "",
+          "description": "Combobox placeholder."
+        },
+        {
+          "name": "emptyText",
+          "attribute": "empty-text",
+          "type": "string",
+          "default": "",
+          "description": "Text when no option matches."
+        },
+        {
+          "name": "inline",
+          "attribute": "inline",
+          "type": "boolean",
+          "default": false,
+          "description": "Always show the option list."
+        }
+      ],
+      "docs": {
+        "summary": "Native, searchable, or inline select control.",
+        "category": "Forms",
+        "status": "stable",
+        "since": "2.0.0",
+        "props": {
+          "mode": "combobox, native or inline.",
+          "value": "Selected option value.",
+          "options": "Property-only array of { value, label, meta?, group?, disabled? }.",
+          "name": "Name of the form control.",
+          "label": "Visible label.",
+          "placeholder": "Combobox placeholder.",
+          "emptyText": "Text when no option matches.",
+          "inline": "Always show the option list.",
+          "numbered": "Show option numbering.",
+          "hotkeys": "Select with digits 1–9 when no filter is active.",
+          "filterText": "Current filter query.",
+          "multiple": "Reserved; not implemented in this build.",
+          "required": "Mark as required.",
+          "readonly": "Read-only.",
+          "primary": "Primary label emphasis."
+        },
+        "events": {
+          "ui-change": "User picked an option; detail { value, option, previous, source }.",
+          "ui-filter": "Filter query changed; detail { query }."
+        },
+        "methods": {
+          "clear": "Clear the selection.",
+          "getOption": "Find an option by value."
+        },
+        "slots": {
+          "": "ui-option and ui-option-group children."
+        },
+        "examples": [
+          "<ui-select label=\"Country\" name=\"country\" value=\"nl\"><ui-option value=\"nl\">Netherlands</ui-option><ui-option value=\"be\">Belgium</ui-option></ui-select>",
+          "<ui-select label=\"Native\" mode=\"native\"><ui-option value=\"a\">Alpha</ui-option><ui-option value=\"b\">Beta</ui-option></ui-select>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-shell",
+      "className": "UIShell",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-shell",
+        "modifiers": {
+          "collapsed": "ui-shell--collapsed"
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "collapsed",
+          "attribute": "collapsed",
+          "type": "boolean",
+          "default": false,
+          "description": "Collapse the sidebar."
+        },
+        {
+          "name": "sidebarOpen",
+          "attribute": "sidebar-open",
+          "type": "boolean",
+          "default": false,
+          "description": "Mobile sidebar open state."
+        },
+        {
+          "name": "persist",
+          "attribute": "persist",
+          "type": "boolean",
+          "default": false,
+          "description": "Remember the collapsed state in localStorage."
+        }
+      ],
+      "docs": {
+        "summary": "Application shell with collapsible sidebar and top bar.",
+        "category": "Shell",
+        "props": {
+          "collapsed": "Collapse the sidebar.",
+          "sidebarOpen": "Mobile sidebar open state.",
+          "persist": "Remember the collapsed state in localStorage."
+        },
+        "events": {
+          "ui-shell-change": "Collapsed or sidebar state changed."
+        },
+        "methods": {
+          "toggle": "Toggle collapsed state.",
+          "openSidebar": "Open the mobile sidebar.",
+          "closeSidebar": "Close the mobile sidebar."
+        },
+        "slots": {
+          "": "ui-topbar, ui-sidebar and page content."
+        },
+        "examples": [
+          "<ui-shell><ui-topbar>App</ui-topbar><ui-sidebar>Menu</ui-sidebar><main>Content</main></ui-shell>",
+          "<ui-shell collapsed><ui-sidebar>Menu</ui-sidebar><main>Content</main></ui-shell>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-sidebar",
+      "className": "UISidebar",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-sidebar",
+        "modifiers": {}
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Application sidebar.",
+        "category": "Shell",
+        "slots": {
+          "": "Content."
+        },
+        "examples": [
+          "<ui-sidebar>Content</ui-sidebar>",
+          "<ui-sidebar><strong>Rich</strong></ui-sidebar>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-sidebar-body",
+      "className": "UISidebarBody",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-sidebar__body",
+        "modifiers": {}
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Sidebar body.",
+        "category": "Shell",
+        "slots": {
+          "": "Content."
+        },
+        "examples": [
+          "<ui-sidebar-body>Content</ui-sidebar-body>",
+          "<ui-sidebar-body><strong>Rich</strong></ui-sidebar-body>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-sidebar-footer",
+      "className": "UISidebarFooter",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-sidebar__footer",
+        "modifiers": {}
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Sidebar footer.",
+        "category": "Shell",
+        "slots": {
+          "": "Content."
+        },
+        "examples": [
+          "<ui-sidebar-footer>Content</ui-sidebar-footer>",
+          "<ui-sidebar-footer><strong>Rich</strong></ui-sidebar-footer>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-sidebar-header",
+      "className": "UISidebarHeader",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-sidebar__header",
+        "modifiers": {}
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Sidebar header.",
+        "category": "Shell",
+        "slots": {
+          "": "Content."
+        },
+        "examples": [
+          "<ui-sidebar-header>Content</ui-sidebar-header>",
+          "<ui-sidebar-header><strong>Rich</strong></ui-sidebar-header>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-skeleton",
+      "className": "UISkeleton",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-skeleton",
+        "modifiers": {
+          "circle": "ui-skeleton--circle"
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "width",
+          "attribute": "width",
+          "type": "string",
+          "default": "100%",
+          "description": "CSS width."
+        },
+        {
+          "name": "height",
+          "attribute": "height",
+          "type": "string",
+          "default": "1rem",
+          "description": "CSS height."
+        },
+        {
+          "name": "circle",
+          "attribute": "circle",
+          "type": "boolean",
+          "default": false,
+          "description": "Round shape."
+        }
+      ],
+      "docs": {
+        "summary": "Loading placeholder.",
+        "category": "Feedback",
+        "props": {
+          "width": "CSS width.",
+          "height": "CSS height.",
+          "circle": "Round shape."
+        },
+        "examples": [
+          "<ui-skeleton width=\"12rem\"></ui-skeleton>",
+          "<ui-skeleton circle width=\"3rem\" height=\"3rem\"></ui-skeleton>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-spinner",
+      "className": "UISpinner",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-spinner",
+        "modifiers": {
+          "size": "ui-spinner--{}",
+          "inverse": "ui-spinner--inverse"
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "size",
+          "attribute": "size",
+          "type": "string",
+          "default": "md",
+          "description": "sm, md or lg."
+        },
+        {
+          "name": "inverse",
+          "attribute": "inverse",
+          "type": "boolean",
+          "default": false,
+          "description": "Light variant for dark backgrounds."
+        }
+      ],
+      "docs": {
+        "summary": "Loading indicator.",
+        "category": "Feedback",
+        "props": {
+          "size": "sm, md or lg.",
+          "inverse": "Light variant for dark backgrounds."
+        },
+        "examples": [
+          "<ui-spinner></ui-spinner>",
+          "<ui-spinner size=\"sm\"></ui-spinner>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-split-pane",
+      "className": "UISplitPane",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-split-pane",
+        "modifiers": {
+          "vertical": "ui-split-pane--vertical"
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "number",
+          "default": 50,
+          "description": "First pane size in percent (10–90)."
+        },
+        {
+          "name": "vertical",
+          "attribute": "vertical",
+          "type": "boolean",
+          "default": false,
+          "description": "Stack panes vertically."
+        }
+      ],
+      "docs": {
+        "summary": "Two resizable panes with a draggable, keyboard-accessible divider.",
+        "category": "Layout",
+        "props": {
+          "value": "First pane size in percent (10–90).",
+          "vertical": "Stack panes vertically."
+        },
+        "events": {
+          "ui-resize": "Size changed; detail { value }."
+        },
+        "methods": {
+          "set": "set(percent).",
+          "get": "Current percent.",
+          "reset": "Restore the initial split."
+        },
+        "slots": {
+          "": "Exactly two child elements."
+        },
+        "examples": [
+          "<ui-split-pane style=\"height:8rem\"><div>Left</div><div>Right</div></ui-split-pane>",
+          "<ui-split-pane vertical value=\"30\" style=\"height:10rem\"><div>Top</div><div>Bottom</div></ui-split-pane>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-stack",
+      "className": "UIStack",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-stack",
+        "modifiers": {
+          "gap": "ui-stack--{}"
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "gap",
+          "attribute": "gap",
+          "type": "string",
+          "default": "md",
+          "description": "Spacing: xs, sm, md, lg or xl."
+        }
+      ],
+      "docs": {
+        "summary": "Vertical layout primitive.",
+        "category": "Layout",
+        "props": {
+          "gap": "Spacing: xs, sm, md, lg or xl."
+        },
+        "slots": {
+          "": "Stacked content."
+        },
+        "examples": [
+          "<ui-stack><p>One</p><p>Two</p></ui-stack>",
+          "<ui-stack gap=\"lg\"><p>One</p><p>Two</p></ui-stack>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-switch",
+      "className": "UISwitch",
+      "base": "UIFormElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "name",
+          "attribute": "name",
+          "type": "string",
+          "default": "",
+          "description": "Form field name."
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string",
+          "default": "",
+          "description": "Submitted value when on."
+        },
+        {
+          "name": "label",
+          "attribute": "label",
+          "type": "string",
+          "default": "",
+          "description": "Visible label."
+        },
+        {
+          "name": "required",
+          "attribute": "required",
+          "type": "boolean",
+          "default": false,
+          "description": "Mark as required."
+        },
+        {
+          "name": "readonly",
+          "attribute": "readonly",
+          "type": "boolean",
+          "default": false,
+          "description": "Read-only."
+        },
+        {
+          "name": "primary",
+          "attribute": "primary",
+          "type": "boolean",
+          "default": false,
+          "description": "Primary label emphasis."
+        },
+        {
+          "name": "checked",
+          "attribute": "checked",
+          "type": "boolean",
+          "default": false,
+          "description": "On/off state."
+        }
+      ],
+      "docs": {
+        "summary": "Toggle switch backed by a native checkbox.",
+        "category": "Forms",
+        "props": {
+          "checked": "On/off state.",
+          "name": "Form field name.",
+          "value": "Submitted value when on.",
+          "label": "Visible label.",
+          "required": "Mark as required.",
+          "readonly": "Read-only.",
+          "primary": "Primary label emphasis."
+        },
+        "events": {
+          "ui-change": "Toggled by the user; detail { checked, value, previous }."
+        },
+        "methods": {
+          "toggle": "Flip the state."
+        },
+        "examples": [
+          "<ui-switch label=\"Notifications\" name=\"notifications\" checked></ui-switch>",
+          "<ui-switch label=\"Disabled\" disabled></ui-switch>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-tab",
+      "className": "UITab",
+      "base": "_UIElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": "Not selectable."
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string",
+          "default": "",
+          "description": "Tab id; matches a ui-tab-panel value."
+        }
+      ],
+      "docs": {
+        "summary": "Tab trigger inside ui-tabs.",
+        "category": "Navigation",
+        "props": {
+          "value": "Tab id; matches a ui-tab-panel value.",
+          "disabled": "Not selectable."
+        },
+        "slots": {
+          "": "Tab label."
+        },
+        "examples": [
+          "<ui-tabs><ui-tab value=\"a\">A</ui-tab><ui-tab-panel value=\"a\">Panel A</ui-tab-panel></ui-tabs>",
+          "<ui-tabs value=\"b\"><ui-tab value=\"a\">A</ui-tab><ui-tab value=\"b\">B</ui-tab><ui-tab-panel value=\"a\">One</ui-tab-panel><ui-tab-panel value=\"b\">Two</ui-tab-panel></ui-tabs>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-tab-panel",
+      "className": "UITabPanel",
+      "base": "_UIElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string",
+          "default": "",
+          "description": "Matches a ui-tab value."
+        }
+      ],
+      "docs": {
+        "summary": "Panel shown for the matching ui-tab.",
+        "category": "Navigation",
+        "props": {
+          "value": "Matches a ui-tab value."
+        },
+        "slots": {
+          "": "Panel content."
+        },
+        "examples": [
+          "<ui-tabs><ui-tab value=\"a\">A</ui-tab><ui-tab-panel value=\"a\">Panel</ui-tab-panel></ui-tabs>",
+          "<ui-tabs><ui-tab value=\"x\">X</ui-tab><ui-tab-panel value=\"x\"><p>Rich</p></ui-tab-panel></ui-tabs>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-table",
+      "className": "UITable",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-table",
+        "modifiers": {
+          "striped": "ui-table--striped",
+          "bordered": "ui-table--bordered",
+          "size": "ui-table--{}"
+        }
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "striped",
+          "attribute": "striped",
+          "type": "boolean",
+          "default": false,
+          "description": "Zebra rows."
+        },
+        {
+          "name": "bordered",
+          "attribute": "bordered",
+          "type": "boolean",
+          "default": false,
+          "description": "Cell borders."
+        },
+        {
+          "name": "size",
+          "attribute": "size",
+          "type": "string",
+          "default": "md",
+          "description": "sm, md or lg."
+        }
+      ],
+      "docs": {
+        "summary": "Styled wrapper for a native table.",
+        "category": "Display",
+        "props": {
+          "striped": "Zebra rows.",
+          "bordered": "Cell borders.",
+          "size": "sm, md or lg."
+        },
+        "slots": {
+          "": "A native <table>."
+        },
+        "examples": [
+          "<ui-table striped><table><tr><th>A</th><th>B</th></tr><tr><td>1</td><td>2</td></tr></table></ui-table>",
+          "<ui-table bordered><table><tr><td>x</td></tr></table></ui-table>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-table-wrapper",
+      "className": "UITableWrapper",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-table-wrapper",
+        "modifiers": {}
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Horizontal scroll wrapper for tables.",
+        "category": "Display",
+        "slots": {
+          "": "ui-table."
+        },
+        "examples": [
+          "<ui-table-wrapper><ui-table><table><tr><td>x</td></tr></table></ui-table></ui-table-wrapper>",
+          "<ui-table-wrapper>Scrollable</ui-table-wrapper>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-tabs",
+      "className": "UITabs",
+      "base": "_UIElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string",
+          "default": "",
+          "description": "Selected tab value; defaults to the first enabled tab."
+        }
+      ],
+      "docs": {
+        "summary": "Tabbed content with full keyboard and ARIA support.",
+        "category": "Navigation",
+        "props": {
+          "value": "Selected tab value; defaults to the first enabled tab."
+        },
+        "events": {
+          "ui-change": "User changed tab; detail { value, previous, source }."
+        },
+        "methods": {
+          "select": "Select a tab by value: select(value, { emit })."
+        },
+        "slots": {
+          "": "ui-tab and ui-tab-panel children."
+        },
+        "examples": [
+          "<ui-tabs value=\"overview\"><ui-tab value=\"overview\">Overview</ui-tab><ui-tab value=\"history\">History</ui-tab><ui-tab-panel value=\"overview\">Overview content</ui-tab-panel><ui-tab-panel value=\"history\">History content</ui-tab-panel></ui-tabs>",
+          "<ui-tabs><ui-tab value=\"one\">One</ui-tab><ui-tab value=\"two\" disabled>Two</ui-tab><ui-tab-panel value=\"one\">First</ui-tab-panel></ui-tabs>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-textarea",
+      "className": "UITextarea",
+      "base": "UIFormElement",
+      "host": null,
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "name",
+          "attribute": "name",
+          "type": "string",
+          "default": "",
+          "description": "Form field name."
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string",
+          "default": "",
+          "description": "Current text."
+        },
+        {
+          "name": "label",
+          "attribute": "label",
+          "type": "string",
+          "default": "",
+          "description": "Visible label."
+        },
+        {
+          "name": "required",
+          "attribute": "required",
+          "type": "boolean",
+          "default": false,
+          "description": "Mark as required."
+        },
+        {
+          "name": "readonly",
+          "attribute": "readonly",
+          "type": "boolean",
+          "default": false,
+          "description": "Read-only."
+        },
+        {
+          "name": "primary",
+          "attribute": "primary",
+          "type": "boolean",
+          "default": false,
+          "description": "Primary label emphasis."
+        },
+        {
+          "name": "rows",
+          "attribute": "rows",
+          "type": "number",
+          "default": 3,
+          "description": "Visible rows."
+        },
+        {
+          "name": "placeholder",
+          "attribute": "placeholder",
+          "type": "string",
+          "default": "",
+          "description": "Placeholder."
+        },
+        {
+          "name": "maxlength",
+          "attribute": "maxlength",
+          "type": "number",
+          "default": null,
+          "description": "Maximum length."
+        },
+        {
+          "name": "autosize",
+          "attribute": "autosize",
+          "type": "boolean",
+          "default": false,
+          "description": "Grow with content."
+        }
+      ],
+      "docs": {
+        "summary": "Labelled multi-line text input.",
+        "category": "Forms",
+        "props": {
+          "rows": "Visible rows.",
+          "placeholder": "Placeholder.",
+          "maxlength": "Maximum length.",
+          "autosize": "Grow with content.",
+          "name": "Form field name.",
+          "value": "Current text.",
+          "label": "Visible label.",
+          "required": "Mark as required.",
+          "readonly": "Read-only.",
+          "primary": "Primary label emphasis."
+        },
+        "events": {
+          "ui-input": "Typing; detail { value }.",
+          "ui-change": "Committed change; detail { value, previous }."
+        },
+        "examples": [
+          "<ui-textarea label=\"Notes\" rows=\"4\"></ui-textarea>",
+          "<ui-textarea label=\"Auto\" autosize></ui-textarea>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-theme-toggle",
+      "className": "UIThemeToggle",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-theme-toggle"
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Cycles light, dark and system theme through UI.theme.",
+        "category": "Display",
+        "methods": {
+          "setTheme": "setTheme('light' | 'dark' | 'system')."
+        },
+        "examples": [
+          "<ui-theme-toggle></ui-theme-toggle>",
+          "<ui-cluster><span>Theme</span><ui-theme-toggle></ui-theme-toggle></ui-cluster>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-toast-region",
+      "className": "UIToastRegion",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-toast-region"
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "limit",
+          "attribute": "limit",
+          "type": "number",
+          "default": 5,
+          "description": "Maximum simultaneously visible toasts."
+        },
+        {
+          "name": "placement",
+          "attribute": "placement",
+          "type": "string",
+          "default": "bottom-end",
+          "description": "Screen corner."
+        }
+      ],
+      "docs": {
+        "summary": "Stacking region for toasts; created on demand by UI.toast().",
+        "category": "Feedback",
+        "props": {
+          "limit": "Maximum simultaneously visible toasts.",
+          "placement": "Screen corner."
+        },
+        "events": {
+          "ui-toast-show": "Toast shown; detail { id }.",
+          "ui-toast-dismiss": "Toast removed; detail { id, reason }."
+        },
+        "methods": {
+          "showToast": "showToast(message, { type, duration, action }) -> { id, dismiss }."
+        },
+        "examples": [
+          "<ui-toast-region></ui-toast-region>",
+          "<ui-toast-region limit=\"2\"></ui-toast-region>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-tooltip",
+      "className": "UITooltip",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-tooltip"
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "for",
+          "attribute": "for",
+          "type": "string",
+          "default": "",
+          "description": "id of the anchor element."
+        },
+        {
+          "name": "delay",
+          "attribute": "delay",
+          "type": "number",
+          "default": 400,
+          "description": "Open delay in ms."
+        }
+      ],
+      "docs": {
+        "summary": "Accessible tooltip attached to an anchor element.",
+        "category": "Overlays",
+        "props": {
+          "for": "id of the anchor element.",
+          "delay": "Open delay in ms."
+        },
+        "slots": {
+          "": "Tooltip content."
+        },
+        "examples": [
+          "<ui-button id=\"tt1\">Hover me</ui-button><ui-tooltip for=\"tt1\">Helpful text</ui-tooltip>",
+          "<ui-button id=\"tt2\">Focus me</ui-button><ui-tooltip for=\"tt2\" delay=\"0\">Instant</ui-tooltip>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-topbar",
+      "className": "UITopbar",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-topbar",
+        "modifiers": {}
+      },
+      "props": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        },
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Application top bar.",
+        "category": "Shell",
+        "slots": {
+          "": "Content."
+        },
+        "examples": [
+          "<ui-topbar>Content</ui-topbar>",
+          "<ui-topbar><strong>Rich</strong></ui-topbar>"
+        ]
+      }
+    }
+  ]
+}

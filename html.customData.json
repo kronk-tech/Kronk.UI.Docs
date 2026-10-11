@@ -1,0 +1,1364 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "ui-alert",
+      "description": "Inline status message.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "variant",
+          "description": "info, success, warning or danger."
+        },
+        {
+          "name": "heading",
+          "description": "Alert title."
+        }
+      ]
+    },
+    {
+      "name": "ui-avatar",
+      "description": "User avatar with image, initials or icon fallback.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "src",
+          "description": "Image URL."
+        },
+        {
+          "name": "name",
+          "description": "Full name used for initials and alt text."
+        },
+        {
+          "name": "size",
+          "description": "sm, md or lg."
+        }
+      ]
+    },
+    {
+      "name": "ui-badge",
+      "description": "Small status label.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "variant",
+          "description": "Colour variant: primary, success, warning, danger or info."
+        },
+        {
+          "name": "outline",
+          "description": "Use the transparent outline style.",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-breadcrumbs",
+      "description": "Breadcrumb trail.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-button",
+      "description": "Styled button or link.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "type",
+          "description": "Native button type (button, submit, reset)."
+        },
+        {
+          "name": "href",
+          "description": "When set, renders an anchor."
+        },
+        {
+          "name": "variant",
+          "description": "Visual variant."
+        },
+        {
+          "name": "primary",
+          "description": "Primary emphasis.",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-card",
+      "description": "Surface container with optional header, body and footer.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "size",
+          "description": "sm, md or lg."
+        },
+        {
+          "name": "flat",
+          "description": "Remove shadow.",
+          "valueSet": "v"
+        },
+        {
+          "name": "ghost",
+          "description": "Transparent surface.",
+          "valueSet": "v"
+        },
+        {
+          "name": "primary",
+          "description": "Primary accent.",
+          "valueSet": "v"
+        },
+        {
+          "name": "dashed",
+          "description": "Dashed border.",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-card-body",
+      "description": "Card body.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-card-footer",
+      "description": "Card footer.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-card-header",
+      "description": "Card header.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-cluster",
+      "description": "Horizontal, wrapping layout primitive.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "gap",
+          "description": "Spacing: xs, sm, md, lg or xl."
+        },
+        {
+          "name": "between",
+          "description": "Distribute with space-between.",
+          "valueSet": "v"
+        },
+        {
+          "name": "end",
+          "description": "Align to the end.",
+          "valueSet": "v"
+        },
+        {
+          "name": "nowrap",
+          "description": "Disable wrapping.",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-container",
+      "description": "Centred, width-constrained page container.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "size",
+          "description": "Max width: sm, md, lg, xl or full."
+        }
+      ]
+    },
+    {
+      "name": "ui-details",
+      "description": "Disclosure built on native <details>.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "open",
+          "description": "Expanded state (reflected).",
+          "valueSet": "v"
+        },
+        {
+          "name": "heading",
+          "description": "Summary heading."
+        },
+        {
+          "name": "subheading",
+          "description": "Secondary line."
+        },
+        {
+          "name": "group",
+          "description": "Exclusive group name."
+        }
+      ]
+    },
+    {
+      "name": "ui-empty-state",
+      "description": "Placeholder for empty content with an optional action.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "heading",
+          "description": "Title."
+        },
+        {
+          "name": "description",
+          "description": "Explanation."
+        },
+        {
+          "name": "icon",
+          "description": "Font Awesome icon name."
+        }
+      ]
+    },
+    {
+      "name": "ui-grid",
+      "description": "Column grid.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "cols",
+          "description": "Column count: 2, 3, 4, 6 or 12."
+        },
+        {
+          "name": "gap",
+          "description": "Spacing: xs, sm, md, lg or xl."
+        }
+      ]
+    },
+    {
+      "name": "ui-grid-col",
+      "description": "Grid column spanning several tracks.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "span",
+          "description": "Number of columns to span (2, 3, 4, 6 or 12)."
+        }
+      ]
+    },
+    {
+      "name": "ui-header",
+      "description": "Semantic heading.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "level",
+          "description": "Heading level 1–6."
+        },
+        {
+          "name": "size",
+          "description": "Visual size override xs–3xl."
+        },
+        {
+          "name": "muted",
+          "description": "Muted colour.",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-icon",
+      "description": "Font Awesome icon.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "name",
+          "description": "Icon name without prefix."
+        },
+        {
+          "name": "icon-style",
+          "description": "solid, regular, light, brands…"
+        },
+        {
+          "name": "label",
+          "description": "Accessible label; omit for decorative icons."
+        }
+      ]
+    },
+    {
+      "name": "ui-input",
+      "description": "Labelled native input (text, email, password, number, date, file, color, checkbox, radio, range, …).",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "name",
+          "description": "Form field name."
+        },
+        {
+          "name": "value",
+          "description": "Current value."
+        },
+        {
+          "name": "label",
+          "description": "Visible label."
+        },
+        {
+          "name": "required",
+          "description": "Mark as required.",
+          "valueSet": "v"
+        },
+        {
+          "name": "readonly",
+          "description": "Read-only.",
+          "valueSet": "v"
+        },
+        {
+          "name": "primary",
+          "description": "Primary label emphasis.",
+          "valueSet": "v"
+        },
+        {
+          "name": "type",
+          "description": "Native input type."
+        },
+        {
+          "name": "checked",
+          "description": "Checked state for checkbox and radio.",
+          "valueSet": "v"
+        },
+        {
+          "name": "placeholder",
+          "description": "Placeholder text."
+        }
+      ]
+    },
+    {
+      "name": "ui-kbd",
+      "description": "Keyboard shortcut hint.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "keys",
+          "description": "Combo such as \"mod+k\"."
+        }
+      ]
+    },
+    {
+      "name": "ui-listbox",
+      "description": "Keyed, filterable list with keyboard navigation and a custom item template.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "filterable",
+          "description": "Show a filter input.",
+          "valueSet": "v"
+        },
+        {
+          "name": "numbered",
+          "description": "Number the items.",
+          "valueSet": "v"
+        },
+        {
+          "name": "hotkeys",
+          "description": "Digits 1–9 select the n-th item.",
+          "valueSet": "v"
+        },
+        {
+          "name": "empty-text",
+          "description": "Text when nothing matches."
+        },
+        {
+          "name": "value",
+          "description": "Selected item key."
+        }
+      ]
+    },
+    {
+      "name": "ui-modal",
+      "description": "Native <dialog> with promise-based open and close.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "open",
+          "description": "Open state (reflected).",
+          "valueSet": "v"
+        },
+        {
+          "name": "heading",
+          "description": "Dialog heading."
+        },
+        {
+          "name": "size",
+          "description": "sm, md or lg."
+        },
+        {
+          "name": "dismissible",
+          "description": "Escape and backdrop dismissal.",
+          "valueSet": "v"
+        },
+        {
+          "name": "modal",
+          "description": "Use showModal() (default) or non-modal show().",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-nav",
+      "description": "Navigation list.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-nav-item",
+      "description": "Navigation item with icon and label.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "href",
+          "description": "Link target."
+        },
+        {
+          "name": "icon",
+          "description": "Font Awesome icon name."
+        },
+        {
+          "name": "match",
+          "description": "exact or prefix: derive active state from location."
+        }
+      ]
+    },
+    {
+      "name": "ui-nav-section",
+      "description": "Navigation section.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-navbar-link",
+      "description": "Top bar link with optional icon.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "href",
+          "description": "Link target."
+        },
+        {
+          "name": "data-icon",
+          "description": "Font Awesome icon name."
+        }
+      ]
+    },
+    {
+      "name": "ui-option",
+      "description": "Declarative option for ui-select.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "Prevents selection.",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "value",
+          "description": "Submitted option value."
+        }
+      ]
+    },
+    {
+      "name": "ui-option-group",
+      "description": "Group of ui-option elements.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "label",
+          "description": "Group heading."
+        }
+      ]
+    },
+    {
+      "name": "ui-option-meta",
+      "description": "Secondary text displayed beside an option label (excluded from filtering and the selected label).",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-pagination",
+      "description": "Page selector.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "page",
+          "description": "Current page (1-based)."
+        },
+        {
+          "name": "pages",
+          "description": "Total pages."
+        }
+      ]
+    },
+    {
+      "name": "ui-progress",
+      "description": "Progress bar.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "value",
+          "description": "Current value."
+        },
+        {
+          "name": "max",
+          "description": "Maximum value."
+        },
+        {
+          "name": "indeterminate",
+          "description": "Unknown progress.",
+          "valueSet": "v"
+        },
+        {
+          "name": "size",
+          "description": "sm, md or lg."
+        },
+        {
+          "name": "variant",
+          "description": "Colour variant."
+        }
+      ]
+    },
+    {
+      "name": "ui-select",
+      "description": "Native, searchable, or inline select control.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "name",
+          "description": "Name of the form control."
+        },
+        {
+          "name": "value",
+          "description": "Selected option value."
+        },
+        {
+          "name": "label",
+          "description": "Visible label."
+        },
+        {
+          "name": "required",
+          "description": "Mark as required.",
+          "valueSet": "v"
+        },
+        {
+          "name": "readonly",
+          "description": "Read-only.",
+          "valueSet": "v"
+        },
+        {
+          "name": "primary",
+          "description": "Primary label emphasis.",
+          "valueSet": "v"
+        },
+        {
+          "name": "filter-text",
+          "description": "Current filter query."
+        },
+        {
+          "name": "multiple",
+          "description": "Reserved; not implemented in this build.",
+          "valueSet": "v"
+        },
+        {
+          "name": "hotkeys",
+          "description": "Select with digits 1–9 when no filter is active.",
+          "valueSet": "v"
+        },
+        {
+          "name": "numbered",
+          "description": "Show option numbering.",
+          "valueSet": "v"
+        },
+        {
+          "name": "mode",
+          "description": "combobox, native or inline."
+        },
+        {
+          "name": "placeholder",
+          "description": "Combobox placeholder."
+        },
+        {
+          "name": "empty-text",
+          "description": "Text when no option matches."
+        },
+        {
+          "name": "inline",
+          "description": "Always show the option list.",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-shell",
+      "description": "Application shell with collapsible sidebar and top bar.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "collapsed",
+          "description": "Collapse the sidebar.",
+          "valueSet": "v"
+        },
+        {
+          "name": "sidebar-open",
+          "description": "Mobile sidebar open state.",
+          "valueSet": "v"
+        },
+        {
+          "name": "persist",
+          "description": "Remember the collapsed state in localStorage.",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-sidebar",
+      "description": "Application sidebar.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-sidebar-body",
+      "description": "Sidebar body.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-sidebar-footer",
+      "description": "Sidebar footer.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-sidebar-header",
+      "description": "Sidebar header.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-skeleton",
+      "description": "Loading placeholder.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "width",
+          "description": "CSS width."
+        },
+        {
+          "name": "height",
+          "description": "CSS height."
+        },
+        {
+          "name": "circle",
+          "description": "Round shape.",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-spinner",
+      "description": "Loading indicator.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "size",
+          "description": "sm, md or lg."
+        },
+        {
+          "name": "inverse",
+          "description": "Light variant for dark backgrounds.",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-split-pane",
+      "description": "Two resizable panes with a draggable, keyboard-accessible divider.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "value",
+          "description": "First pane size in percent (10–90)."
+        },
+        {
+          "name": "vertical",
+          "description": "Stack panes vertically.",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-stack",
+      "description": "Vertical layout primitive.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "gap",
+          "description": "Spacing: xs, sm, md, lg or xl."
+        }
+      ]
+    },
+    {
+      "name": "ui-switch",
+      "description": "Toggle switch backed by a native checkbox.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "name",
+          "description": "Form field name."
+        },
+        {
+          "name": "value",
+          "description": "Submitted value when on."
+        },
+        {
+          "name": "label",
+          "description": "Visible label."
+        },
+        {
+          "name": "required",
+          "description": "Mark as required.",
+          "valueSet": "v"
+        },
+        {
+          "name": "readonly",
+          "description": "Read-only.",
+          "valueSet": "v"
+        },
+        {
+          "name": "primary",
+          "description": "Primary label emphasis.",
+          "valueSet": "v"
+        },
+        {
+          "name": "checked",
+          "description": "On/off state.",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-tab",
+      "description": "Tab trigger inside ui-tabs.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "Not selectable.",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "value",
+          "description": "Tab id; matches a ui-tab-panel value."
+        }
+      ]
+    },
+    {
+      "name": "ui-tab-panel",
+      "description": "Panel shown for the matching ui-tab.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "value",
+          "description": "Matches a ui-tab value."
+        }
+      ]
+    },
+    {
+      "name": "ui-table",
+      "description": "Styled wrapper for a native table.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "striped",
+          "description": "Zebra rows.",
+          "valueSet": "v"
+        },
+        {
+          "name": "bordered",
+          "description": "Cell borders.",
+          "valueSet": "v"
+        },
+        {
+          "name": "size",
+          "description": "sm, md or lg."
+        }
+      ]
+    },
+    {
+      "name": "ui-table-wrapper",
+      "description": "Horizontal scroll wrapper for tables.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-tabs",
+      "description": "Tabbed content with full keyboard and ARIA support.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "value",
+          "description": "Selected tab value; defaults to the first enabled tab."
+        }
+      ]
+    },
+    {
+      "name": "ui-textarea",
+      "description": "Labelled multi-line text input.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "name",
+          "description": "Form field name."
+        },
+        {
+          "name": "value",
+          "description": "Current text."
+        },
+        {
+          "name": "label",
+          "description": "Visible label."
+        },
+        {
+          "name": "required",
+          "description": "Mark as required.",
+          "valueSet": "v"
+        },
+        {
+          "name": "readonly",
+          "description": "Read-only.",
+          "valueSet": "v"
+        },
+        {
+          "name": "primary",
+          "description": "Primary label emphasis.",
+          "valueSet": "v"
+        },
+        {
+          "name": "rows",
+          "description": "Visible rows."
+        },
+        {
+          "name": "placeholder",
+          "description": "Placeholder."
+        },
+        {
+          "name": "maxlength",
+          "description": "Maximum length."
+        },
+        {
+          "name": "autosize",
+          "description": "Grow with content.",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-theme-toggle",
+      "description": "Cycles light, dark and system theme through UI.theme.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-toast-region",
+      "description": "Stacking region for toasts; created on demand by UI.toast().",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "limit",
+          "description": "Maximum simultaneously visible toasts."
+        },
+        {
+          "name": "placement",
+          "description": "Screen corner."
+        }
+      ]
+    },
+    {
+      "name": "ui-tooltip",
+      "description": "Accessible tooltip attached to an anchor element.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "for",
+          "description": "id of the anchor element."
+        },
+        {
+          "name": "delay",
+          "description": "Open delay in ms."
+        }
+      ]
+    },
+    {
+      "name": "ui-topbar",
+      "description": "Application top bar.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "",
+          "valueSet": "v"
+        },
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    }
+  ],
+  "valueSets": [
+    {
+      "name": "v",
+      "values": []
+    }
+  ]
+}
