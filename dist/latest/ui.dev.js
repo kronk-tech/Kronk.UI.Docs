@@ -2827,7 +2827,7 @@
   theme.init();
   for (const Component of allComponents) define(Component);
   var UI = {
-    version: "2.0.0-alpha.3",
+    version: "2.0.0-alpha.4",
     components: getComponents(),
     define,
     whenDefined,
