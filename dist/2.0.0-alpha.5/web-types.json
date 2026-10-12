@@ -1,0 +1,2037 @@
+{
+  "$schema": "https://json.schemastore.org/web-types",
+  "name": "kronk-ui",
+  "version": "2.0.0-alpha.5",
+  "js-types-syntax": "typescript",
+  "description-markup": "markdown",
+  "contributions": {
+    "html": {
+      "elements": [
+        {
+          "name": "ui-alert",
+          "description": "Inline status message.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "variant",
+              "description": "info, success, warning or danger.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "heading",
+              "description": "Alert title.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-avatar",
+          "description": "User avatar with image, initials or icon fallback.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "src",
+              "description": "Image URL.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "name",
+              "description": "Full name used for initials and alt text.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "size",
+              "description": "sm, md or lg.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-badge",
+          "description": "Small status label.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "variant",
+              "description": "Colour variant: primary, success, warning, danger or info.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "outline",
+              "description": "Use the transparent outline style.",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-breadcrumbs",
+          "description": "Breadcrumb trail.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-button",
+          "description": "Styled button or link.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "type",
+              "description": "Native button type (button, submit, reset).",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "href",
+              "description": "When set, renders an anchor.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "variant",
+              "description": "Visual variant.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "primary",
+              "description": "Primary emphasis.",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-card",
+          "description": "Surface container with optional header, body and footer.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "size",
+              "description": "sm, md or lg.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "flat",
+              "description": "Remove shadow.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "ghost",
+              "description": "Transparent surface.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "primary",
+              "description": "Primary accent.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "dashed",
+              "description": "Dashed border.",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-card-body",
+          "description": "Card body.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-card-footer",
+          "description": "Card footer.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-card-header",
+          "description": "Card header.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-cluster",
+          "description": "Horizontal, wrapping layout primitive.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "gap",
+              "description": "Spacing: xs, sm, md, lg or xl.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "between",
+              "description": "Distribute with space-between.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "end",
+              "description": "Align to the end.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "nowrap",
+              "description": "Disable wrapping.",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-container",
+          "description": "Centred, width-constrained page container.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "size",
+              "description": "Max width: sm, md, lg, xl or full.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-details",
+          "description": "Disclosure built on native <details>.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "open",
+              "description": "Expanded state (reflected).",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "heading",
+              "description": "Summary heading.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "subheading",
+              "description": "Secondary line.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "group",
+              "description": "Exclusive group name.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "ui-toggle",
+              "description": "Opened or closed; detail { open }."
+            }
+          ]
+        },
+        {
+          "name": "ui-empty-state",
+          "description": "Placeholder for empty content with an optional action.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "heading",
+              "description": "Title.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "description",
+              "description": "Explanation.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "icon",
+              "description": "Font Awesome icon name.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-grid",
+          "description": "Column grid.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "cols",
+              "description": "Column count: 2, 3, 4, 6 or 12.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "gap",
+              "description": "Spacing: xs, sm, md, lg or xl.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-grid-col",
+          "description": "Grid column spanning several tracks.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "span",
+              "description": "Number of columns to span (2, 3, 4, 6 or 12).",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-header",
+          "description": "Semantic heading.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "level",
+              "description": "Heading level 1–6.",
+              "value": {
+                "type": "number"
+              }
+            },
+            {
+              "name": "size",
+              "description": "Visual size override xs–3xl.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "muted",
+              "description": "Muted colour.",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-icon",
+          "description": "Font Awesome icon.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "name",
+              "description": "Icon name without prefix.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "icon-style",
+              "description": "solid, regular, light, brands…",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "label",
+              "description": "Accessible label; omit for decorative icons.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-input",
+          "description": "Labelled native input (text, email, password, number, date, file, color, checkbox, radio, range, …).",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "name",
+              "description": "Form field name.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "value",
+              "description": "Current value.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "label",
+              "description": "Visible label.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "required",
+              "description": "Mark as required.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "readonly",
+              "description": "Read-only.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "primary",
+              "description": "Primary label emphasis.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "type",
+              "description": "Native input type.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "checked",
+              "description": "Checked state for checkbox and radio.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "placeholder",
+              "description": "Placeholder text.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "ui-change",
+              "description": "Native change; detail { value, previous }."
+            },
+            {
+              "name": "ui-input",
+              "description": "Native input; detail { value }."
+            }
+          ]
+        },
+        {
+          "name": "ui-kbd",
+          "description": "Keyboard shortcut hint.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "keys",
+              "description": "Combo such as \"mod+k\".",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-listbox",
+          "description": "Keyed, filterable list with keyboard navigation and a custom item template.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "filterable",
+              "description": "Show a filter input.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "numbered",
+              "description": "Number the items.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "hotkeys",
+              "description": "Digits 1–9 select the n-th item.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "empty-text",
+              "description": "Text when nothing matches.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "value",
+              "description": "Selected item key.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "ui-change",
+              "description": "Selection changed; detail { value, item, index, previous, source }."
+            },
+            {
+              "name": "ui-activate",
+              "description": "Item activated (Enter / double click); detail { item, index }."
+            },
+            {
+              "name": "ui-filter",
+              "description": "Filter changed; detail { query }."
+            }
+          ]
+        },
+        {
+          "name": "ui-modal",
+          "description": "Native <dialog> with promise-based open and close.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "open",
+              "description": "Open state (reflected).",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "heading",
+              "description": "Dialog heading.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "size",
+              "description": "sm, md or lg.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "dismissible",
+              "description": "Escape and backdrop dismissal.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "modal",
+              "description": "Use showModal() (default) or non-modal show().",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "ui-open",
+              "description": "Fired after opening."
+            },
+            {
+              "name": "ui-before-close",
+              "description": "Cancelable; detail { reason, result }."
+            },
+            {
+              "name": "ui-close",
+              "description": "Fired after closing; detail { result, reason }."
+            }
+          ]
+        },
+        {
+          "name": "ui-nav",
+          "description": "Navigation list.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-nav-item",
+          "description": "Navigation item with icon and label.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "href",
+              "description": "Link target.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "icon",
+              "description": "Font Awesome icon name.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "match",
+              "description": "exact or prefix: derive active state from location.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-nav-section",
+          "description": "Navigation section.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-navbar-link",
+          "description": "Top bar link with optional icon.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "href",
+              "description": "Link target.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "data-icon",
+              "description": "Font Awesome icon name.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-option",
+          "description": "Declarative option for ui-select.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "Prevents selection.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "Submitted option value.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-option-group",
+          "description": "Group of ui-option elements.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "label",
+              "description": "Group heading.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-option-meta",
+          "description": "Secondary text displayed beside an option label (excluded from filtering and the selected label).",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-pagination",
+          "description": "Page selector.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "page",
+              "description": "Current page (1-based).",
+              "value": {
+                "type": "number"
+              }
+            },
+            {
+              "name": "pages",
+              "description": "Total pages.",
+              "value": {
+                "type": "number"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "ui-change",
+              "description": "Page changed; detail { page, previous, source }."
+            }
+          ]
+        },
+        {
+          "name": "ui-progress",
+          "description": "Progress bar.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "Current value.",
+              "value": {
+                "type": "number"
+              }
+            },
+            {
+              "name": "max",
+              "description": "Maximum value.",
+              "value": {
+                "type": "number"
+              }
+            },
+            {
+              "name": "indeterminate",
+              "description": "Unknown progress.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "size",
+              "description": "sm, md or lg.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "variant",
+              "description": "Colour variant.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-select",
+          "description": "Native, searchable, or inline select control.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "name",
+              "description": "Name of the form control.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "value",
+              "description": "Selected option value.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "label",
+              "description": "Visible label.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "required",
+              "description": "Mark as required.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "readonly",
+              "description": "Read-only.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "primary",
+              "description": "Primary label emphasis.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "filter-text",
+              "description": "Current filter query.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "multiple",
+              "description": "Reserved; not implemented in this build.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "hotkeys",
+              "description": "Select with digits 1–9 when no filter is active.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "numbered",
+              "description": "Show option numbering.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "mode",
+              "description": "combobox, native or inline.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "placeholder",
+              "description": "Combobox placeholder.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "empty-text",
+              "description": "Text when no option matches.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "inline",
+              "description": "Always show the option list.",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "ui-change",
+              "description": "User picked an option; detail { value, option, previous, source }."
+            },
+            {
+              "name": "ui-filter",
+              "description": "Filter query changed; detail { query }."
+            }
+          ]
+        },
+        {
+          "name": "ui-shell",
+          "description": "Application shell with collapsible sidebar and top bar.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "collapsed",
+              "description": "Collapse the sidebar.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "sidebar-open",
+              "description": "Mobile sidebar open state.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "persist",
+              "description": "Remember the collapsed state in localStorage.",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "ui-shell-change",
+              "description": "Collapsed or sidebar state changed."
+            }
+          ]
+        },
+        {
+          "name": "ui-sidebar",
+          "description": "Application sidebar.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-sidebar-body",
+          "description": "Sidebar body.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-sidebar-footer",
+          "description": "Sidebar footer.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-sidebar-header",
+          "description": "Sidebar header.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-skeleton",
+          "description": "Loading placeholder.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "width",
+              "description": "CSS width.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "height",
+              "description": "CSS height.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "circle",
+              "description": "Round shape.",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-spinner",
+          "description": "Loading indicator.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "size",
+              "description": "sm, md or lg.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "inverse",
+              "description": "Light variant for dark backgrounds.",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-split-pane",
+          "description": "Two resizable panes with a draggable, keyboard-accessible divider.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "First pane size in percent (10–90).",
+              "value": {
+                "type": "number"
+              }
+            },
+            {
+              "name": "vertical",
+              "description": "Stack panes vertically.",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "ui-resize",
+              "description": "Size changed; detail { value }."
+            }
+          ]
+        },
+        {
+          "name": "ui-stack",
+          "description": "Vertical layout primitive.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "gap",
+              "description": "Spacing: xs, sm, md, lg or xl.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-switch",
+          "description": "Toggle switch backed by a native checkbox.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "name",
+              "description": "Form field name.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "value",
+              "description": "Submitted value when on.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "label",
+              "description": "Visible label.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "required",
+              "description": "Mark as required.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "readonly",
+              "description": "Read-only.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "primary",
+              "description": "Primary label emphasis.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "checked",
+              "description": "On/off state.",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "ui-change",
+              "description": "Toggled by the user; detail { checked, value, previous }."
+            }
+          ]
+        },
+        {
+          "name": "ui-tab",
+          "description": "Tab trigger inside ui-tabs.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "Not selectable.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "Tab id; matches a ui-tab-panel value.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-tab-panel",
+          "description": "Panel shown for the matching ui-tab.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "Matches a ui-tab value.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-table",
+          "description": "Styled wrapper for a native table.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "striped",
+              "description": "Zebra rows.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "bordered",
+              "description": "Cell borders.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "size",
+              "description": "sm, md or lg.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-table-wrapper",
+          "description": "Horizontal scroll wrapper for tables.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-tabs",
+          "description": "Tabbed content with full keyboard and ARIA support.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "Selected tab value; defaults to the first enabled tab.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "ui-change",
+              "description": "User changed tab; detail { value, previous, source }."
+            }
+          ]
+        },
+        {
+          "name": "ui-textarea",
+          "description": "Labelled multi-line text input.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "name",
+              "description": "Form field name.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "value",
+              "description": "Current text.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "label",
+              "description": "Visible label.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "required",
+              "description": "Mark as required.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "readonly",
+              "description": "Read-only.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "primary",
+              "description": "Primary label emphasis.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "rows",
+              "description": "Visible rows.",
+              "value": {
+                "type": "number"
+              }
+            },
+            {
+              "name": "placeholder",
+              "description": "Placeholder.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "maxlength",
+              "description": "Maximum length.",
+              "value": {
+                "type": "number"
+              }
+            },
+            {
+              "name": "autosize",
+              "description": "Grow with content.",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "ui-input",
+              "description": "Typing; detail { value }."
+            },
+            {
+              "name": "ui-change",
+              "description": "Committed change; detail { value, previous }."
+            }
+          ]
+        },
+        {
+          "name": "ui-theme-toggle",
+          "description": "Cycles light, dark and system theme through UI.theme.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-toast-region",
+          "description": "Stacking region for toasts; created on demand by UI.toast().",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "limit",
+              "description": "Maximum simultaneously visible toasts.",
+              "value": {
+                "type": "number"
+              }
+            },
+            {
+              "name": "placement",
+              "description": "Screen corner.",
+              "value": {
+                "type": "string"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "ui-toast-show",
+              "description": "Toast shown; detail { id }."
+            },
+            {
+              "name": "ui-toast-dismiss",
+              "description": "Toast removed; detail { id, reason }."
+            }
+          ]
+        },
+        {
+          "name": "ui-tooltip",
+          "description": "Accessible tooltip attached to an anchor element.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "for",
+              "description": "id of the anchor element.",
+              "value": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "delay",
+              "description": "Open delay in ms.",
+              "value": {
+                "type": "number"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-topbar",
+          "description": "Application top bar.",
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ui.kronk.tech/sitemap.xml
