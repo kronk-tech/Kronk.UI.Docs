@@ -1,0 +1,53 @@
+# Kronk UI v2
+
+- [ui-alert](components/ui-alert.md) — Inline status message.
+- [ui-avatar](components/ui-avatar.md) — User avatar with image, initials or icon fallback.
+- [ui-badge](components/ui-badge.md) — Small status label.
+- [ui-breadcrumbs](components/ui-breadcrumbs.md) — Breadcrumb trail.
+- [ui-button](components/ui-button.md) — Styled button or link.
+- [ui-card](components/ui-card.md) — Surface container with optional header, body and footer.
+- [ui-card-body](components/ui-card-body.md) — Card body.
+- [ui-card-footer](components/ui-card-footer.md) — Card footer.
+- [ui-card-header](components/ui-card-header.md) — Card header.
+- [ui-cluster](components/ui-cluster.md) — Horizontal, wrapping layout primitive.
+- [ui-container](components/ui-container.md) — Centred, width-constrained page container.
+- [ui-details](components/ui-details.md) — Disclosure built on native <details>.
+- [ui-empty-state](components/ui-empty-state.md) — Placeholder for empty content with an optional action.
+- [ui-grid](components/ui-grid.md) — Column grid.
+- [ui-grid-col](components/ui-grid-col.md) — Grid column spanning several tracks.
+- [ui-header](components/ui-header.md) — Semantic heading.
+- [ui-icon](components/ui-icon.md) — Font Awesome icon.
+- [ui-input](components/ui-input.md) — Labelled native input (text, email, password, number, date, file, color, checkbox, radio, range, …).
+- [ui-kbd](components/ui-kbd.md) — Keyboard shortcut hint.
+- [ui-listbox](components/ui-listbox.md) — Keyed, filterable list with keyboard navigation and a custom item template.
+- [ui-modal](components/ui-modal.md) — Native <dialog> with promise-based open and close.
+- [ui-nav](components/ui-nav.md) — Navigation list.
+- [ui-nav-item](components/ui-nav-item.md) — Navigation item with icon and label.
+- [ui-nav-section](components/ui-nav-section.md) — Navigation section.
+- [ui-navbar-link](components/ui-navbar-link.md) — Top bar link with optional icon.
+- [ui-option](components/ui-option.md) — Declarative option for ui-select.
+- [ui-option-group](components/ui-option-group.md) — Group of ui-option elements.
+- [ui-option-meta](components/ui-option-meta.md) — Secondary text displayed beside an option label (excluded from filtering and the selected label).
+- [ui-pagination](components/ui-pagination.md) — Page selector.
+- [ui-progress](components/ui-progress.md) — Progress bar.
+- [ui-select](components/ui-select.md) — Native, searchable, or inline select control.
+- [ui-shell](components/ui-shell.md) — Application shell with collapsible sidebar and top bar.
+- [ui-sidebar](components/ui-sidebar.md) — Application sidebar.
+- [ui-sidebar-body](components/ui-sidebar-body.md) — Sidebar body.
+- [ui-sidebar-footer](components/ui-sidebar-footer.md) — Sidebar footer.
+- [ui-sidebar-header](components/ui-sidebar-header.md) — Sidebar header.
+- [ui-skeleton](components/ui-skeleton.md) — Loading placeholder.
+- [ui-spinner](components/ui-spinner.md) — Loading indicator.
+- [ui-split-pane](components/ui-split-pane.md) — Two resizable panes with a draggable, keyboard-accessible divider.
+- [ui-stack](components/ui-stack.md) — Vertical layout primitive.
+- [ui-switch](components/ui-switch.md) — Toggle switch backed by a native checkbox.
+- [ui-tab](components/ui-tab.md) — Tab trigger inside ui-tabs.
+- [ui-tab-panel](components/ui-tab-panel.md) — Panel shown for the matching ui-tab.
+- [ui-table](components/ui-table.md) — Styled wrapper for a native table.
+- [ui-table-wrapper](components/ui-table-wrapper.md) — Horizontal scroll wrapper for tables.
+- [ui-tabs](components/ui-tabs.md) — Tabbed content with full keyboard and ARIA support.
+- [ui-textarea](components/ui-textarea.md) — Labelled multi-line text input.
+- [ui-theme-toggle](components/ui-theme-toggle.md) — Cycles light, dark and system theme through UI.theme.
+- [ui-toast-region](components/ui-toast-region.md) — Stacking region for toasts; created on demand by UI.toast().
+- [ui-tooltip](components/ui-tooltip.md) — Accessible tooltip attached to an anchor element.
+- [ui-topbar](components/ui-topbar.md) — Application top bar.
