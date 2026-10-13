@@ -22,7 +22,6 @@ Native <dialog> with promise-based open and close.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `open` | `open` | boolean | false | Open state (reflected). |
 | `heading` | `heading` | string | "" | Dialog heading. |

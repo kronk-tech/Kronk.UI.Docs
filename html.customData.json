@@ -6,11 +6,6 @@
       "description": "Inline status message.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -29,11 +24,6 @@
       "name": "ui-avatar",
       "description": "User avatar with image, initials or icon fallback.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -58,11 +48,6 @@
       "description": "Small status label.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -83,11 +68,6 @@
       "description": "Breadcrumb trail.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -98,11 +78,6 @@
       "name": "ui-button",
       "description": "Styled button or link.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -131,11 +106,6 @@
       "name": "ui-card",
       "description": "Surface container with optional header, body and footer.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -172,11 +142,6 @@
       "description": "Card body.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -187,11 +152,6 @@
       "name": "ui-card-footer",
       "description": "Card footer.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -204,11 +164,6 @@
       "description": "Card header.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -219,11 +174,6 @@
       "name": "ui-cluster",
       "description": "Horizontal, wrapping layout primitive.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -255,11 +205,6 @@
       "description": "Centred, width-constrained page container.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -274,11 +219,6 @@
       "name": "ui-details",
       "description": "Disclosure built on native <details>.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -308,11 +248,6 @@
       "description": "Placeholder for empty content with an optional action.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -336,11 +271,6 @@
       "description": "Column grid.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -360,11 +290,6 @@
       "description": "Grid column spanning several tracks.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -379,11 +304,6 @@
       "name": "ui-header",
       "description": "Semantic heading.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -409,11 +329,6 @@
       "description": "Font Awesome icon.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -436,11 +351,6 @@
       "name": "ui-input",
       "description": "Labelled native input (text, email, password, number, date, file, color, checkbox, radio, range, …).",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -493,11 +403,6 @@
       "description": "Keyboard shortcut hint.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -512,11 +417,6 @@
       "name": "ui-listbox",
       "description": "Keyed, filterable list with keyboard navigation and a custom item template.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -552,11 +452,6 @@
       "description": "Native <dialog> with promise-based open and close.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -591,11 +486,6 @@
       "description": "Navigation list.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -606,11 +496,6 @@
       "name": "ui-nav-item",
       "description": "Navigation item with icon and label.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -635,11 +520,6 @@
       "description": "Navigation section.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -650,11 +530,6 @@
       "name": "ui-navbar-link",
       "description": "Top bar link with optional icon.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -675,11 +550,6 @@
       "description": "Declarative option for ui-select.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "Prevents selection.",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -694,11 +564,6 @@
       "name": "ui-option-group",
       "description": "Group of ui-option elements.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -715,11 +580,6 @@
       "description": "Secondary text displayed beside an option label (excluded from filtering and the selected label).",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -730,11 +590,6 @@
       "name": "ui-pagination",
       "description": "Page selector.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -754,11 +609,6 @@
       "name": "ui-progress",
       "description": "Progress bar.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -791,11 +641,6 @@
       "name": "ui-select",
       "description": "Native, searchable, or inline select control.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -871,11 +716,6 @@
       "description": "Application shell with collapsible sidebar and top bar.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -902,11 +742,6 @@
       "description": "Application sidebar.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -917,11 +752,6 @@
       "name": "ui-sidebar-body",
       "description": "Sidebar body.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -934,11 +764,6 @@
       "description": "Sidebar footer.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -950,11 +775,6 @@
       "description": "Sidebar header.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -965,11 +785,6 @@
       "name": "ui-skeleton",
       "description": "Loading placeholder.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -995,11 +810,6 @@
       "description": "Loading indicator.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -1019,11 +829,6 @@
       "name": "ui-split-pane",
       "description": "Two resizable panes with a draggable, keyboard-accessible divider.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -1045,11 +850,6 @@
       "description": "Vertical layout primitive.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -1064,11 +864,6 @@
       "name": "ui-switch",
       "description": "Toggle switch backed by a native checkbox.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -1113,11 +908,6 @@
       "description": "Tab trigger inside ui-tabs.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "Not selectable.",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -1133,11 +923,6 @@
       "description": "Panel shown for the matching ui-tab.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -1152,11 +937,6 @@
       "name": "ui-table",
       "description": "Styled wrapper for a native table.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -1183,11 +963,6 @@
       "description": "Horizontal scroll wrapper for tables.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -1198,11 +973,6 @@
       "name": "ui-tabs",
       "description": "Tabbed content with full keyboard and ARIA support.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -1218,11 +988,6 @@
       "name": "ui-textarea",
       "description": "Labelled multi-line text input.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -1279,11 +1044,6 @@
       "description": "Cycles light, dark and system theme through UI.theme.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -1294,11 +1054,6 @@
       "name": "ui-toast-region",
       "description": "Stacking region for toasts; created on demand by UI.toast().",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",
@@ -1319,11 +1074,6 @@
       "description": "Accessible tooltip attached to an anchor element.",
       "attributes": [
         {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
-        {
           "name": "data-ui-busy",
           "description": "",
           "valueSet": "v"
@@ -1342,11 +1092,6 @@
       "name": "ui-topbar",
       "description": "Application top bar.",
       "attributes": [
-        {
-          "name": "disabled",
-          "description": "",
-          "valueSet": "v"
-        },
         {
           "name": "data-ui-busy",
           "description": "",

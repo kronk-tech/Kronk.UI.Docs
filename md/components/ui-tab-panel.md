@@ -22,7 +22,6 @@ Panel shown for the matching ui-tab.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `value` | `value` | string | "" | Matches a ui-tab value. |
 

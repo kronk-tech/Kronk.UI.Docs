@@ -26,7 +26,6 @@ Small status label.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `variant` | `variant` | string | "" | Colour variant: primary, success, warning, danger or info. |
 | `outline` | `outline` | boolean | false | Use the transparent outline style. |

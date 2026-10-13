@@ -22,7 +22,6 @@ Centred, width-constrained page container.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `size` | `size` | string | "md" | Max width: sm, md, lg, xl or full. |
 

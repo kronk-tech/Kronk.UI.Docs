@@ -22,7 +22,6 @@ Page selector.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `page` | `page` | number | 1 | Current page (1-based). |
 | `pages` | `pages` | number | 1 | Total pages. |

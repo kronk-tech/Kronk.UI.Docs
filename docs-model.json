@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0-alpha.6",
-  "generatedAt": "2026-10-13T16:16:00.726Z",
+  "version": "2.0.0-alpha.7",
+  "generatedAt": "2026-10-13T17:46:24.206Z",
   "components": [
     {
       "tag": "ui-alert",
@@ -13,13 +13,6 @@
         }
       },
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -70,13 +63,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -108,6 +94,8 @@
       "docs": {
         "summary": "User avatar with image, initials or icon fallback.",
         "category": "Display",
+        "status": "stable",
+        "since": "2.0.0",
         "props": {
           "src": "Image URL.",
           "name": "Full name used for initials and alt text.",
@@ -131,13 +119,6 @@
         }
       },
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -186,13 +167,6 @@
       "host": null,
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -218,13 +192,6 @@
       "base": "_UIElement",
       "host": null,
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -298,13 +265,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -376,13 +336,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -412,13 +365,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -447,13 +393,6 @@
         "modifiers": {}
       },
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -488,13 +427,6 @@
         }
       },
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -561,13 +493,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -603,13 +528,6 @@
       "base": "_UIElement",
       "host": null,
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -676,13 +594,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -741,13 +652,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -797,13 +701,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -839,13 +736,6 @@
       "base": "_UIElement",
       "host": null,
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -899,13 +789,6 @@
       "host": null,
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -954,13 +837,6 @@
       "base": "UIFormElement",
       "host": null,
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -1067,13 +943,6 @@
       "host": null,
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -1106,13 +975,6 @@
       "base": "_UIElement",
       "host": null,
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -1196,13 +1058,6 @@
       "base": "UIOverlayElement",
       "host": null,
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -1288,13 +1143,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -1320,13 +1168,6 @@
       "base": "_UIElement",
       "host": null,
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -1383,13 +1224,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -1417,13 +1251,6 @@
         "class": "ui-navbar-link"
       },
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -1469,13 +1296,6 @@
       "host": null,
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": "Prevents selection."
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -1513,13 +1333,6 @@
       "host": null,
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -1556,13 +1369,6 @@
       "host": null,
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -1588,13 +1394,6 @@
       "base": "_UIElement",
       "host": null,
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -1649,13 +1448,6 @@
         }
       },
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -1721,13 +1513,6 @@
       "base": "UIListElement",
       "host": null,
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -1885,13 +1670,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -1955,13 +1733,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -1990,13 +1761,6 @@
         "modifiers": {}
       },
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -2027,13 +1791,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -2062,13 +1819,6 @@
         "modifiers": {}
       },
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -2100,13 +1850,6 @@
         }
       },
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -2163,13 +1906,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -2215,13 +1951,6 @@
         }
       },
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -2280,13 +2009,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -2322,13 +2044,6 @@
       "base": "UIFormElement",
       "host": null,
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -2417,13 +2132,6 @@
       "host": null,
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": "Not selectable."
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -2460,13 +2168,6 @@
       "base": "_UIElement",
       "host": null,
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -2510,13 +2211,6 @@
         }
       },
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -2573,13 +2267,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -2605,13 +2292,6 @@
       "base": "_UIElement",
       "host": null,
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -2654,13 +2334,6 @@
       "base": "UIFormElement",
       "host": null,
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -2773,13 +2446,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -2807,13 +2473,6 @@
         "class": "ui-toast-region"
       },
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",
@@ -2865,13 +2524,6 @@
       },
       "props": [
         {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
           "name": "busy",
           "attribute": "data-ui-busy",
           "type": "boolean",
@@ -2918,13 +2570,6 @@
         "modifiers": {}
       },
       "props": [
-        {
-          "name": "disabled",
-          "attribute": "disabled",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
         {
           "name": "busy",
           "attribute": "data-ui-busy",

@@ -22,7 +22,6 @@ Labelled multi-line text input.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `name` | `name` | string | "" | Form field name. |
 | `value` | `value` | string | "" | Current text. |

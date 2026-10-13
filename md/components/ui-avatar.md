@@ -22,7 +22,6 @@ User avatar with image, initials or icon fallback.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `src` | `src` | string | "" | Image URL. |
 | `name` | `name` | string | "" | Full name used for initials and alt text. |

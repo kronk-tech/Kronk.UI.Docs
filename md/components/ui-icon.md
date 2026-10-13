@@ -22,7 +22,6 @@ Font Awesome icon.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `name` | `name` | string | "" | Icon name without prefix. |
 | `iconStyle` | `icon-style` | string | "solid" | solid, regular, light, brands… |

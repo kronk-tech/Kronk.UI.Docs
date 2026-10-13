@@ -22,7 +22,6 @@ Accessible tooltip attached to an anchor element.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `for` | `for` | string | "" | id of the anchor element. |
 | `delay` | `delay` | number | 400 | Open delay in ms. |

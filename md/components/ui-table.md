@@ -22,7 +22,6 @@ Styled wrapper for a native table.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `striped` | `striped` | boolean | false | Zebra rows. |
 | `bordered` | `bordered` | boolean | false | Cell borders. |

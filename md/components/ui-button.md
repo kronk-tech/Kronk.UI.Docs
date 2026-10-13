@@ -26,7 +26,6 @@ Styled button or link.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `type` | `type` | string | "button" | Native button type (button, submit, reset). |
 | `href` | `href` | string | "" | When set, renders an anchor. |

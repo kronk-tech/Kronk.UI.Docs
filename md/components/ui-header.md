@@ -22,7 +22,6 @@ Semantic heading.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `level` | `level` | number | 2 | Heading level 1–6. |
 | `size` | `size` | string | "" | Visual size override xs–3xl. |

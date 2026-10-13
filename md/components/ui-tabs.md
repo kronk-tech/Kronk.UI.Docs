@@ -22,7 +22,6 @@ Tabbed content with full keyboard and ARIA support.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `value` | `value` | string | "" | Selected tab value; defaults to the first enabled tab. |
 

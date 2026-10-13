@@ -12,7 +12,7 @@
 <body>
 <div class="docs-shell">
 <nav class="docs-nav" aria-label="Documentation">
-  <strong>Kronk UI</strong> <small>v2.0.0-alpha.6</small>
+  <strong>Kronk UI</strong> <small>v2.0.0-alpha.7</small>
   <a href="../../">Overview</a>
   <a href="../../guides/getting-started/">Getting started</a>
   <h4>Guides</h4>
@@ -123,7 +123,7 @@
 </div>
 <h2 id="api">API</h2>
 <h2 id="attributes-and-properties">Attributes and properties</h2>
-<table><thead><tr><th>Property</th><th>Attribute</th><th>Type</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>disabled</code></td><td><code>disabled</code></td><td>boolean</td><td>false</td><td></td></tr><tr><td><code>busy</code></td><td><code>data-ui-busy</code></td><td>boolean</td><td>false</td><td></td></tr><tr><td><code>collapsed</code></td><td><code>collapsed</code></td><td>boolean</td><td>false</td><td>Collapse the sidebar.</td></tr><tr><td><code>sidebarOpen</code></td><td><code>sidebar-open</code></td><td>boolean</td><td>false</td><td>Mobile sidebar open state.</td></tr><tr><td><code>persist</code></td><td><code>persist</code></td><td>boolean</td><td>false</td><td>Remember the collapsed state in localStorage.</td></tr></tbody></table>
+<table><thead><tr><th>Property</th><th>Attribute</th><th>Type</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>busy</code></td><td><code>data-ui-busy</code></td><td>boolean</td><td>false</td><td></td></tr><tr><td><code>collapsed</code></td><td><code>collapsed</code></td><td>boolean</td><td>false</td><td>Collapse the sidebar.</td></tr><tr><td><code>sidebarOpen</code></td><td><code>sidebar-open</code></td><td>boolean</td><td>false</td><td>Mobile sidebar open state.</td></tr><tr><td><code>persist</code></td><td><code>persist</code></td><td>boolean</td><td>false</td><td>Remember the collapsed state in localStorage.</td></tr></tbody></table>
 <h2 id="methods">Methods</h2>
 <ul><li><code>toggle</code> — Toggle collapsed state.</li><li><code>openSidebar</code> — Open the mobile sidebar.</li><li><code>closeSidebar</code> — Close the mobile sidebar.</li></ul>
 <h2 id="events">Events</h2>
@@ -135,8 +135,8 @@
 </main>
 </div>
 <dialog id="search-dialog"><input id="search-input" class="ui-input" type="search" placeholder="Search docs…" aria-label="Search docs"><ul id="search-results"></ul></dialog>
-<script type="application/json" id="component-data">{"tag":"ui-shell","props":[{"name":"disabled","attribute":"disabled","type":"boolean","default":false,"description":""},{"name":"busy","attribute":"data-ui-busy","type":"boolean","default":false,"description":""},{"name":"collapsed","attribute":"collapsed","type":"boolean","default":false,"description":"Collapse the sidebar."},{"name":"sidebarOpen","attribute":"sidebar-open","type":"boolean","default":false,"description":"Mobile sidebar open state."},{"name":"persist","attribute":"persist","type":"boolean","default":false,"description":"Remember the collapsed state in localStorage."}],"docs":{"events":{"ui-shell-change":"Collapsed or sidebar state changed."},"examples":["\u003cui-shell>\u003cui-topbar>App\u003c/ui-topbar>\u003cui-sidebar>Menu\u003c/ui-sidebar>\u003cmain>Content\u003c/main>\u003c/ui-shell>","\u003cui-shell collapsed>\u003cui-sidebar>Menu\u003c/ui-sidebar>\u003cmain>Content\u003c/main>\u003c/ui-shell>"]}}</script>
-<script src="../../dist/latest/ui.dev.js"></script>
+<script type="application/json" id="component-data">{"tag":"ui-shell","props":[{"name":"busy","attribute":"data-ui-busy","type":"boolean","default":false,"description":""},{"name":"collapsed","attribute":"collapsed","type":"boolean","default":false,"description":"Collapse the sidebar."},{"name":"sidebarOpen","attribute":"sidebar-open","type":"boolean","default":false,"description":"Mobile sidebar open state."},{"name":"persist","attribute":"persist","type":"boolean","default":false,"description":"Remember the collapsed state in localStorage."}],"docs":{"events":{"ui-shell-change":"Collapsed or sidebar state changed."},"examples":["\u003cui-shell>\u003cui-topbar>App\u003c/ui-topbar>\u003cui-sidebar>Menu\u003c/ui-sidebar>\u003cmain>Content\u003c/main>\u003c/ui-shell>","\u003cui-shell collapsed>\u003cui-sidebar>Menu\u003c/ui-sidebar>\u003cmain>Content\u003c/main>\u003c/ui-shell>"]}}</script>
+<script src="../../dist/latest/ui.js"></script>
 <script src="../../site.js"></script>
 </body>
 </html>

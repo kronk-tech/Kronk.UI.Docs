@@ -22,7 +22,6 @@ Group of ui-option elements.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `label` | `label` | string | "" | Group heading. |
 

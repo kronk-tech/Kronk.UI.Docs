@@ -22,7 +22,6 @@ Progress bar.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `value` | `value` | number | 0 | Current value. |
 | `max` | `max` | number | 100 | Maximum value. |

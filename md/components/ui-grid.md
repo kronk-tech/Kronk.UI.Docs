@@ -22,7 +22,6 @@ Column grid.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `cols` | `cols` | string | "" | Column count: 2, 3, 4, 6 or 12. |
 | `gap` | `gap` | string | "md" | Spacing: xs, sm, md, lg or xl. |

@@ -22,7 +22,6 @@ Inline status message.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `variant` | `variant` | string | "info" | info, success, warning or danger. |
 | `heading` | `heading` | string | "" | Alert title. |

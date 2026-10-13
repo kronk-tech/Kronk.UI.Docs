@@ -22,7 +22,6 @@ Top bar link with optional icon.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `href` | `href` | string | "" | Link target. |
 | `icon` | `data-icon` | string | "" | Font Awesome icon name. |

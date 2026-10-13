@@ -18,15 +18,6 @@
           "description": "Inline status message.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -55,16 +46,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -145,15 +126,6 @@
           "description": "User avatar with image, initials or icon fallback.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -191,16 +163,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -286,15 +248,6 @@
           "description": "Small status label.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -323,16 +276,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -415,15 +358,6 @@
           "description": "Breadcrumb trail.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -434,16 +368,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -499,15 +423,6 @@
           "description": "Styled button or link.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -554,16 +469,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -660,15 +565,6 @@
           "description": "Surface container with optional header, body and footer.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -724,16 +620,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -848,15 +734,6 @@
           "description": "Card body.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -867,16 +744,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -935,15 +802,6 @@
           "description": "Card footer.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -954,16 +812,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -1022,15 +870,6 @@
           "description": "Card header.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -1041,16 +880,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -1109,15 +938,6 @@
           "description": "Horizontal, wrapping layout primitive.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -1164,16 +984,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -1277,15 +1087,6 @@
           "description": "Centred, width-constrained page container.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -1305,16 +1106,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -1385,15 +1176,6 @@
           "description": "Disclosure built on native <details>.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -1440,16 +1222,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -1553,15 +1325,6 @@
           "description": "Placeholder for empty content with an optional action.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -1599,16 +1362,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -1696,15 +1449,6 @@
           "description": "Column grid.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -1733,16 +1477,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -1824,15 +1558,6 @@
           "description": "Grid column spanning several tracks.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -1852,16 +1577,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -1932,15 +1647,6 @@
           "description": "Semantic heading.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -1978,16 +1684,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -2073,15 +1769,6 @@
           "description": "Font Awesome icon.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -2119,16 +1806,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -2208,15 +1885,6 @@
           "summary": "Labelled native input (text, email, password, number, date, file, color, checkbox, radio, range, …).",
           "description": "Labelled native input (text, email, password, number, date, file, color, checkbox, radio, range, …).",
           "attributes": [
-            {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
             {
               "name": "data-ui-busy",
               "fieldName": "busy",
@@ -2309,16 +1977,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -2475,15 +2133,6 @@
           "description": "Keyboard shortcut hint.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -2503,16 +2152,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -2573,15 +2212,6 @@
           "description": "Keyed, filterable list with keyboard navigation and a custom item template.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -2637,16 +2267,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -2824,15 +2444,6 @@
           "description": "Native <dialog> with promise-based open and close.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -2888,16 +2499,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -3043,15 +2644,6 @@
           "description": "Navigation list.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -3062,16 +2654,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -3130,15 +2712,6 @@
           "description": "Navigation item with icon and label.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -3176,16 +2749,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -3271,15 +2834,6 @@
           "description": "Navigation section.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -3290,16 +2844,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -3358,15 +2902,6 @@
           "description": "Top bar link with optional icon.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -3395,16 +2930,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -3482,15 +3007,6 @@
           "description": "Declarative option for ui-select.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "Prevents selection."
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -3510,16 +3026,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "Prevents selection.",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -3585,15 +3091,6 @@
           "description": "Group of ui-option elements.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -3613,16 +3110,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -3688,15 +3175,6 @@
           "description": "Secondary text displayed beside an option label (excluded from filtering and the selected label).",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -3707,16 +3185,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -3772,15 +3240,6 @@
           "description": "Page selector.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -3809,16 +3268,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -3902,15 +3351,6 @@
           "description": "Progress bar.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -3966,16 +3406,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -4082,15 +3512,6 @@
           "summary": "Native, searchable, or inline select control.",
           "description": "Native, searchable, or inline select control.",
           "attributes": [
-            {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
             {
               "name": "data-ui-busy",
               "fieldName": "busy",
@@ -4228,16 +3649,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -4458,15 +3869,6 @@
           "description": "Application shell with collapsible sidebar and top bar.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -4504,16 +3906,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -4627,15 +4019,6 @@
           "description": "Application sidebar.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -4646,16 +4029,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -4714,15 +4087,6 @@
           "description": "Sidebar body.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -4733,16 +4097,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -4801,15 +4155,6 @@
           "description": "Sidebar footer.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -4820,16 +4165,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -4888,15 +4223,6 @@
           "description": "Sidebar header.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -4907,16 +4233,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -4975,15 +4291,6 @@
           "description": "Loading placeholder.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -5021,16 +4328,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -5116,15 +4413,6 @@
           "description": "Loading indicator.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -5153,16 +4441,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -5239,15 +4517,6 @@
           "description": "Two resizable panes with a draggable, keyboard-accessible divider.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -5276,16 +4545,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -5389,15 +4648,6 @@
           "description": "Vertical layout primitive.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -5417,16 +4667,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -5496,15 +4736,6 @@
           "summary": "Toggle switch backed by a native checkbox.",
           "description": "Toggle switch backed by a native checkbox.",
           "attributes": [
-            {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
             {
               "name": "data-ui-busy",
               "fieldName": "busy",
@@ -5579,16 +4810,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -5722,15 +4943,6 @@
           "description": "Tab trigger inside ui-tabs.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "Not selectable."
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -5750,16 +4962,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "Not selectable.",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -5825,15 +5027,6 @@
           "description": "Panel shown for the matching ui-tab.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -5853,16 +5046,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -5928,15 +5111,6 @@
           "description": "Styled wrapper for a native table.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -5974,16 +5148,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -6076,15 +5240,6 @@
           "description": "Horizontal scroll wrapper for tables.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -6095,16 +5250,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -6163,15 +5308,6 @@
           "description": "Tabbed content with full keyboard and ARIA support.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -6191,16 +5327,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -6278,15 +5404,6 @@
           "summary": "Labelled multi-line text input.",
           "description": "Labelled multi-line text input.",
           "attributes": [
-            {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
             {
               "name": "data-ui-busy",
               "fieldName": "busy",
@@ -6388,16 +5505,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -6563,15 +5670,6 @@
           "description": "Cycles light, dark and system theme through UI.theme.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -6582,16 +5680,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -6649,15 +5737,6 @@
           "description": "Stacking region for toasts; created on demand by UI.toast().",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -6686,16 +5765,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -6788,15 +5857,6 @@
           "description": "Accessible tooltip attached to an anchor element.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -6825,16 +5885,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",
@@ -6912,15 +5962,6 @@
           "description": "Application top bar.",
           "attributes": [
             {
-              "name": "disabled",
-              "fieldName": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
               "name": "data-ui-busy",
               "fieldName": "busy",
               "type": {
@@ -6931,16 +5972,6 @@
             }
           ],
           "members": [
-            {
-              "kind": "field",
-              "name": "disabled",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "disabled"
-            },
             {
               "kind": "field",
               "name": "busy",

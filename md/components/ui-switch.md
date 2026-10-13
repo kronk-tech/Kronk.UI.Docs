@@ -22,7 +22,6 @@ Toggle switch backed by a native checkbox.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `name` | `name` | string | "" | Form field name. |
 | `value` | `value` | string | "" | Submitted value when on. |

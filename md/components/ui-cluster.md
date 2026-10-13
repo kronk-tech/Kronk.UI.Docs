@@ -22,7 +22,6 @@ Horizontal, wrapping layout primitive.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `gap` | `gap` | string | "md" | Spacing: xs, sm, md, lg or xl. |
 | `between` | `between` | boolean | false | Distribute with space-between. |

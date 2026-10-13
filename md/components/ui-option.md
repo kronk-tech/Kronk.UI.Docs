@@ -22,7 +22,6 @@ Declarative option for ui-select.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false | Prevents selection. |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `value` | `value` | string | "" | Submitted option value. |
 

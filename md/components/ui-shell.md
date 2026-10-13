@@ -22,7 +22,6 @@ Application shell with collapsible sidebar and top bar.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `collapsed` | `collapsed` | boolean | false | Collapse the sidebar. |
 | `sidebarOpen` | `sidebar-open` | boolean | false | Mobile sidebar open state. |

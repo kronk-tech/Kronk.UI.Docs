@@ -22,7 +22,6 @@ Secondary text displayed beside an option label (excluded from filtering and the
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 
 ## Methods

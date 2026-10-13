@@ -22,7 +22,6 @@ Grid column spanning several tracks.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `span` | `span` | string | "" | Number of columns to span (2, 3, 4, 6 or 12). |
 

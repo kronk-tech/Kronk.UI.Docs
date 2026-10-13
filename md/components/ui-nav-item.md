@@ -22,7 +22,6 @@ Navigation item with icon and label.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `href` | `href` | string | "" | Link target. |
 | `icon` | `icon` | string | "" | Font Awesome icon name. |

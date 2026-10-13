@@ -22,7 +22,6 @@ Inline status message.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `variant` | `variant` | string | "info" | info, success, warning or danger. |
 | `heading` | `heading` | string | "" | Alert title. |
@@ -71,7 +70,6 @@ User avatar with image, initials or icon fallback.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `src` | `src` | string | "" | Image URL. |
 | `name` | `name` | string | "" | Full name used for initials and alt text. |
@@ -125,7 +123,6 @@ Small status label.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `variant` | `variant` | string | "" | Colour variant: primary, success, warning, danger or info. |
 | `outline` | `outline` | boolean | false | Use the transparent outline style. |
@@ -175,7 +172,6 @@ Breadcrumb trail.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 
 ## Methods
@@ -221,7 +217,6 @@ Styled button or link.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `type` | `type` | string | "button" | Native button type (button, submit, reset). |
 | `href` | `href` | string | "" | When set, renders an anchor. |
@@ -267,7 +262,6 @@ Surface container with optional header, body and footer.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `size` | `size` | string | "md" | sm, md or lg. |
 | `flat` | `flat` | boolean | false | Remove shadow. |
@@ -323,7 +317,6 @@ Card body.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 
 ## Methods
@@ -369,7 +362,6 @@ Card footer.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 
 ## Methods
@@ -415,7 +407,6 @@ Card header.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 
 ## Methods
@@ -461,7 +452,6 @@ Horizontal, wrapping layout primitive.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `gap` | `gap` | string | "md" | Spacing: xs, sm, md, lg or xl. |
 | `between` | `between` | boolean | false | Distribute with space-between. |
@@ -515,7 +505,6 @@ Centred, width-constrained page container.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `size` | `size` | string | "md" | Max width: sm, md, lg, xl or full. |
 
@@ -563,7 +552,6 @@ Disclosure built on native <details>.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `open` | `open` | boolean | false | Expanded state (reflected). |
 | `heading` | `heading` | string | "" | Summary heading. |
@@ -609,7 +597,6 @@ Placeholder for empty content with an optional action.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `heading` | `heading` | string | "" | Title. |
 | `description` | `description` | string | "" | Explanation. |
@@ -658,7 +645,6 @@ Column grid.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `cols` | `cols` | string | "" | Column count: 2, 3, 4, 6 or 12. |
 | `gap` | `gap` | string | "md" | Spacing: xs, sm, md, lg or xl. |
@@ -708,7 +694,6 @@ Grid column spanning several tracks.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `span` | `span` | string | "" | Number of columns to span (2, 3, 4, 6 or 12). |
 
@@ -756,7 +741,6 @@ Semantic heading.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `level` | `level` | number | 2 | Heading level 1–6. |
 | `size` | `size` | string | "" | Visual size override xs–3xl. |
@@ -801,7 +785,6 @@ Font Awesome icon.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `name` | `name` | string | "" | Icon name without prefix. |
 | `iconStyle` | `icon-style` | string | "solid" | solid, regular, light, brands… |
@@ -850,7 +833,6 @@ Labelled native input (text, email, password, number, date, file, color, checkbo
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `name` | `name` | string | "" | Form field name. |
 | `value` | `value` | string | "" | Current value. |
@@ -902,7 +884,6 @@ Keyboard shortcut hint.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `keys` | `keys` | string | "" | Combo such as "mod+k". |
 
@@ -945,7 +926,6 @@ Keyed, filterable list with keyboard navigation and a custom item template.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `filterable` | `filterable` | boolean | false | Show a filter input. |
 | `numbered` | `numbered` | boolean | false | Number the items. |
@@ -1004,7 +984,6 @@ Native <dialog> with promise-based open and close.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `open` | `open` | boolean | false | Open state (reflected). |
 | `heading` | `heading` | string | "" | Dialog heading. |
@@ -1056,7 +1035,6 @@ Navigation list.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 
 ## Methods
@@ -1102,7 +1080,6 @@ Navigation item with icon and label.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `href` | `href` | string | "" | Link target. |
 | `icon` | `icon` | string | "" | Font Awesome icon name. |
@@ -1147,7 +1124,6 @@ Navigation section.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 
 ## Methods
@@ -1193,7 +1169,6 @@ Top bar link with optional icon.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `href` | `href` | string | "" | Link target. |
 | `icon` | `data-icon` | string | "" | Font Awesome icon name. |
@@ -1241,7 +1216,6 @@ Declarative option for ui-select.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false | Prevents selection. |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `value` | `value` | string | "" | Submitted option value. |
 
@@ -1284,7 +1258,6 @@ Group of ui-option elements.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `label` | `label` | string | "" | Group heading. |
 
@@ -1327,7 +1300,6 @@ Secondary text displayed beside an option label (excluded from filtering and the
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 
 ## Methods
@@ -1369,7 +1341,6 @@ Page selector.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `page` | `page` | number | 1 | Current page (1-based). |
 | `pages` | `pages` | number | 1 | Total pages. |
@@ -1413,7 +1384,6 @@ Progress bar.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `value` | `value` | number | 0 | Current value. |
 | `max` | `max` | number | 100 | Maximum value. |
@@ -1467,7 +1437,6 @@ Native, searchable, or inline select control.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `name` | `name` | string | "" | Name of the form control. |
 | `value` | `value` | string | "" | Selected option value. |
@@ -1525,7 +1494,6 @@ Application shell with collapsible sidebar and top bar.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `collapsed` | `collapsed` | boolean | false | Collapse the sidebar. |
 | `sidebarOpen` | `sidebar-open` | boolean | false | Mobile sidebar open state. |
@@ -1577,7 +1545,6 @@ Application sidebar.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 
 ## Methods
@@ -1623,7 +1590,6 @@ Sidebar body.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 
 ## Methods
@@ -1669,7 +1635,6 @@ Sidebar footer.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 
 ## Methods
@@ -1715,7 +1680,6 @@ Sidebar header.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 
 ## Methods
@@ -1761,7 +1725,6 @@ Loading placeholder.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `width` | `width` | string | "100%" | CSS width. |
 | `height` | `height` | string | "1rem" | CSS height. |
@@ -1811,7 +1774,6 @@ Loading indicator.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `size` | `size` | string | "md" | sm, md or lg. |
 | `inverse` | `inverse` | boolean | false | Light variant for dark backgrounds. |
@@ -1861,7 +1823,6 @@ Two resizable panes with a draggable, keyboard-accessible divider.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `value` | `value` | number | 50 | First pane size in percent (10–90). |
 | `vertical` | `vertical` | boolean | false | Stack panes vertically. |
@@ -1912,7 +1873,6 @@ Vertical layout primitive.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `gap` | `gap` | string | "md" | Spacing: xs, sm, md, lg or xl. |
 
@@ -1960,7 +1920,6 @@ Toggle switch backed by a native checkbox.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `name` | `name` | string | "" | Form field name. |
 | `value` | `value` | string | "" | Submitted value when on. |
@@ -2009,7 +1968,6 @@ Tab trigger inside ui-tabs.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false | Not selectable. |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `value` | `value` | string | "" | Tab id; matches a ui-tab-panel value. |
 
@@ -2052,7 +2010,6 @@ Panel shown for the matching ui-tab.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `value` | `value` | string | "" | Matches a ui-tab value. |
 
@@ -2095,7 +2052,6 @@ Styled wrapper for a native table.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `striped` | `striped` | boolean | false | Zebra rows. |
 | `bordered` | `bordered` | boolean | false | Cell borders. |
@@ -2147,7 +2103,6 @@ Horizontal scroll wrapper for tables.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 
 ## Methods
@@ -2193,7 +2148,6 @@ Tabbed content with full keyboard and ARIA support.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `value` | `value` | string | "" | Selected tab value; defaults to the first enabled tab. |
 
@@ -2236,7 +2190,6 @@ Labelled multi-line text input.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `name` | `name` | string | "" | Form field name. |
 | `value` | `value` | string | "" | Current text. |
@@ -2289,7 +2242,6 @@ Cycles light, dark and system theme through UI.theme.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 
 ## Methods
@@ -2335,7 +2287,6 @@ Stacking region for toasts; created on demand by UI.toast().
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `limit` | `limit` | number | 5 | Maximum simultaneously visible toasts. |
 | `placement` | `placement` | string | "bottom-end" | Screen corner. |
@@ -2384,7 +2335,6 @@ Accessible tooltip attached to an anchor element.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `for` | `for` | string | "" | id of the anchor element. |
 | `delay` | `delay` | number | 400 | Open delay in ms. |
@@ -2432,7 +2382,6 @@ Application top bar.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 
 ## Methods
@@ -2764,32 +2713,75 @@ UI.commands.register({ id: 'project.new', label: 'New project', shortcut: 'mod+n
 
 | Token | Value |
 |---|---|
-| `--ui-color-bg` | `light-dark(#ffffff, #12141a)` |
-| `--ui-color-surface` | `light-dark(#f6f7f9, #1b1e27)` |
-| `--ui-color-border` | `light-dark(#d9dce3, #343846)` |
-| `--ui-color-text` | `light-dark(#1b1e27, #eceef3)` |
-| `--ui-color-text-muted` | `light-dark(#5d6376, #a0a6b8)` |
-| `--ui-color-primary` | `light-dark(#2f5bea, #6f8dff)` |
-| `--ui-color-primary-active` | `light-dark(#2447c0, #8aa2ff)` |
-| `--ui-color-on-primary` | `#ffffff` |
-| `--ui-color-success` | `light-dark(#1c8a4c, #4cc98a)` |
-| `--ui-color-warning` | `light-dark(#b9770e, #f0b44c)` |
-| `--ui-color-danger` | `light-dark(#c4302b, #ff7b73)` |
-| `--ui-color-info` | `light-dark(#1f7ea8, #5cc0ea)` |
+| `--ui-color-primary` | `#0d9488` |
+| `--ui-color-primary-hover` | `#0f766e` |
+| `--ui-color-primary-active` | `#115e59` |
+| `--ui-color-secondary` | `#64748b` |
+| `--ui-color-secondary-hover` | `#475569` |
+| `--ui-color-success` | `#16a34a` |
+| `--ui-color-danger` | `#dc2626` |
+| `--ui-color-warning` | `#d97706` |
+| `--ui-color-info` | `#0284c7` |
+| `--ui-color-bg` | `#ffffff` |
+| `--ui-color-surface` | `#f8fafc` |
+| `--ui-color-surface-hover` | `#f1f5f9` |
+| `--ui-color-border` | `#e2e8f0` |
+| `--ui-color-border-strong` | `#cbd5e1` |
+| `--ui-color-text` | `#0f172a` |
+| `--ui-color-text-muted` | `#64748b` |
+| `--ui-color-text-inverse` | `#ffffff` |
+| `--ui-color-overlay` | `rgba(15, 23, 42, 0.5)` |
+| `--ui-color-focus-ring` | `#0d9488` |
+| `--ui-color-bg` | `#0b1120` |
+| `--ui-color-surface` | `#111827` |
+| `--ui-color-surface-hover` | `#1a2333` |
+| `--ui-color-border` | `#263042` |
+| `--ui-color-border-strong` | `#334155` |
+| `--ui-color-text` | `#e2e8f0` |
+| `--ui-color-text-muted` | `#94a3b8` |
+| `--ui-color-text-inverse` | `#0b1120` |
+| `--ui-color-overlay` | `rgba(0, 0, 0, 0.6)` |
+| `--ui-space-0` | `0` |
 | `--ui-space-1` | `0.25rem` |
 | `--ui-space-2` | `0.5rem` |
 | `--ui-space-3` | `0.75rem` |
 | `--ui-space-4` | `1rem` |
+| `--ui-space-5` | `1.25rem` |
 | `--ui-space-6` | `1.5rem` |
 | `--ui-space-8` | `2rem` |
-| `--ui-radius` | `0.5rem` |
-| `--ui-radius-full` | `999px` |
-| `--ui-shadow` | `0 1px 3px rgb(0 0 0 / 0.12), 0 4px 12px rgb(0 0 0 / 0.08)` |
-| `--ui-font-sans` | `"Euclid Circular A", system-ui, -apple-system, "Segoe UI", sans-serif` |
+| `--ui-space-10` | `2.5rem` |
+| `--ui-space-12` | `3rem` |
+| `--ui-space-16` | `4rem` |
+| `--ui-radius-sm` | `4px` |
+| `--ui-radius-md` | `8px` |
+| `--ui-radius-lg` | `12px` |
+| `--ui-radius-full` | `9999px` |
+| `--ui-shadow-sm` | `0 1px 2px rgba(15, 23, 42, 0.06)` |
+| `--ui-shadow-md` | `0 4px 12px rgba(15, 23, 42, 0.1)` |
+| `--ui-shadow-lg` | `0 12px 32px rgba(15, 23, 42, 0.18)` |
+| `--ui-topbar-height` | `3.5rem` |
+| `--ui-sidebar-width` | `16rem` |
+| `--ui-sidebar-width-collapsed` | `4rem` |
+| `--ui-container-sm` | `40rem` |
+| `--ui-container-md` | `56rem` |
+| `--ui-container-lg` | `72rem` |
+| `--ui-container-xl` | `88rem` |
+| `--ui-font-sans` | `"Euclid Circular", -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, Helvetica, Arial, sans-serif` |
+| `--ui-font-mono` | `ui-monospace, "JetBrains Mono", SFMono-Regular, Menlo, Consolas, monospace` |
+| `--ui-text-xs` | `0.75rem` |
+| `--ui-text-sm` | `0.875rem` |
 | `--ui-text-base` | `1rem` |
+| `--ui-text-lg` | `1.125rem` |
+| `--ui-text-xl` | `1.25rem` |
+| `--ui-text-2xl` | `1.5rem` |
+| `--ui-text-3xl` | `1.875rem` |
+| `--ui-font-weight-normal` | `400` |
+| `--ui-font-weight-medium` | `500` |
+| `--ui-font-weight-semibold` | `600` |
+| `--ui-font-weight-bold` | `700` |
+| `--ui-line-height-tight` | `1.25` |
 | `--ui-line-height-normal` | `1.5` |
-| `--ui-animation-duration` | `0.3s` |
-| `--ui-animation-easing` | `ease-in-out` |
+| `--ui-line-height-relaxed` | `1.75` |
 
 
 ---

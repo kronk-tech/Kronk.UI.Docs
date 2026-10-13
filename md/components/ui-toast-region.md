@@ -22,7 +22,6 @@ Stacking region for toasts; created on demand by UI.toast().
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `limit` | `limit` | number | 5 | Maximum simultaneously visible toasts. |
 | `placement` | `placement` | string | "bottom-end" | Screen corner. |

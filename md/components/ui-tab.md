@@ -22,7 +22,6 @@ Tab trigger inside ui-tabs.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false | Not selectable. |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `value` | `value` | string | "" | Tab id; matches a ui-tab-panel value. |
 

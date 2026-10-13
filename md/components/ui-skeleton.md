@@ -22,7 +22,6 @@ Loading placeholder.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `width` | `width` | string | "100%" | CSS width. |
 | `height` | `height` | string | "1rem" | CSS height. |

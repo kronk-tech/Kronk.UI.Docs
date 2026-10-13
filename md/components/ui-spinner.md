@@ -22,7 +22,6 @@ Loading indicator.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `size` | `size` | string | "md" | sm, md or lg. |
 | `inverse` | `inverse` | boolean | false | Light variant for dark backgrounds. |

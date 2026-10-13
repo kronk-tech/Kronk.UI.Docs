@@ -22,7 +22,6 @@ Placeholder for empty content with an optional action.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `heading` | `heading` | string | "" | Title. |
 | `description` | `description` | string | "" | Explanation. |

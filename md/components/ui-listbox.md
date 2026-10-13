@@ -22,7 +22,6 @@ Keyed, filterable list with keyboard navigation and a custom item template.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `filterable` | `filterable` | boolean | false | Show a filter input. |
 | `numbered` | `numbered` | boolean | false | Number the items. |

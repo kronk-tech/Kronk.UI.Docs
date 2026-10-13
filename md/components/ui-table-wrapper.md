@@ -22,7 +22,6 @@ Horizontal scroll wrapper for tables.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 
 ## Methods

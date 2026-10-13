@@ -22,7 +22,6 @@ Surface container with optional header, body and footer.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `size` | `size` | string | "md" | sm, md or lg. |
 | `flat` | `flat` | boolean | false | Remove shadow. |

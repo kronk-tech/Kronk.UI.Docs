@@ -22,7 +22,6 @@ Two resizable panes with a draggable, keyboard-accessible divider.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `value` | `value` | number | 50 | First pane size in percent (10–90). |
 | `vertical` | `vertical` | boolean | false | Stack panes vertically. |

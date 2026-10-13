@@ -22,7 +22,6 @@ Native, searchable, or inline select control.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `name` | `name` | string | "" | Name of the form control. |
 | `value` | `value` | string | "" | Selected option value. |

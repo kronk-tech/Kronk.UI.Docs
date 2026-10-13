@@ -22,7 +22,6 @@ Disclosure built on native <details>.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `open` | `open` | boolean | false | Expanded state (reflected). |
 | `heading` | `heading` | string | "" | Summary heading. |

@@ -22,7 +22,6 @@ Keyboard shortcut hint.
 
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
-| `disabled` | `disabled` | boolean | false |  |
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `keys` | `keys` | string | "" | Combo such as "mod+k". |
 
