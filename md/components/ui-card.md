@@ -11,7 +11,7 @@ Surface container with optional header, body and footer.
 ## Examples
 
 ```html
-<ui-card><ui-card-header>Title</ui-card-header><ui-card-body>Body</ui-card-body></ui-card>
+<ui-card><ui-card-header>Title</ui-card-header><ui-card-body>Body</ui-card-body><ui-card-footer>Footer</ui-card-footer></ui-card>
 ```
 
 ```html

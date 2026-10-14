@@ -254,18 +254,15 @@
   display: flex;
   flex-direction: column;
   gap: var(--ui-space-4);
-  padding: var(--ui-space-6);
   background: var(--ui-color-surface);
   border: 1px solid var(--ui-color-border);
   border-radius: var(--ui-radius-lg);
   box-shadow: var(--ui-shadow-sm);
 }
 .ui-card--sm {
-  padding: var(--ui-space-4);
   gap: var(--ui-space-2);
 }
 .ui-card--lg {
-  padding: var(--ui-space-8);
   gap: var(--ui-space-6);
 }
 .ui-card--flat {
@@ -279,29 +276,67 @@
 .ui-card--primary {
   border-color: var(--ui-color-primary);
 }
+.ui-card--dashed {
+  border-style: dashed;
+}
 .ui-card__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: var(--ui-space-3);
+  padding: 0 var(--ui-space-6);
+}
+.ui-card--sm .ui-card__header {
+  padding: 0 var(--ui-space-4);
+}
+.ui-card--lg .ui-card__header {
+  padding: 0 var(--ui-space-8);
 }
 .ui-card__body {
   display: flex;
   flex-direction: column;
   gap: var(--ui-space-3);
+  padding: 0 var(--ui-space-6);
+}
+.ui-card--sm .ui-card__body {
+  padding: 0 var(--ui-space-4);
+}
+.ui-card--lg .ui-card__body {
+  padding: 0 var(--ui-space-8);
 }
 .ui-card__footer {
   display: flex;
   align-items: center;
   gap: var(--ui-space-3);
-  padding-top: var(--ui-space-4);
+  padding: 0 var(--ui-space-6);
+  padding-top: var(--ui-space-2);
   border-top: 1px solid var(--ui-color-border);
 }
 .ui-card--sm .ui-card__footer {
+  padding: 0 var(--ui-space-4);
   padding-top: var(--ui-space-2);
 }
 .ui-card--lg .ui-card__footer {
+  padding: 0 var(--ui-space-8);
+  padding-top: var(--ui-space-4);
+}
+.ui-card > *:first-child {
   padding-top: var(--ui-space-6);
+}
+.ui-card--sm > *:first-child {
+  padding-top: var(--ui-space-4);
+}
+.ui-card--lg > *:first-child {
+  padding-top: var(--ui-space-8);
+}
+.ui-card > *:last-child {
+  padding-bottom: var(--ui-space-6);
+}
+.ui-card--sm > *:last-child {
+  padding-bottom: var(--ui-space-4);
+}
+.ui-card--lg > *:last-child {
+  padding-bottom: var(--ui-space-8);
 }
 .ui-grid > .ui-card {
   height: 100%;
@@ -738,6 +773,21 @@ h6.ui-header {
 }
 :where(.ui-modal) .ui-label[type=range] {
   height: auto;
+}
+
+/* packages/core/src/styles/components/misc.css */
+.ui-kbd {
+  padding: 0 var(--ui-space-1);
+  border: 1px solid var(--ui-color-border);
+  border-bottom-width: 3px;
+  border-radius: 4px;
+  font-size: 0.8125rem;
+  background: var(--ui-color-surface);
+  display: inline-block;
+}
+.ui-kbd:hover {
+  border-bottom-width: 1px;
+  translate: 0 2px;
 }
 
 /* packages/core/src/styles/components/modal.css */

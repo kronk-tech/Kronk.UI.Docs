@@ -104,8 +104,8 @@
 <div class="example" data-example>
 <div class="example__stage" data-stage></div>
 <div class="example__bar"><button class="ui-button" type="button" data-example-reset>Reset</button></div>
-<template data-source><ui-card><ui-card-header>Title</ui-card-header><ui-card-body>Body</ui-card-body></ui-card></template>
-<pre class="code"><code data-lang="html"><span class="tok-k">&lt;ui-card</span>&gt;<span class="tok-k">&lt;ui-card-header</span>&gt;Title<span class="tok-k">&lt;/ui-card-header</span>&gt;<span class="tok-k">&lt;ui-card-body</span>&gt;Body<span class="tok-k">&lt;/ui-card-body</span>&gt;<span class="tok-k">&lt;/ui-card</span>&gt;</code></pre>
+<template data-source><ui-card><ui-card-header>Title</ui-card-header><ui-card-body>Body</ui-card-body><ui-card-footer>Footer</ui-card-footer></ui-card></template>
+<pre class="code"><code data-lang="html"><span class="tok-k">&lt;ui-card</span>&gt;<span class="tok-k">&lt;ui-card-header</span>&gt;Title<span class="tok-k">&lt;/ui-card-header</span>&gt;<span class="tok-k">&lt;ui-card-body</span>&gt;Body<span class="tok-k">&lt;/ui-card-body</span>&gt;<span class="tok-k">&lt;ui-card-footer</span>&gt;Footer<span class="tok-k">&lt;/ui-card-footer</span>&gt;<span class="tok-k">&lt;/ui-card</span>&gt;</code></pre>
 </div>
 <div class="example" data-example>
 <div class="example__stage" data-stage></div>
@@ -135,7 +135,7 @@
 </main>
 </div>
 <dialog id="search-dialog"><input id="search-input" class="ui-input" type="search" placeholder="Search docs…" aria-label="Search docs"><ul id="search-results"></ul></dialog>
-<script type="application/json" id="component-data">{"tag":"ui-card","props":[{"name":"busy","attribute":"data-ui-busy","type":"boolean","default":false,"description":""},{"name":"size","attribute":"size","type":"string","default":"md","description":"sm, md or lg."},{"name":"flat","attribute":"flat","type":"boolean","default":false,"description":"Remove shadow."},{"name":"ghost","attribute":"ghost","type":"boolean","default":false,"description":"Transparent surface."},{"name":"primary","attribute":"primary","type":"boolean","default":false,"description":"Primary accent."},{"name":"dashed","attribute":"dashed","type":"boolean","default":false,"description":"Dashed border."}],"docs":{"events":{},"examples":["\u003cui-card>\u003cui-card-header>Title\u003c/ui-card-header>\u003cui-card-body>Body\u003c/ui-card-body>\u003c/ui-card>","\u003cui-card dashed size=\"lg\">\u003cui-card-body>Dashed\u003c/ui-card-body>\u003c/ui-card>"]}}</script>
+<script type="application/json" id="component-data">{"tag":"ui-card","props":[{"name":"busy","attribute":"data-ui-busy","type":"boolean","default":false,"description":""},{"name":"size","attribute":"size","type":"string","default":"md","description":"sm, md or lg."},{"name":"flat","attribute":"flat","type":"boolean","default":false,"description":"Remove shadow."},{"name":"ghost","attribute":"ghost","type":"boolean","default":false,"description":"Transparent surface."},{"name":"primary","attribute":"primary","type":"boolean","default":false,"description":"Primary accent."},{"name":"dashed","attribute":"dashed","type":"boolean","default":false,"description":"Dashed border."}],"docs":{"events":{},"examples":["\u003cui-card>\u003cui-card-header>Title\u003c/ui-card-header>\u003cui-card-body>Body\u003c/ui-card-body>\u003cui-card-footer>Footer\u003c/ui-card-footer>\u003c/ui-card>","\u003cui-card dashed size=\"lg\">\u003cui-card-body>Dashed\u003c/ui-card-body>\u003c/ui-card>"]}}</script>
 <script src="../../dist/latest/ui.js"></script>
 <script src="../../site.js"></script>
 </body>
