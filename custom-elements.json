@@ -2101,9 +2101,26 @@
           "x-tier": "B",
           "x-host": null,
           "x-examples": [
+            "<ui-input label=\"Text\" type=\"text\" name=\"text\"></ui-input>",
             "<ui-input label=\"Email\" type=\"email\" name=\"email\"></ui-input>",
-            "<ui-input label=\"Volume\" type=\"range\" value=\"40\"></ui-input>",
-            "<ui-input label=\"Password\" type=\"password\"></ui-input>"
+            "<ui-input label=\"Password\" type=\"password\"></ui-input>",
+            "<ui-input label=\"Tel\" type=\"tel\" name=\"tel\"></ui-input>",
+            "<ui-input label=\"Number\" type=\"number\" name=\"number\"></ui-input>",
+            "<ui-input label=\"Search\" type=\"search\" name=\"search\"></ui-input>",
+            "<ui-input label=\"Url\" type=\"url\" name=\"url\"></ui-input>",
+            "<ui-input label=\"File\" type=\"file\" name=\"file\"></ui-input>",
+            "<ui-input label=\"Hidden\" type=\"hidden\" name=\"hidden\"></ui-input>",
+            "<ui-input label=\"Button\" type=\"button\" name=\"button\"></ui-input>",
+            "<ui-input label=\"Reset\" type=\"reset\" name=\"reset\"></ui-input>",
+            "<ui-input label=\"Submit\" type=\"submit\" name=\"submit\"></ui-input>",
+            "<ui-input label=\"Radio\" type=\"radio\" name=\"radio\"></ui-input><ui-input label=\"Radio2\" type=\"radio\" name=\"radio\"></ui-input><ui-input label=\"Radio3\" type=\"radio\" name=\"radio\"></ui-input>",
+            "<ui-input label=\"Checkbox\" type=\"checkbox\" name=\"checkbox\"></ui-input>",
+            "<ui-input label=\"Range\" type=\"range\" name=\"range\"></ui-input>",
+            "<ui-input label=\"Color\" type=\"color\" name=\"color\"></ui-input>",
+            "<ui-input label=\"Month\" type=\"month\" name=\"month\"></ui-input>",
+            "<ui-input label=\"Date\" type=\"date\" name=\"date\"></ui-input>",
+            "<ui-input label=\"Time\" type=\"time\" name=\"time\"></ui-input>",
+            "<ui-input label=\"Week\" type=\"week\" name=\"week\"></ui-input>"
           ]
         }
       ],
@@ -3385,24 +3402,6 @@
               },
               "default": "false",
               "description": "Unknown progress."
-            },
-            {
-              "name": "size",
-              "fieldName": "size",
-              "type": {
-                "text": "string"
-              },
-              "default": "\"md\"",
-              "description": "sm, md or lg."
-            },
-            {
-              "name": "variant",
-              "fieldName": "variant",
-              "type": {
-                "text": "string"
-              },
-              "default": "\"\"",
-              "description": "Colour variant."
             }
           ],
           "members": [
@@ -3445,26 +3444,6 @@
               "default": "false",
               "description": "Unknown progress.",
               "attribute": "indeterminate"
-            },
-            {
-              "kind": "field",
-              "name": "size",
-              "type": {
-                "text": "string"
-              },
-              "default": "\"md\"",
-              "description": "sm, md or lg.",
-              "attribute": "size"
-            },
-            {
-              "kind": "field",
-              "name": "variant",
-              "type": {
-                "text": "string"
-              },
-              "default": "\"\"",
-              "description": "Colour variant.",
-              "attribute": "variant"
             }
           ],
           "events": [],
@@ -3476,8 +3455,6 @@
           "x-host": {
             "class": "ui-progress",
             "modifiers": {
-              "size": "ui-progress--{}",
-              "variant": "ui-progress--{}",
               "indeterminate": "ui-progress--indeterminate"
             }
           },
@@ -4420,24 +4397,6 @@
               },
               "default": "false",
               "description": ""
-            },
-            {
-              "name": "size",
-              "fieldName": "size",
-              "type": {
-                "text": "string"
-              },
-              "default": "\"md\"",
-              "description": "sm, md or lg."
-            },
-            {
-              "name": "inverse",
-              "fieldName": "inverse",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "Light variant for dark backgrounds."
             }
           ],
           "members": [
@@ -4450,26 +4409,6 @@
               "default": "false",
               "description": "",
               "attribute": "data-ui-busy"
-            },
-            {
-              "kind": "field",
-              "name": "size",
-              "type": {
-                "text": "string"
-              },
-              "default": "\"md\"",
-              "description": "sm, md or lg.",
-              "attribute": "size"
-            },
-            {
-              "kind": "field",
-              "name": "inverse",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "Light variant for dark backgrounds.",
-              "attribute": "inverse"
             }
           ],
           "events": [],
@@ -4480,14 +4419,10 @@
           "x-tier": "A",
           "x-host": {
             "class": "ui-spinner",
-            "modifiers": {
-              "size": "ui-spinner--{}",
-              "inverse": "ui-spinner--inverse"
-            }
+            "modifiers": {}
           },
           "x-examples": [
-            "<ui-spinner></ui-spinner>",
-            "<ui-spinner size=\"sm\"></ui-spinner>"
+            "<ui-spinner></ui-spinner>"
           ]
         }
       ],

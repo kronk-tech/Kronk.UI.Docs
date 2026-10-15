@@ -436,21 +436,24 @@ h6.ui-header {
   line-height: var(--ui-line-height-tight);
   white-space: nowrap;
   text-overflow: ellipsis;
-  background-color: var(--ui-color-surface);
+  height: var(--ui-space-8);
+  width: 100%;
+  position: relative;
+}
+.ui-label:has(p) {
   border-radius: var(--ui-radius-md) var(--ui-radius-md) 0 0;
   border: 1px solid var(--ui-color-border);
   border-bottom: none;
+  background-color: var(--ui-color-surface);
   padding: var(--ui-space-1) 0;
-  height: var(--ui-space-8);
   margin-bottom: var(--ui-space-8);
-  width: 100%;
 }
-.ui-label:has(input.ui-input--primary) {
+.ui-label.ui-label--primary {
   border-color: var(--ui-color-primary);
 }
 .ui-label__text {
   display: flex;
-  padding: 0 var(--ui-space-4);
+  padding: 0 var(--ui-space-2);
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -459,12 +462,12 @@ h6.ui-header {
   gap: var(--ui-space-1);
 }
 .ui-input {
+  height: var(--ui-space-8);
   display: block;
-  padding: var(--ui-space-2) var(--ui-space-4);
+  padding: 0 var(--ui-space-2);
   border: 1px solid var(--ui-color-border);
   border-radius: var(--ui-radius-md);
   font-size: var(--ui-text-sm);
-  font-weight: var(--ui-font-weight-medium);
   line-height: var(--ui-line-height-tight);
   white-space: nowrap;
   background: var(--ui-color-surface);
@@ -473,13 +476,32 @@ h6.ui-header {
     background-color 0.15s ease,
     border-color 0.15s ease,
     transform 0.05s ease;
-  top: var(--ui-space-1);
-  left: -1px;
   position: relative;
+  width: 100%;
+  font-weight: normal;
+}
+.ui-label:has(p) .ui-input {
+  top: var(--ui-space-1);
   width: calc(100% + 2px);
+  left: -1px;
+}
+.ui-label--primary .ui-input {
+  border-color: var(--ui-color-primary);
 }
 .ui-input:active {
   background-color: var(--ui-color-surface);
+}
+.ui-label:has(.ui-input[required])::after {
+  content: "*";
+  color: var(--ui-color-danger);
+  position: absolute;
+  right: 4px;
+  top: 8px;
+  font-weight: bold;
+  line-height: 0;
+}
+.ui-input[readonly] {
+  font-style: italic;
 }
 .ui-input:disabled,
 .ui-input[aria-disabled=true] {
@@ -494,54 +516,13 @@ h6.ui-header {
   color: var(--ui-color-text);
   border-color: var(--ui-color-primary);
 }
+.ui-label .ui-label__action {
+  position: absolute;
+  right: var(--ui-space-2);
+  bottom: calc(-1 * var(--ui-space-4));
+}
 .ui-label[type=hidden] {
   display: none !important;
-}
-.ui-label[type=password]:has(.ui-input[type=password]) .ui-label__text::after {
-  font-family: "Font Awesome 7 Pro", serif;
-  font-weight: 900;
-  content: "\f06e";
-  margin-left: auto;
-}
-.ui-label[type=password]:has(.ui-input[type=text]) .ui-label__text::after {
-  font-family: "Font Awesome 7 Pro", serif;
-  font-weight: 900;
-  content: "\f070";
-  margin-left: auto;
-}
-.ui-label[type=file]:has(.ui-input[type=file]) .ui-label__text::after {
-  font-family: "Font Awesome 7 Pro", serif;
-  font-weight: 900;
-  content: "\f093";
-  margin-left: auto;
-}
-.ui-label[type=number]:has(.ui-input[type=number]) .ui-label__text::after {
-  font-family: "Font Awesome 7 Pro", serif;
-  font-weight: 900;
-  content: "\f0dc";
-  margin-left: auto;
-}
-.ui-label[type=text]:has(.ui-input[type=text]) .ui-label__text::after {
-  font-family: "Font Awesome 7 Pro", serif;
-  font-weight: 900;
-  content: "";
-  margin-left: auto;
-}
-.ui-label[type=email]:has(.ui-input[type=email]) .ui-label__text::after {
-  font-family: "Font Awesome 7 Pro", serif;
-  font-weight: 900;
-  content: "\f0e0";
-  margin-left: auto;
-}
-.ui-label[type=date]:has(.ui-input[type=date]) .ui-label__text::after,
-.ui-label[type=datetime-local]:has(.ui-input[type=datetime-local]) .ui-label__text::after,
-.ui-label[type=time]:has(.ui-input[type=time]) .ui-label__text::after,
-.ui-label[type=week]:has(.ui-input[type=week]) .ui-label__text::after,
-.ui-label[type=month]:has(.ui-input[type=month]) .ui-label__text::after {
-  font-family: "Font Awesome 7 Pro", serif;
-  font-weight: 900;
-  content: "\f073";
-  margin-left: auto;
 }
 .ui-label[type=checkbox],
 .ui-label[type=color],
@@ -571,6 +552,20 @@ h6.ui-header {
   padding: 0;
   position: static;
 }
+.ui-label[type=radio] .ui-input[type=radio] {
+  border-radius: var(--ui-radius-full);
+}
+ui-input[type=radio]:has(+ ui-input[type=radio]) .ui-label,
+ui-input[type=checkbox]:has(+ ui-input[type=checkbox]) .ui-label {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+ui-input[type=radio] + ui-input[type=radio] .ui-label,
+ui-input[type=checkbox] + ui-input[type=checkbox] .ui-label {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-top: -1px;
+}
 .ui-label[type=checkbox] .ui-input[type=checkbox]:checked,
 .ui-label[type=radio] .ui-input[type=radio]:checked {
   background-color: var(--ui-color-primary);
@@ -581,14 +576,15 @@ h6.ui-header {
   color: var(--ui-color-text-inverse);
   border-radius: var(--ui-radius-md);
   outline: none;
+  margin-top: var(--ui-space-2);
 }
 .ui-label[type=color] .ui-input[type=color] {
   padding: 0;
   width: var(--ui-space-8);
   height: var(--ui-space-8);
   border-radius: var(--ui-radius-md);
-  border: none;
-  outline: none;
+  border: transparent;
+  outline: transparent;
   background: none;
 }
 .ui-label[type=date] .ui-input[type=date]::-webkit-calendar-picker-indicator,
@@ -614,44 +610,27 @@ h6.ui-header {
 .ui-label[type=month] .ui-input[type=month] {
   text-align: center;
 }
-@property --range-value { syntax: "<number>"; inherits: true; initial-value: 0; }
+.ui-label[type=button] .ui-input,
+.ui-label[type=reset] .ui-input,
+.ui-label[type=submit] .ui-input {
+  background: var(--ui-color-primary);
+  border: none;
+  color: var(--ui-color-text-inverse);
+  border-radius: var(--ui-radius-md);
+  outline: none;
+}
 .ui-label[type=range] {
   margin-bottom: 0;
-}
-.ui-label[type=range]:has(.ui-input[type=range]) .ui-label__text::after {
-  content: var(--range-value);
-  margin-left: auto;
 }
 .ui-label[type=range] .ui-input[type=range] {
   -webkit-appearance: none;
   height: var(--ui-space-4);
-  background: var(--ui-color-border);
+  background: var(--ui-color-surface);
   border-radius: var(--ui-radius-full);
   outline: none;
   opacity: 0.7;
   transition: opacity 0.2s;
   padding: 0;
-  timeline-scope: --range-value;
-  animation: --range-value linear both;
-  animation-timeline: --range-value;
-  animation-range: entry 100% exit 0%;
-  overflow: hidden;
-  --range-position: calc(100% - max(7%, min(92%, calc(var(--range-value) * 1%))));
-  background:
-    linear-gradient(
-      to right,
-      var(--ui-color-primary-active) 0%,
-      var(--ui-color-primary-active) var(--range-position),
-      var(--ui-color-border) var(--range-position),
-      var(--ui-color-border) 95%);
-}
-@keyframes --range-value {
-  0% {
-    --range-value: attr(min type(<number>),0);
-  }
-  to {
-    --range-value: attr(max type(<number>),100);
-  }
 }
 .ui-label[type=range] .ui-input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -789,6 +768,34 @@ h6.ui-header {
   border-bottom-width: 1px;
   translate: 0 2px;
 }
+.ui-empty-state {
+  display: block;
+  padding: var(--ui-space-6);
+  background: var(--ui-color-surface);
+  border: 1px dashed var(--ui-color-border);
+  border-radius: var(--ui-radius-lg);
+  box-shadow: var(--ui-shadow-sm);
+}
+.ui-empty-state i,
+.ui-empty-state .ui-empty-state__title {
+  display: inline-block;
+}
+.ui-empty-state:has(i) .ui-empty-state__title {
+  margin-left: var(--ui-space-2);
+}
+.ui-skeleton {
+  background: var(--ui-color-border);
+  border-radius: var(--ui-radius-md);
+  animation: ui-pulse 1.4s infinite ease-in-out;
+}
+.ui-skeleton--circle {
+  border-radius: 50%;
+}
+@keyframes ui-pulse {
+  50% {
+    opacity: 0.5;
+  }
+}
 
 /* packages/core/src/styles/components/modal.css */
 .ui-modal {
@@ -908,20 +915,6 @@ h6.ui-header {
   border-top-color: var(--ui-color-primary);
   border-radius: var(--ui-radius-full);
   animation: ui-spin 0.6s linear infinite;
-}
-.ui-spinner--sm {
-  width: var(--ui-space-4);
-  height: var(--ui-space-4);
-  border-width: 2px;
-}
-.ui-spinner--lg {
-  width: var(--ui-space-8);
-  height: var(--ui-space-8);
-  border-width: 3px;
-}
-.ui-spinner--inverse {
-  border-color: color-mix(in srgb, var(--ui-color-text-inverse) 30%, transparent);
-  border-top-color: var(--ui-color-text-inverse);
 }
 @keyframes ui-spin {
   to {

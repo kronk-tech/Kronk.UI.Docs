@@ -951,20 +951,6 @@
               "value": {
                 "type": "boolean"
               }
-            },
-            {
-              "name": "size",
-              "description": "sm, md or lg.",
-              "value": {
-                "type": "string"
-              }
-            },
-            {
-              "name": "variant",
-              "description": "Colour variant.",
-              "value": {
-                "type": "string"
-              }
             }
           ],
           "events": []
@@ -1228,20 +1214,6 @@
             {
               "name": "data-ui-busy",
               "description": "",
-              "value": {
-                "type": "boolean"
-              }
-            },
-            {
-              "name": "size",
-              "description": "sm, md or lg.",
-              "value": {
-                "type": "string"
-              }
-            },
-            {
-              "name": "inverse",
-              "description": "Light variant for dark backgrounds.",
               "value": {
                 "type": "boolean"
               }

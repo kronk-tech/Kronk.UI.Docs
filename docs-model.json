@@ -1,6 +1,6 @@
 {
   "version": "2.0.0-alpha.7",
-  "generatedAt": "2026-10-14T19:00:57.704Z",
+  "generatedAt": "2026-10-15T13:03:08.359Z",
   "components": [
     {
       "tag": "ui-alert",
@@ -930,9 +930,26 @@
         },
         "slots": {},
         "examples": [
+          "<ui-input label=\"Text\" type=\"text\" name=\"text\"></ui-input>",
           "<ui-input label=\"Email\" type=\"email\" name=\"email\"></ui-input>",
-          "<ui-input label=\"Volume\" type=\"range\" value=\"40\"></ui-input>",
-          "<ui-input label=\"Password\" type=\"password\"></ui-input>"
+          "<ui-input label=\"Password\" type=\"password\"></ui-input>",
+          "<ui-input label=\"Tel\" type=\"tel\" name=\"tel\"></ui-input>",
+          "<ui-input label=\"Number\" type=\"number\" name=\"number\"></ui-input>",
+          "<ui-input label=\"Search\" type=\"search\" name=\"search\"></ui-input>",
+          "<ui-input label=\"Url\" type=\"url\" name=\"url\"></ui-input>",
+          "<ui-input label=\"File\" type=\"file\" name=\"file\"></ui-input>",
+          "<ui-input label=\"Hidden\" type=\"hidden\" name=\"hidden\"></ui-input>",
+          "<ui-input label=\"Button\" type=\"button\" name=\"button\"></ui-input>",
+          "<ui-input label=\"Reset\" type=\"reset\" name=\"reset\"></ui-input>",
+          "<ui-input label=\"Submit\" type=\"submit\" name=\"submit\"></ui-input>",
+          "<ui-input label=\"Radio\" type=\"radio\" name=\"radio\"></ui-input><ui-input label=\"Radio2\" type=\"radio\" name=\"radio\"></ui-input><ui-input label=\"Radio3\" type=\"radio\" name=\"radio\"></ui-input>",
+          "<ui-input label=\"Checkbox\" type=\"checkbox\" name=\"checkbox\"></ui-input>",
+          "<ui-input label=\"Range\" type=\"range\" name=\"range\"></ui-input>",
+          "<ui-input label=\"Color\" type=\"color\" name=\"color\"></ui-input>",
+          "<ui-input label=\"Month\" type=\"month\" name=\"month\"></ui-input>",
+          "<ui-input label=\"Date\" type=\"date\" name=\"date\"></ui-input>",
+          "<ui-input label=\"Time\" type=\"time\" name=\"time\"></ui-input>",
+          "<ui-input label=\"Week\" type=\"week\" name=\"week\"></ui-input>"
         ]
       }
     },
@@ -1442,8 +1459,6 @@
       "host": {
         "class": "ui-progress",
         "modifiers": {
-          "size": "ui-progress--{}",
-          "variant": "ui-progress--{}",
           "indeterminate": "ui-progress--indeterminate"
         }
       },
@@ -1475,20 +1490,6 @@
           "type": "boolean",
           "default": false,
           "description": "Unknown progress."
-        },
-        {
-          "name": "size",
-          "attribute": "size",
-          "type": "string",
-          "default": "md",
-          "description": "sm, md or lg."
-        },
-        {
-          "name": "variant",
-          "attribute": "variant",
-          "type": "string",
-          "default": "",
-          "description": "Colour variant."
         }
       ],
       "docs": {
@@ -1899,10 +1900,7 @@
       "base": "_UIElement",
       "host": {
         "class": "ui-spinner",
-        "modifiers": {
-          "size": "ui-spinner--{}",
-          "inverse": "ui-spinner--inverse"
-        }
+        "modifiers": {}
       },
       "props": [
         {
@@ -1911,20 +1909,6 @@
           "type": "boolean",
           "default": false,
           "description": ""
-        },
-        {
-          "name": "size",
-          "attribute": "size",
-          "type": "string",
-          "default": "md",
-          "description": "sm, md or lg."
-        },
-        {
-          "name": "inverse",
-          "attribute": "inverse",
-          "type": "boolean",
-          "default": false,
-          "description": "Light variant for dark backgrounds."
         }
       ],
       "docs": {
@@ -1935,8 +1919,7 @@
           "inverse": "Light variant for dark backgrounds."
         },
         "examples": [
-          "<ui-spinner></ui-spinner>",
-          "<ui-spinner size=\"sm\"></ui-spinner>"
+          "<ui-spinner></ui-spinner>"
         ]
       }
     },

@@ -26,8 +26,6 @@ Progress bar.
 | `value` | `value` | number | 0 | Current value. |
 | `max` | `max` | number | 100 | Maximum value. |
 | `indeterminate` | `indeterminate` | boolean | false | Unknown progress. |
-| `size` | `size` | string | "md" | sm, md or lg. |
-| `variant` | `variant` | string | "" | Colour variant. |
 
 ## Methods
 
@@ -44,6 +42,4 @@ None.
 ## CSS classes
 
 - Base class: `ui-progress`
-- `size` → `ui-progress--{}`
-- `variant` → `ui-progress--{}`
 - `indeterminate` → `ui-progress--indeterminate`

@@ -626,14 +626,6 @@
           "name": "indeterminate",
           "description": "Unknown progress.",
           "valueSet": "v"
-        },
-        {
-          "name": "size",
-          "description": "sm, md or lg."
-        },
-        {
-          "name": "variant",
-          "description": "Colour variant."
         }
       ]
     },
@@ -812,15 +804,6 @@
         {
           "name": "data-ui-busy",
           "description": "",
-          "valueSet": "v"
-        },
-        {
-          "name": "size",
-          "description": "sm, md or lg."
-        },
-        {
-          "name": "inverse",
-          "description": "Light variant for dark backgrounds.",
           "valueSet": "v"
         }
       ]
