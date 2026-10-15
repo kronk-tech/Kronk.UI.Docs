@@ -10,93 +10,97 @@
 
 </head>
 <body>
-<div class="docs-shell">
-<nav class="docs-nav" aria-label="Documentation">
-  <strong>Kronk UI</strong> <small>v2.0.0-alpha.7</small>
-  <a href="../../">Overview</a>
-  <a href="../../guides/getting-started/">Getting started</a>
-  <h4>Guides</h4>
-  <a href="../../guides/browser-support/">Browser support</a>
-  <a href="../../guides/faq/">FAQ</a>
-  <a href="../../guides/forms/">Forms</a>
-  <a href="../../guides/fouc/">Avoiding a flash of unstyled elements</a>
-  <a href="../../guides/light-dom-slots/">Light-DOM slot contract</a>
-  <a href="../../guides/migration-v1/">Migrating from v1</a>
-  <a href="../../guides/ssr-adoption/">Server-rendered markup</a>
-  <a href="../../guides/theming/">Theming</a>
-  <h4>Services</h4>
-  <a href="../../services/keys/">UI.keys</a>
-  <a href="../../services/i18n/">UI.i18n</a>
-  <a href="../../services/theme/">UI.theme</a>
-  <a href="../../services/dialog/">UI.dialog</a>
-  <a href="../../services/toast/">UI.toast</a>
-  <a href="../../services/form/">UI.form</a>
-  <a href="../../services/create/">UI.create</a>
-  <a href="../../services/commands/">UI.commands</a>
-  <h4>Reference</h4>
-  <a href="../../tokens/">Tokens</a><a href="../../events/">Events</a><a href="../../API/">API.md</a>
-  <h4>Display</h4>
-  <a href="../../components/ui-avatar/">ui-avatar</a>
-  <a href="../../components/ui-badge/">ui-badge</a>
-  <a href="../../components/ui-card/">ui-card</a>
-  <a href="../../components/ui-card-body/">ui-card-body</a>
-  <a href="../../components/ui-card-footer/">ui-card-footer</a>
-  <a href="../../components/ui-card-header/">ui-card-header</a>
-  <a href="../../components/ui-details/">ui-details</a>
-  <a href="../../components/ui-header/">ui-header</a>
-  <a href="../../components/ui-icon/">ui-icon</a>
-  <a href="../../components/ui-kbd/">ui-kbd</a>
-  <a href="../../components/ui-table/">ui-table</a>
-  <a href="../../components/ui-table-wrapper/">ui-table-wrapper</a>
-  <a href="../../components/ui-theme-toggle/">ui-theme-toggle</a>
-  <h4>Feedback</h4>
-  <a href="../../components/ui-alert/">ui-alert</a>
-  <a href="../../components/ui-empty-state/">ui-empty-state</a>
-  <a href="../../components/ui-progress/">ui-progress</a>
-  <a href="../../components/ui-skeleton/">ui-skeleton</a>
-  <a href="../../components/ui-spinner/">ui-spinner</a>
-  <a href="../../components/ui-toast-region/">ui-toast-region</a>
-  <h4>Forms</h4>
-  <a href="../../components/ui-button/">ui-button</a>
-  <a href="../../components/ui-input/">ui-input</a>
-  <a href="../../components/ui-option/" aria-current="page">ui-option</a>
-  <a href="../../components/ui-option-group/">ui-option-group</a>
-  <a href="../../components/ui-option-meta/">ui-option-meta</a>
-  <a href="../../components/ui-select/">ui-select</a>
-  <a href="../../components/ui-switch/">ui-switch</a>
-  <a href="../../components/ui-textarea/">ui-textarea</a>
-  <h4>Layout</h4>
-  <a href="../../components/ui-cluster/">ui-cluster</a>
-  <a href="../../components/ui-container/">ui-container</a>
-  <a href="../../components/ui-grid/">ui-grid</a>
-  <a href="../../components/ui-grid-col/">ui-grid-col</a>
-  <a href="../../components/ui-split-pane/">ui-split-pane</a>
-  <a href="../../components/ui-stack/">ui-stack</a>
-  <h4>Lists</h4>
-  <a href="../../components/ui-listbox/">ui-listbox</a>
-  <h4>Navigation</h4>
-  <a href="../../components/ui-breadcrumbs/">ui-breadcrumbs</a>
-  <a href="../../components/ui-pagination/">ui-pagination</a>
-  <a href="../../components/ui-tab/">ui-tab</a>
-  <a href="../../components/ui-tab-panel/">ui-tab-panel</a>
-  <a href="../../components/ui-tabs/">ui-tabs</a>
-  <h4>Overlays</h4>
-  <a href="../../components/ui-modal/">ui-modal</a>
-  <a href="../../components/ui-tooltip/">ui-tooltip</a>
-  <h4>Shell</h4>
-  <a href="../../components/ui-nav/">ui-nav</a>
-  <a href="../../components/ui-nav-item/">ui-nav-item</a>
-  <a href="../../components/ui-nav-section/">ui-nav-section</a>
-  <a href="../../components/ui-navbar-link/">ui-navbar-link</a>
-  <a href="../../components/ui-shell/">ui-shell</a>
-  <a href="../../components/ui-sidebar/">ui-sidebar</a>
-  <a href="../../components/ui-sidebar-body/">ui-sidebar-body</a>
-  <a href="../../components/ui-sidebar-footer/">ui-sidebar-footer</a>
-  <a href="../../components/ui-sidebar-header/">ui-sidebar-header</a>
-  <a href="../../components/ui-topbar/">ui-topbar</a>
-</nav>
+<ui-shell>
+<ui-topbar><button class="ui-button" data-open-search type="button">Search <kbd class="ui-kbd">/</kbd></button><ui-theme-toggle></ui-theme-toggle></ui-topbar>
+<ui-sidebar aria-label="Documentation">
+<ui-sidebar-header>
+  <strong style="text-align: center;">Kronk UI</strong> <small style="text-align: center;font-size: var(--ui-text-xs);font-style: italic;">v2.0.0-alpha.8</small>
+</ui-sidebar-header>
+<ui-sidebar-body>  
+<ui-nav-item href="../../">Overview</ui-nav-item>
+  <ui-nav-item href="../../guides/getting-started/">Getting started</ui-nav-item>
+  <ui-nav-section>Guides</ui-nav-section>
+  <ui-nav-item href="../../guides/browser-support/">Browser support</ui-nav-item>
+  <ui-nav-item href="../../guides/faq/">FAQ</ui-nav-item>
+  <ui-nav-item href="../../guides/forms/">Forms</ui-nav-item>
+  <ui-nav-item href="../../guides/fouc/">Avoiding a flash of unstyled elements</ui-nav-item>
+  <ui-nav-item href="../../guides/light-dom-slots/">Light-DOM slot contract</ui-nav-item>
+  <ui-nav-item href="../../guides/migration-v1/">Migrating from v1</ui-nav-item>
+  <ui-nav-item href="../../guides/ssr-adoption/">Server-rendered markup</ui-nav-item>
+  <ui-nav-item href="../../guides/theming/">Theming</ui-nav-item>
+  <ui-nav-section>Services</ui-nav-section>
+  <ui-nav-item href="../../services/keys/">UI.keys</ui-nav-item>
+  <ui-nav-item href="../../services/i18n/">UI.i18n</ui-nav-item>
+  <ui-nav-item href="../../services/theme/">UI.theme</ui-nav-item>
+  <ui-nav-item href="../../services/dialog/">UI.dialog</ui-nav-item>
+  <ui-nav-item href="../../services/toast/">UI.toast</ui-nav-item>
+  <ui-nav-item href="../../services/form/">UI.form</ui-nav-item>
+  <ui-nav-item href="../../services/create/">UI.create</ui-nav-item>
+  <ui-nav-item href="../../services/commands/">UI.commands</ui-nav-item>
+  <ui-nav-section>Reference</ui-nav-section>
+  <ui-nav-item href="../../tokens/">Tokens</ui-nav-item><ui-nav-item href="../../events/">Events</ui-nav-item><ui-nav-item href="../../API/">API.md</ui-nav-item>
+  <ui-nav-section>Display</ui-nav-section>
+  <ui-nav-item href="../../components/ui-avatar/">ui-avatar</ui-nav-item>
+  <ui-nav-item href="../../components/ui-badge/">ui-badge</ui-nav-item>
+  <ui-nav-item href="../../components/ui-card/">ui-card</ui-nav-item>
+  <ui-nav-item href="../../components/ui-card-body/">ui-card-body</ui-nav-item>
+  <ui-nav-item href="../../components/ui-card-footer/">ui-card-footer</ui-nav-item>
+  <ui-nav-item href="../../components/ui-card-header/">ui-card-header</ui-nav-item>
+  <ui-nav-item href="../../components/ui-details/">ui-details</ui-nav-item>
+  <ui-nav-item href="../../components/ui-header/">ui-header</ui-nav-item>
+  <ui-nav-item href="../../components/ui-icon/">ui-icon</ui-nav-item>
+  <ui-nav-item href="../../components/ui-kbd/">ui-kbd</ui-nav-item>
+  <ui-nav-item href="../../components/ui-table/">ui-table</ui-nav-item>
+  <ui-nav-item href="../../components/ui-table-wrapper/">ui-table-wrapper</ui-nav-item>
+  <ui-nav-item href="../../components/ui-theme-toggle/">ui-theme-toggle</ui-nav-item>
+  <ui-nav-section>Feedback</ui-nav-section>
+  <ui-nav-item href="../../components/ui-alert/">ui-alert</ui-nav-item>
+  <ui-nav-item href="../../components/ui-empty-state/">ui-empty-state</ui-nav-item>
+  <ui-nav-item href="../../components/ui-progress/">ui-progress</ui-nav-item>
+  <ui-nav-item href="../../components/ui-skeleton/">ui-skeleton</ui-nav-item>
+  <ui-nav-item href="../../components/ui-spinner/">ui-spinner</ui-nav-item>
+  <ui-nav-item href="../../components/ui-toast-region/">ui-toast-region</ui-nav-item>
+  <ui-nav-section>Forms</ui-nav-section>
+  <ui-nav-item href="../../components/ui-button/">ui-button</ui-nav-item>
+  <ui-nav-item href="../../components/ui-input/">ui-input</ui-nav-item>
+  <ui-nav-item href="../../components/ui-option/" aria-current="page">ui-option</ui-nav-item>
+  <ui-nav-item href="../../components/ui-option-group/">ui-option-group</ui-nav-item>
+  <ui-nav-item href="../../components/ui-option-meta/">ui-option-meta</ui-nav-item>
+  <ui-nav-item href="../../components/ui-select/">ui-select</ui-nav-item>
+  <ui-nav-item href="../../components/ui-switch/">ui-switch</ui-nav-item>
+  <ui-nav-item href="../../components/ui-textarea/">ui-textarea</ui-nav-item>
+  <ui-nav-section>Layout</ui-nav-section>
+  <ui-nav-item href="../../components/ui-cluster/">ui-cluster</ui-nav-item>
+  <ui-nav-item href="../../components/ui-container/">ui-container</ui-nav-item>
+  <ui-nav-item href="../../components/ui-grid/">ui-grid</ui-nav-item>
+  <ui-nav-item href="../../components/ui-grid-col/">ui-grid-col</ui-nav-item>
+  <ui-nav-item href="../../components/ui-split-pane/">ui-split-pane</ui-nav-item>
+  <ui-nav-item href="../../components/ui-stack/">ui-stack</ui-nav-item>
+  <ui-nav-section>Lists</ui-nav-section>
+  <ui-nav-item href="../../components/ui-listbox/">ui-listbox</ui-nav-item>
+  <ui-nav-section>Navigation</ui-nav-section>
+  <ui-nav-item href="../../components/ui-breadcrumbs/">ui-breadcrumbs</ui-nav-item>
+  <ui-nav-item href="../../components/ui-pagination/">ui-pagination</ui-nav-item>
+  <ui-nav-item href="../../components/ui-tab/">ui-tab</ui-nav-item>
+  <ui-nav-item href="../../components/ui-tab-panel/">ui-tab-panel</ui-nav-item>
+  <ui-nav-item href="../../components/ui-tabs/">ui-tabs</ui-nav-item>
+  <ui-nav-section>Overlays</ui-nav-section>
+  <ui-nav-item href="../../components/ui-modal/">ui-modal</ui-nav-item>
+  <ui-nav-item href="../../components/ui-tooltip/">ui-tooltip</ui-nav-item>
+  <ui-nav-section>Shell</ui-nav-section>
+  <ui-nav-item href="../../components/ui-nav/">ui-nav</ui-nav-item>
+  <ui-nav-item href="../../components/ui-nav-item/">ui-nav-item</ui-nav-item>
+  <ui-nav-item href="../../components/ui-nav-section/">ui-nav-section</ui-nav-item>
+  <ui-nav-item href="../../components/ui-navbar-link/">ui-navbar-link</ui-nav-item>
+  <ui-nav-item href="../../components/ui-shell/">ui-shell</ui-nav-item>
+  <ui-nav-item href="../../components/ui-sidebar/">ui-sidebar</ui-nav-item>
+  <ui-nav-item href="../../components/ui-sidebar-body/">ui-sidebar-body</ui-nav-item>
+  <ui-nav-item href="../../components/ui-sidebar-footer/">ui-sidebar-footer</ui-nav-item>
+  <ui-nav-item href="../../components/ui-sidebar-header/">ui-sidebar-header</ui-nav-item>
+  <ui-nav-item href="../../components/ui-topbar/">ui-topbar</ui-nav-item>
+</ui-sidebar-body>
+</ui-sidebar>
 <main class="docs-main">
-<div class="docs-top"><button class="ui-button" data-open-search type="button">Search <kbd class="ui-kbd">/</kbd></button><ui-theme-toggle></ui-theme-toggle></div>
 <h1>&lt;ui-option&gt;</h1>
 <p>Declarative option for ui-select.</p>
 <p><small>Forms · stable · since 2.0.0 · extends _UIElement</small></p>
@@ -131,7 +135,7 @@
 <h2 id="slots">Slots</h2>
 <ul><li><code>(default)</code> — Visible label; may contain a ui-option-meta.</li></ul>
 </main>
-</div>
+</ui-shell>
 <dialog id="search-dialog"><input id="search-input" class="ui-input" type="search" placeholder="Search docs…" aria-label="Search docs"><ul id="search-results"></ul></dialog>
 <script type="application/json" id="component-data">{"tag":"ui-option","props":[{"name":"busy","attribute":"data-ui-busy","type":"boolean","default":false,"description":""},{"name":"value","attribute":"value","type":"string","default":"","description":"Submitted option value."}],"docs":{"events":{},"examples":["\u003cui-select label=\"Pick\">\u003cui-option value=\"a\">Alpha\u003c/ui-option>\u003c/ui-select>","\u003cui-select label=\"Pick\">\u003cui-option value=\"b\" disabled>Beta\u003c/ui-option>\u003c/ui-select>"]}}</script>
 <script src="../../dist/latest/ui.js"></script>

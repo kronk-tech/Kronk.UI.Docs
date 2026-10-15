@@ -39,7 +39,7 @@
 
 .docs-main {
     padding: 1.5rem 2rem 4rem;
-    max-width: 60rem;
+    overflow-x: hidden;
 }
 
 .docs-top {
