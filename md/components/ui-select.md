@@ -36,7 +36,7 @@ Native, searchable, or inline select control.
 | `mode` | `mode` | string | "combobox" | combobox, native or inline. |
 | `placeholder` | `placeholder` | string | "" | Combobox placeholder. |
 | `emptyText` | `empty-text` | string | "" | Text when no option matches. |
-| `inline` | `inline` | boolean | false | Always show the option list. |
+| `disabled` | `disabled` | boolean | false | Disable the control (not submitted). |
 
 ## Methods
 

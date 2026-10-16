@@ -2215,238 +2215,6 @@
     },
     {
       "kind": "javascript-module",
-      "path": "src/components/ui-listbox.js",
-      "declarations": [
-        {
-          "kind": "class",
-          "name": "UIListbox",
-          "tagName": "ui-listbox",
-          "customElement": true,
-          "superclass": {
-            "name": "_UIElement"
-          },
-          "summary": "Keyed, filterable list with keyboard navigation and a custom item template.",
-          "description": "Keyed, filterable list with keyboard navigation and a custom item template.",
-          "attributes": [
-            {
-              "name": "data-ui-busy",
-              "fieldName": "busy",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": ""
-            },
-            {
-              "name": "filterable",
-              "fieldName": "filterable",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "Show a filter input."
-            },
-            {
-              "name": "numbered",
-              "fieldName": "numbered",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "Number the items."
-            },
-            {
-              "name": "hotkeys",
-              "fieldName": "hotkeys",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "Digits 1–9 select the n-th item."
-            },
-            {
-              "name": "empty-text",
-              "fieldName": "emptyText",
-              "type": {
-                "text": "string"
-              },
-              "default": "\"No items\"",
-              "description": "Text when nothing matches."
-            },
-            {
-              "name": "value",
-              "fieldName": "value",
-              "type": {
-                "text": "string"
-              },
-              "default": "\"\"",
-              "description": "Selected item key."
-            }
-          ],
-          "members": [
-            {
-              "kind": "field",
-              "name": "busy",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "",
-              "attribute": "data-ui-busy"
-            },
-            {
-              "kind": "field",
-              "name": "filterable",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "Show a filter input.",
-              "attribute": "filterable"
-            },
-            {
-              "kind": "field",
-              "name": "numbered",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "Number the items.",
-              "attribute": "numbered"
-            },
-            {
-              "kind": "field",
-              "name": "hotkeys",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "Digits 1–9 select the n-th item.",
-              "attribute": "hotkeys"
-            },
-            {
-              "kind": "field",
-              "name": "emptyText",
-              "type": {
-                "text": "string"
-              },
-              "default": "\"No items\"",
-              "description": "Text when nothing matches.",
-              "attribute": "empty-text"
-            },
-            {
-              "kind": "field",
-              "name": "value",
-              "type": {
-                "text": "string"
-              },
-              "default": "\"\"",
-              "description": "Selected item key.",
-              "attribute": "value"
-            },
-            {
-              "kind": "method",
-              "name": "setItems",
-              "description": "Replace all items."
-            },
-            {
-              "kind": "method",
-              "name": "addItem",
-              "description": "addItem(item, index?)."
-            },
-            {
-              "kind": "method",
-              "name": "removeItem",
-              "description": "removeItem(key)."
-            },
-            {
-              "kind": "method",
-              "name": "updateItem",
-              "description": "updateItem(key, patch)."
-            },
-            {
-              "kind": "method",
-              "name": "select",
-              "description": "select(key, { emit })."
-            },
-            {
-              "kind": "method",
-              "name": "next",
-              "description": "Move active item."
-            },
-            {
-              "kind": "method",
-              "name": "prev",
-              "description": "Move active item."
-            },
-            {
-              "kind": "method",
-              "name": "first",
-              "description": "First item."
-            },
-            {
-              "kind": "method",
-              "name": "last",
-              "description": "Last item."
-            },
-            {
-              "kind": "method",
-              "name": "focusItem",
-              "description": "Make an item active."
-            },
-            {
-              "kind": "method",
-              "name": "scrollToItem",
-              "description": "Scroll an item into view."
-            }
-          ],
-          "events": [
-            {
-              "name": "ui-change",
-              "description": "Selection changed; detail { value, item, index, previous, source }.",
-              "type": {
-                "text": "CustomEvent"
-              }
-            },
-            {
-              "name": "ui-activate",
-              "description": "Item activated (Enter / double click); detail { item, index }.",
-              "type": {
-                "text": "CustomEvent"
-              }
-            },
-            {
-              "name": "ui-filter",
-              "description": "Filter changed; detail { query }.",
-              "type": {
-                "text": "CustomEvent"
-              }
-            }
-          ],
-          "slots": [],
-          "x-category": "Lists",
-          "x-status": "stable",
-          "x-since": "2.0.0",
-          "x-tier": "B",
-          "x-host": null,
-          "x-examples": [
-            "<ui-listbox id=\"lb1\" filterable></ui-listbox><script>document.getElementById(\"lb1\").setItems([{id:\"a\",label:\"Alpha\"},{id:\"b\",label:\"Beta\"}])</script>",
-            "<ui-listbox id=\"lb2\" numbered></ui-listbox><script>document.getElementById(\"lb2\").setItems([{id:\"1\",label:\"One\"},{id:\"2\",label:\"Two\"}])</script>"
-          ]
-        }
-      ],
-      "exports": [
-        {
-          "kind": "custom-element-definition",
-          "name": "ui-listbox",
-          "declaration": {
-            "name": "UIListbox"
-          }
-        }
-      ]
-    },
-    {
-      "kind": "javascript-module",
       "path": "src/components/ui-modal.js",
       "declarations": [
         {
@@ -3040,6 +2808,15 @@
               },
               "default": "\"\"",
               "description": "Submitted option value."
+            },
+            {
+              "name": "disabled",
+              "fieldName": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "description": "Prevents selection."
             }
           ],
           "members": [
@@ -3062,6 +2839,16 @@
               "default": "\"\"",
               "description": "Submitted option value.",
               "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "description": "Prevents selection.",
+              "attribute": "disabled"
             }
           ],
           "events": [],
@@ -3616,13 +3403,13 @@
               "description": "Text when no option matches."
             },
             {
-              "name": "inline",
-              "fieldName": "inline",
+              "name": "disabled",
+              "fieldName": "disabled",
               "type": {
                 "text": "boolean"
               },
               "default": "false",
-              "description": "Always show the option list."
+              "description": "Disable the control (not submitted)."
             }
           ],
           "members": [
@@ -3768,13 +3555,13 @@
             },
             {
               "kind": "field",
-              "name": "inline",
+              "name": "disabled",
               "type": {
                 "text": "boolean"
               },
               "default": "false",
-              "description": "Always show the option list.",
-              "attribute": "inline"
+              "description": "Disable the control (not submitted).",
+              "attribute": "disabled"
             },
             {
               "kind": "method",

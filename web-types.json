@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/web-types",
   "name": "kronk-ui",
-  "version": "2.0.0-alpha.8",
+  "version": "2.0.0-beta",
   "js-types-syntax": "typescript",
   "description-markup": "markdown",
   "contributions": {
@@ -617,68 +617,6 @@
           "events": []
         },
         {
-          "name": "ui-listbox",
-          "description": "Keyed, filterable list with keyboard navigation and a custom item template.",
-          "attributes": [
-            {
-              "name": "data-ui-busy",
-              "description": "",
-              "value": {
-                "type": "boolean"
-              }
-            },
-            {
-              "name": "filterable",
-              "description": "Show a filter input.",
-              "value": {
-                "type": "boolean"
-              }
-            },
-            {
-              "name": "numbered",
-              "description": "Number the items.",
-              "value": {
-                "type": "boolean"
-              }
-            },
-            {
-              "name": "hotkeys",
-              "description": "Digits 1–9 select the n-th item.",
-              "value": {
-                "type": "boolean"
-              }
-            },
-            {
-              "name": "empty-text",
-              "description": "Text when nothing matches.",
-              "value": {
-                "type": "string"
-              }
-            },
-            {
-              "name": "value",
-              "description": "Selected item key.",
-              "value": {
-                "type": "string"
-              }
-            }
-          ],
-          "events": [
-            {
-              "name": "ui-change",
-              "description": "Selection changed; detail { value, item, index, previous, source }."
-            },
-            {
-              "name": "ui-activate",
-              "description": "Item activated (Enter / double click); detail { item, index }."
-            },
-            {
-              "name": "ui-filter",
-              "description": "Filter changed; detail { query }."
-            }
-          ]
-        },
-        {
           "name": "ui-modal",
           "description": "Native <dialog> with promise-based open and close.",
           "attributes": [
@@ -847,6 +785,13 @@
               "description": "Submitted option value.",
               "value": {
                 "type": "string"
+              }
+            },
+            {
+              "name": "disabled",
+              "description": "Prevents selection.",
+              "value": {
+                "type": "boolean"
               }
             }
           ],
@@ -1058,8 +1003,8 @@
               }
             },
             {
-              "name": "inline",
-              "description": "Always show the option list.",
+              "name": "disabled",
+              "description": "Disable the control (not submitted).",
               "value": {
                 "type": "boolean"
               }

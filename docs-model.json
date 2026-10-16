@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0-alpha.8",
-  "generatedAt": "2026-10-15T20:18:58.921Z",
+  "version": "2.0.0-beta",
+  "generatedAt": "2026-10-16T12:05:06.608Z",
   "components": [
     {
       "tag": "ui-alert",
@@ -987,89 +987,6 @@
       }
     },
     {
-      "tag": "ui-listbox",
-      "className": "UIListbox",
-      "base": "_UIElement",
-      "host": null,
-      "props": [
-        {
-          "name": "busy",
-          "attribute": "data-ui-busy",
-          "type": "boolean",
-          "default": false,
-          "description": ""
-        },
-        {
-          "name": "filterable",
-          "attribute": "filterable",
-          "type": "boolean",
-          "default": false,
-          "description": "Show a filter input."
-        },
-        {
-          "name": "numbered",
-          "attribute": "numbered",
-          "type": "boolean",
-          "default": false,
-          "description": "Number the items."
-        },
-        {
-          "name": "hotkeys",
-          "attribute": "hotkeys",
-          "type": "boolean",
-          "default": false,
-          "description": "Digits 1–9 select the n-th item."
-        },
-        {
-          "name": "emptyText",
-          "attribute": "empty-text",
-          "type": "string",
-          "default": "No items",
-          "description": "Text when nothing matches."
-        },
-        {
-          "name": "value",
-          "attribute": "value",
-          "type": "string",
-          "default": "",
-          "description": "Selected item key."
-        }
-      ],
-      "docs": {
-        "summary": "Keyed, filterable list with keyboard navigation and a custom item template.",
-        "category": "Lists",
-        "props": {
-          "filterable": "Show a filter input.",
-          "numbered": "Number the items.",
-          "hotkeys": "Digits 1–9 select the n-th item.",
-          "emptyText": "Text when nothing matches.",
-          "value": "Selected item key."
-        },
-        "events": {
-          "ui-change": "Selection changed; detail { value, item, index, previous, source }.",
-          "ui-activate": "Item activated (Enter / double click); detail { item, index }.",
-          "ui-filter": "Filter changed; detail { query }."
-        },
-        "methods": {
-          "setItems": "Replace all items.",
-          "addItem": "addItem(item, index?).",
-          "removeItem": "removeItem(key).",
-          "updateItem": "updateItem(key, patch).",
-          "select": "select(key, { emit }).",
-          "next": "Move active item.",
-          "prev": "Move active item.",
-          "first": "First item.",
-          "last": "Last item.",
-          "focusItem": "Make an item active.",
-          "scrollToItem": "Scroll an item into view."
-        },
-        "examples": [
-          "<ui-listbox id=\"lb1\" filterable></ui-listbox><script>document.getElementById(\"lb1\").setItems([{id:\"a\",label:\"Alpha\"},{id:\"b\",label:\"Beta\"}])</script>",
-          "<ui-listbox id=\"lb2\" numbered></ui-listbox><script>document.getElementById(\"lb2\").setItems([{id:\"1\",label:\"One\"},{id:\"2\",label:\"Two\"}])</script>"
-        ]
-      }
-    },
-    {
       "tag": "ui-modal",
       "className": "UIModal",
       "base": "UIOverlayElement",
@@ -1325,6 +1242,13 @@
           "type": "string",
           "default": "",
           "description": "Submitted option value."
+        },
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean",
+          "default": false,
+          "description": "Prevents selection."
         }
       ],
       "docs": {
@@ -1613,11 +1537,11 @@
           "description": "Text when no option matches."
         },
         {
-          "name": "inline",
-          "attribute": "inline",
+          "name": "disabled",
+          "attribute": "disabled",
           "type": "boolean",
           "default": false,
-          "description": "Always show the option list."
+          "description": "Disable the control (not submitted)."
         }
       ],
       "docs": {
@@ -1640,6 +1564,7 @@
           "multiple": "Reserved; not implemented in this build.",
           "required": "Mark as required.",
           "readonly": "Read-only.",
+          "disabled": "Disable the control (not submitted).",
           "primary": "Primary label emphasis."
         },
         "events": {

@@ -19,7 +19,6 @@
 - [ui-icon](components/ui-icon.md) — Font Awesome icon.
 - [ui-input](components/ui-input.md) — Labelled native input (text, email, password, number, date, file, color, checkbox, radio, range, …).
 - [ui-kbd](components/ui-kbd.md) — Keyboard shortcut hint.
-- [ui-listbox](components/ui-listbox.md) — Keyed, filterable list with keyboard navigation and a custom item template.
 - [ui-modal](components/ui-modal.md) — Native <dialog> with promise-based open and close.
 - [ui-nav](components/ui-nav.md) — Navigation list.
 - [ui-nav-item](components/ui-nav-item.md) — Navigation item with icon and label.

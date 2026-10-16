@@ -14,7 +14,7 @@
 <ui-topbar><button class="ui-button" data-open-search type="button">Search <kbd class="ui-kbd">/</kbd></button><ui-theme-toggle></ui-theme-toggle></ui-topbar>
 <ui-sidebar aria-label="Documentation">
 <ui-sidebar-header>
-  <strong style="text-align: center;">Kronk UI</strong> <small style="text-align: center;font-size: var(--ui-text-xs);font-style: italic;">v2.0.0-alpha.8</small>
+  <strong style="text-align: center;">Kronk UI</strong> <small style="text-align: center;font-size: var(--ui-text-xs);font-style: italic;">v2.0.0-beta</small>
 </ui-sidebar-header>
 <ui-sidebar-body>  
 <ui-nav-item href="../../">Overview</ui-nav-item>
@@ -76,8 +76,6 @@
   <ui-nav-item href="../../components/ui-grid-col/">ui-grid-col</ui-nav-item>
   <ui-nav-item href="../../components/ui-split-pane/">ui-split-pane</ui-nav-item>
   <ui-nav-item href="../../components/ui-stack/">ui-stack</ui-nav-item>
-  <ui-nav-section>Lists</ui-nav-section>
-  <ui-nav-item href="../../components/ui-listbox/">ui-listbox</ui-nav-item>
   <ui-nav-section>Navigation</ui-nav-section>
   <ui-nav-item href="../../components/ui-breadcrumbs/">ui-breadcrumbs</ui-nav-item>
   <ui-nav-item href="../../components/ui-pagination/">ui-pagination</ui-nav-item>
@@ -127,7 +125,7 @@
 </div>
 <h2 id="api">API</h2>
 <h2 id="attributes-and-properties">Attributes and properties</h2>
-<table><thead><tr><th>Property</th><th>Attribute</th><th>Type</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>busy</code></td><td><code>data-ui-busy</code></td><td>boolean</td><td>false</td><td></td></tr><tr><td><code>value</code></td><td><code>value</code></td><td>string</td><td>&quot;&quot;</td><td>Submitted option value.</td></tr></tbody></table>
+<table><thead><tr><th>Property</th><th>Attribute</th><th>Type</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>busy</code></td><td><code>data-ui-busy</code></td><td>boolean</td><td>false</td><td></td></tr><tr><td><code>value</code></td><td><code>value</code></td><td>string</td><td>&quot;&quot;</td><td>Submitted option value.</td></tr><tr><td><code>disabled</code></td><td><code>disabled</code></td><td>boolean</td><td>false</td><td>Prevents selection.</td></tr></tbody></table>
 <h2 id="methods">Methods</h2>
 <p>None.</p>
 <h2 id="events">Events</h2>
@@ -137,7 +135,7 @@
 </main>
 </ui-shell>
 <dialog id="search-dialog"><input id="search-input" class="ui-input" type="search" placeholder="Search docs…" aria-label="Search docs"><ul id="search-results"></ul></dialog>
-<script type="application/json" id="component-data">{"tag":"ui-option","props":[{"name":"busy","attribute":"data-ui-busy","type":"boolean","default":false,"description":""},{"name":"value","attribute":"value","type":"string","default":"","description":"Submitted option value."}],"docs":{"events":{},"examples":["\u003cui-select label=\"Pick\">\u003cui-option value=\"a\">Alpha\u003c/ui-option>\u003c/ui-select>","\u003cui-select label=\"Pick\">\u003cui-option value=\"b\" disabled>Beta\u003c/ui-option>\u003c/ui-select>"]}}</script>
+<script type="application/json" id="component-data">{"tag":"ui-option","props":[{"name":"busy","attribute":"data-ui-busy","type":"boolean","default":false,"description":""},{"name":"value","attribute":"value","type":"string","default":"","description":"Submitted option value."},{"name":"disabled","attribute":"disabled","type":"boolean","default":false,"description":"Prevents selection."}],"docs":{"events":{},"examples":["\u003cui-select label=\"Pick\">\u003cui-option value=\"a\">Alpha\u003c/ui-option>\u003c/ui-select>","\u003cui-select label=\"Pick\">\u003cui-option value=\"b\" disabled>Beta\u003c/ui-option>\u003c/ui-select>"]}}</script>
 <script src="../../dist/latest/ui.js"></script>
 <script src="../../site.js"></script>
 </body>
