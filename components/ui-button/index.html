@@ -14,7 +14,7 @@
 <ui-topbar><button class="ui-button" data-open-search type="button">Search <kbd class="ui-kbd">/</kbd></button><ui-theme-toggle></ui-theme-toggle></ui-topbar>
 <ui-sidebar aria-label="Documentation">
 <ui-sidebar-header>
-  <strong style="text-align: center;">Kronk UI</strong> <small style="text-align: center;font-size: var(--ui-text-xs);font-style: italic;">v2.0.0-beta</small>
+  <strong style="text-align: center;">Kronk UI</strong> <small style="text-align: center;font-size: var(--ui-text-xs);font-style: italic;">v2.0.0-beta.2</small>
 </ui-sidebar-header>
 <ui-sidebar-body>  
 <ui-nav-item href="../../">Overview</ui-nav-item>
@@ -96,6 +96,9 @@
   <ui-nav-item href="../../components/ui-sidebar-footer/">ui-sidebar-footer</ui-nav-item>
   <ui-nav-item href="../../components/ui-sidebar-header/">ui-sidebar-header</ui-nav-item>
   <ui-nav-item href="../../components/ui-topbar/">ui-topbar</ui-nav-item>
+  <ui-nav-item href="../../components/ui-topbar-left/">ui-topbar-left</ui-nav-item>
+  <ui-nav-item href="../../components/ui-topbar-middle/">ui-topbar-middle</ui-nav-item>
+  <ui-nav-item href="../../components/ui-topbar-right/">ui-topbar-right</ui-nav-item>
 </ui-sidebar-body>
 </ui-sidebar>
 <main class="docs-main">
@@ -131,17 +134,19 @@
 </div>
 <h2 id="api">API</h2>
 <h2 id="attributes-and-properties">Attributes and properties</h2>
-<table><thead><tr><th>Property</th><th>Attribute</th><th>Type</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>busy</code></td><td><code>data-ui-busy</code></td><td>boolean</td><td>false</td><td></td></tr><tr><td><code>type</code></td><td><code>type</code></td><td>string</td><td>&quot;button&quot;</td><td>Native button type (button, submit, reset).</td></tr><tr><td><code>href</code></td><td><code>href</code></td><td>string</td><td>&quot;&quot;</td><td>When set, renders an anchor.</td></tr><tr><td><code>variant</code></td><td><code>variant</code></td><td>string</td><td>&quot;&quot;</td><td>Visual variant.</td></tr><tr><td><code>primary</code></td><td><code>primary</code></td><td>boolean</td><td>false</td><td>Primary emphasis.</td></tr></tbody></table>
+<table><thead><tr><th>Property</th><th>Attribute</th><th>Type</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>busy</code></td><td><code>data-ui-busy</code></td><td>boolean</td><td>false</td><td></td></tr><tr><td><code>type</code></td><td><code>type</code></td><td>string</td><td>&quot;button&quot;</td><td>Native button type (button, submit, reset).</td></tr><tr><td><code>href</code></td><td><code>href</code></td><td>string</td><td>&quot;&quot;</td><td>When set, renders an anchor.</td></tr><tr><td><code>variant</code></td><td><code>variant</code></td><td>string</td><td>&quot;&quot;</td><td>Visual variant.</td></tr><tr><td><code>iconOnly</code></td><td><code>icon-only</code></td><td>boolean</td><td>false</td><td>When true, the button will only display an icon.</td></tr><tr><td><code>primary</code></td><td><code>primary</code></td><td>boolean</td><td>false</td><td>Primary emphasis.</td></tr></tbody></table>
 <h2 id="methods">Methods</h2>
 <p>None.</p>
 <h2 id="events">Events</h2>
 <p>None.</p>
 <h2 id="slots">Slots</h2>
 <ul><li><code>(default)</code> — Button content.</li></ul>
+<h2 id="css-classes">CSS classes</h2>
+<ul><li>Base class: <code>ui-button</code></li><li><code>variant</code> → <code>ui-button--{}</code></li><li><code>primary</code> → <code>ui-button--primary</code></li><li><code>iconOnly</code> → <code>ui-button--icon-only</code></li></ul>
 </main>
 </ui-shell>
 <dialog id="search-dialog"><input id="search-input" class="ui-input" type="search" placeholder="Search docs…" aria-label="Search docs"><ul id="search-results"></ul></dialog>
-<script type="application/json" id="component-data">{"tag":"ui-button","props":[{"name":"busy","attribute":"data-ui-busy","type":"boolean","default":false,"description":""},{"name":"type","attribute":"type","type":"string","default":"button","description":"Native button type (button, submit, reset)."},{"name":"href","attribute":"href","type":"string","default":"","description":"When set, renders an anchor."},{"name":"variant","attribute":"variant","type":"string","default":"","description":"Visual variant."},{"name":"primary","attribute":"primary","type":"boolean","default":false,"description":"Primary emphasis."}],"docs":{"events":{},"examples":["\u003cui-button>Save\u003c/ui-button>","\u003cui-button primary type=\"submit\">Submit\u003c/ui-button>","\u003cui-button href=\"https://example.com\">Link\u003c/ui-button>"]}}</script>
+<script type="application/json" id="component-data">{"tag":"ui-button","props":[{"name":"busy","attribute":"data-ui-busy","type":"boolean","default":false,"description":""},{"name":"type","attribute":"type","type":"string","default":"button","description":"Native button type (button, submit, reset)."},{"name":"href","attribute":"href","type":"string","default":"","description":"When set, renders an anchor."},{"name":"variant","attribute":"variant","type":"string","default":"","description":"Visual variant."},{"name":"iconOnly","attribute":"icon-only","type":"boolean","default":false,"description":"When true, the button will only display an icon."},{"name":"primary","attribute":"primary","type":"boolean","default":false,"description":"Primary emphasis."}],"docs":{"events":{},"examples":["\u003cui-button>Save\u003c/ui-button>","\u003cui-button primary type=\"submit\">Submit\u003c/ui-button>","\u003cui-button href=\"https://example.com\">Link\u003c/ui-button>"]}}</script>
 <script src="../../dist/latest/ui.js"></script>
 <script src="../../site.js"></script>
 </body>

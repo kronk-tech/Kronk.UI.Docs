@@ -459,6 +459,15 @@
               "description": "Visual variant."
             },
             {
+              "name": "icon-only",
+              "fieldName": "iconOnly",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "description": "When true, the button will only display an icon."
+            },
+            {
               "name": "primary",
               "fieldName": "primary",
               "type": {
@@ -511,6 +520,16 @@
             },
             {
               "kind": "field",
+              "name": "iconOnly",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "description": "When true, the button will only display an icon.",
+              "attribute": "icon-only"
+            },
+            {
+              "kind": "field",
               "name": "primary",
               "type": {
                 "text": "boolean"
@@ -530,8 +549,15 @@
           "x-category": "Forms",
           "x-status": "stable",
           "x-since": "2.0.0",
-          "x-tier": "B",
-          "x-host": null,
+          "x-tier": "A",
+          "x-host": {
+            "class": "ui-button",
+            "modifiers": {
+              "variant": "ui-button--{}",
+              "primary": "ui-button--primary",
+              "iconOnly": "ui-button--icon-only"
+            }
+          },
           "x-examples": [
             "<ui-button>Save</ui-button>",
             "<ui-button primary type=\"submit\">Submit</ui-button>",
@@ -965,6 +991,15 @@
               "description": "Distribute with space-between."
             },
             {
+              "name": "horizontal",
+              "fieldName": "horizontal",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "description": "Align content horizontal instead of vertical."
+            },
+            {
               "name": "end",
               "fieldName": "end",
               "type": {
@@ -1016,6 +1051,16 @@
             },
             {
               "kind": "field",
+              "name": "horizontal",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "description": "Align content horizontal instead of vertical.",
+              "attribute": "horizontal"
+            },
+            {
+              "kind": "field",
               "name": "end",
               "type": {
                 "text": "boolean"
@@ -1051,6 +1096,7 @@
             "modifiers": {
               "gap": "ui-cluster--{}",
               "between": "ui-cluster--between",
+              "horizontal": "ui-cluster--horizontal",
               "end": "ui-cluster--end",
               "nowrap": "ui-cluster--nowrap"
             }
@@ -1461,9 +1507,9 @@
               "name": "cols",
               "fieldName": "cols",
               "type": {
-                "text": "string"
+                "text": "number"
               },
-              "default": "\"\"",
+              "default": "2",
               "description": "Column count: 2, 3, 4, 6 or 12."
             },
             {
@@ -1491,9 +1537,9 @@
               "kind": "field",
               "name": "cols",
               "type": {
-                "text": "string"
+                "text": "number"
               },
-              "default": "\"\"",
+              "default": "2",
               "description": "Column count: 2, 3, 4, 6 or 12.",
               "attribute": "cols"
             },
@@ -1522,7 +1568,7 @@
           "x-host": {
             "class": "ui-grid",
             "modifiers": {
-              "cols": "ui-grid--{}",
+              "cols": "ui-grid--cols-{}",
               "gap": "ui-grid--gap-{}"
             }
           },
@@ -1570,7 +1616,7 @@
               "name": "span",
               "fieldName": "span",
               "type": {
-                "text": "string"
+                "text": "number"
               },
               "default": "\"\"",
               "description": "Number of columns to span (2, 3, 4, 6 or 12)."
@@ -1591,7 +1637,7 @@
               "kind": "field",
               "name": "span",
               "type": {
-                "text": "string"
+                "text": "number"
               },
               "default": "\"\"",
               "description": "Number of columns to span (2, 3, 4, 6 or 12).",
@@ -3651,15 +3697,6 @@
               "description": "Collapse the sidebar."
             },
             {
-              "name": "sidebar-open",
-              "fieldName": "sidebarOpen",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "Mobile sidebar open state."
-            },
-            {
               "name": "persist",
               "fieldName": "persist",
               "type": {
@@ -3692,16 +3729,6 @@
             },
             {
               "kind": "field",
-              "name": "sidebarOpen",
-              "type": {
-                "text": "boolean"
-              },
-              "default": "false",
-              "description": "Mobile sidebar open state.",
-              "attribute": "sidebar-open"
-            },
-            {
-              "kind": "field",
               "name": "persist",
               "type": {
                 "text": "boolean"
@@ -3714,11 +3741,6 @@
               "kind": "method",
               "name": "toggle",
               "description": "Toggle collapsed state."
-            },
-            {
-              "kind": "method",
-              "name": "openSidebar",
-              "description": "Open the mobile sidebar."
             },
             {
               "kind": "method",
@@ -5732,6 +5754,210 @@
           "name": "ui-topbar",
           "declaration": {
             "name": "UITopbar"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/components/ui-topbar-left.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "UITopbarLeft",
+          "tagName": "ui-topbar-left",
+          "customElement": true,
+          "superclass": {
+            "name": "_UIElement"
+          },
+          "summary": "Left content of topbar.",
+          "description": "Left content of topbar.",
+          "attributes": [
+            {
+              "name": "data-ui-busy",
+              "fieldName": "busy",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "description": ""
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "busy",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "description": "",
+              "attribute": "data-ui-busy"
+            }
+          ],
+          "events": [],
+          "slots": [
+            {
+              "name": "",
+              "description": "Content."
+            }
+          ],
+          "x-category": "Shell",
+          "x-status": "stable",
+          "x-since": "2.0.0",
+          "x-tier": "A",
+          "x-host": {
+            "class": "ui-topbar-left",
+            "modifiers": {}
+          },
+          "x-examples": [
+            "<ui-topbar-left>Content</ui-topbar-left>",
+            "<ui-topbar-left><strong>Rich</strong></ui-topbar-left>"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "ui-topbar-left",
+          "declaration": {
+            "name": "UITopbarLeft"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/components/ui-topbar-middle.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "UITopbarMiddle",
+          "tagName": "ui-topbar-middle",
+          "customElement": true,
+          "superclass": {
+            "name": "_UIElement"
+          },
+          "summary": "Middle content of topbar.",
+          "description": "Middle content of topbar.",
+          "attributes": [
+            {
+              "name": "data-ui-busy",
+              "fieldName": "busy",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "description": ""
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "busy",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "description": "",
+              "attribute": "data-ui-busy"
+            }
+          ],
+          "events": [],
+          "slots": [
+            {
+              "name": "",
+              "description": "Content."
+            }
+          ],
+          "x-category": "Shell",
+          "x-status": "stable",
+          "x-since": "2.0.0",
+          "x-tier": "A",
+          "x-host": {
+            "class": "ui-topbar-middle",
+            "modifiers": {}
+          },
+          "x-examples": [
+            "<ui-topbar-middle>Content</ui-topbar-middle>",
+            "<ui-topbar-middle><strong>Rich</strong></ui-topbar-middle>"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "ui-topbar-middle",
+          "declaration": {
+            "name": "UITopbarMiddle"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/components/ui-topbar-right.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "UITopbarRight",
+          "tagName": "ui-topbar-right",
+          "customElement": true,
+          "superclass": {
+            "name": "_UIElement"
+          },
+          "summary": "Right content of topbar.",
+          "description": "Right content of topbar.",
+          "attributes": [
+            {
+              "name": "data-ui-busy",
+              "fieldName": "busy",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "description": ""
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "busy",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "description": "",
+              "attribute": "data-ui-busy"
+            }
+          ],
+          "events": [],
+          "slots": [
+            {
+              "name": "",
+              "description": "Content."
+            }
+          ],
+          "x-category": "Shell",
+          "x-status": "stable",
+          "x-since": "2.0.0",
+          "x-tier": "A",
+          "x-host": {
+            "class": "ui-topbar-right",
+            "modifiers": {}
+          },
+          "x-examples": [
+            "<ui-topbar-right>Content</ui-topbar-right>",
+            "<ui-topbar-right><strong>Rich</strong></ui-topbar-right>"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "ui-topbar-right",
+          "declaration": {
+            "name": "UITopbarRight"
           }
         }
       ]

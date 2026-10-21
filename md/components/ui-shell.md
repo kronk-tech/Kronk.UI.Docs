@@ -24,13 +24,11 @@ Application shell with collapsible sidebar and top bar.
 |---|---|---|---|---|
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `collapsed` | `collapsed` | boolean | false | Collapse the sidebar. |
-| `sidebarOpen` | `sidebar-open` | boolean | false | Mobile sidebar open state. |
 | `persist` | `persist` | boolean | false | Remember the collapsed state in localStorage. |
 
 ## Methods
 
 - `toggle` — Toggle collapsed state.
-- `openSidebar` — Open the mobile sidebar.
 - `closeSidebar` — Close the mobile sidebar.
 
 ## Events

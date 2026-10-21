@@ -6,7 +6,7 @@ Styled button or link.
 - **Status:** stable  
 - **Since:** 2.0.0  
 - **Base class:** _UIElement  
-- **Rendering tier:** B (renders internal DOM)
+- **Rendering tier:** A (host classes)
 
 ## Examples
 
@@ -30,6 +30,7 @@ Styled button or link.
 | `type` | `type` | string | "button" | Native button type (button, submit, reset). |
 | `href` | `href` | string | "" | When set, renders an anchor. |
 | `variant` | `variant` | string | "" | Visual variant. |
+| `iconOnly` | `icon-only` | boolean | false | When true, the button will only display an icon. |
 | `primary` | `primary` | boolean | false | Primary emphasis. |
 
 ## Methods
@@ -43,3 +44,10 @@ None.
 ## Slots
 
 - `(default)` — Button content.
+
+## CSS classes
+
+- Base class: `ui-button`
+- `variant` → `ui-button--{}`
+- `primary` → `ui-button--primary`
+- `iconOnly` → `ui-button--icon-only`

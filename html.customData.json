@@ -96,6 +96,11 @@
           "description": "Visual variant."
         },
         {
+          "name": "icon-only",
+          "description": "When true, the button will only display an icon.",
+          "valueSet": "v"
+        },
+        {
           "name": "primary",
           "description": "Primary emphasis.",
           "valueSet": "v"
@@ -186,6 +191,11 @@
         {
           "name": "between",
           "description": "Distribute with space-between.",
+          "valueSet": "v"
+        },
+        {
+          "name": "horizontal",
+          "description": "Align content horizontal instead of vertical.",
           "valueSet": "v"
         },
         {
@@ -689,11 +699,6 @@
           "valueSet": "v"
         },
         {
-          "name": "sidebar-open",
-          "description": "Mobile sidebar open state.",
-          "valueSet": "v"
-        },
-        {
           "name": "persist",
           "description": "Remember the collapsed state in localStorage.",
           "valueSet": "v"
@@ -1045,6 +1050,39 @@
     {
       "name": "ui-topbar",
       "description": "Application top bar.",
+      "attributes": [
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-topbar-left",
+      "description": "Left content of topbar.",
+      "attributes": [
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-topbar-middle",
+      "description": "Middle content of topbar.",
+      "attributes": [
+        {
+          "name": "data-ui-busy",
+          "description": "",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "ui-topbar-right",
+      "description": "Right content of topbar.",
       "attributes": [
         {
           "name": "data-ui-busy",

@@ -197,7 +197,7 @@ Styled button or link.
 - **Status:** stable  
 - **Since:** 2.0.0  
 - **Base class:** _UIElement  
-- **Rendering tier:** B (renders internal DOM)
+- **Rendering tier:** A (host classes)
 
 ## Examples
 
@@ -221,6 +221,7 @@ Styled button or link.
 | `type` | `type` | string | "button" | Native button type (button, submit, reset). |
 | `href` | `href` | string | "" | When set, renders an anchor. |
 | `variant` | `variant` | string | "" | Visual variant. |
+| `iconOnly` | `icon-only` | boolean | false | When true, the button will only display an icon. |
 | `primary` | `primary` | boolean | false | Primary emphasis. |
 
 ## Methods
@@ -234,6 +235,13 @@ None.
 ## Slots
 
 - `(default)` — Button content.
+
+## CSS classes
+
+- Base class: `ui-button`
+- `variant` → `ui-button--{}`
+- `primary` → `ui-button--primary`
+- `iconOnly` → `ui-button--icon-only`
 
 
 ---
@@ -455,6 +463,7 @@ Horizontal, wrapping layout primitive.
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `gap` | `gap` | string | "md" | Spacing: xs, sm, md, lg or xl. |
 | `between` | `between` | boolean | false | Distribute with space-between. |
+| `horizontal` | `horizontal` | boolean | false | Align content horizontal instead of vertical. |
 | `end` | `end` | boolean | false | Align to the end. |
 | `nowrap` | `nowrap` | boolean | false | Disable wrapping. |
 
@@ -475,6 +484,7 @@ None.
 - Base class: `ui-cluster`
 - `gap` → `ui-cluster--{}`
 - `between` → `ui-cluster--between`
+- `horizontal` → `ui-cluster--horizontal`
 - `end` → `ui-cluster--end`
 - `nowrap` → `ui-cluster--nowrap`
 
@@ -646,7 +656,7 @@ Column grid.
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
 | `busy` | `data-ui-busy` | boolean | false |  |
-| `cols` | `cols` | string | "" | Column count: 2, 3, 4, 6 or 12. |
+| `cols` | `cols` | number | 2 | Column count: 2, 3, 4, 6 or 12. |
 | `gap` | `gap` | string | "md" | Spacing: xs, sm, md, lg or xl. |
 
 ## Methods
@@ -664,7 +674,7 @@ None.
 ## CSS classes
 
 - Base class: `ui-grid`
-- `cols` → `ui-grid--{}`
+- `cols` → `ui-grid--cols-{}`
 - `gap` → `ui-grid--gap-{}`
 
 
@@ -695,7 +705,7 @@ Grid column spanning several tracks.
 | Property | Attribute | Type | Default | Description |
 |---|---|---|---|---|
 | `busy` | `data-ui-busy` | boolean | false |  |
-| `span` | `span` | string | "" | Number of columns to span (2, 3, 4, 6 or 12). |
+| `span` | `span` | number | "" | Number of columns to span (2, 3, 4, 6 or 12). |
 
 ## Methods
 
@@ -1503,13 +1513,11 @@ Application shell with collapsible sidebar and top bar.
 |---|---|---|---|---|
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `collapsed` | `collapsed` | boolean | false | Collapse the sidebar. |
-| `sidebarOpen` | `sidebar-open` | boolean | false | Mobile sidebar open state. |
 | `persist` | `persist` | boolean | false | Remember the collapsed state in localStorage. |
 
 ## Methods
 
 - `toggle` — Toggle collapsed state.
-- `openSidebar` — Open the mobile sidebar.
 - `closeSidebar` — Close the mobile sidebar.
 
 ## Events
@@ -2402,6 +2410,141 @@ None.
 
 ---
 
+# ui-topbar-left
+
+Left content of topbar.
+
+- **Category:** Shell  
+- **Status:** stable  
+- **Since:** 2.0.0  
+- **Base class:** _UIElement  
+- **Rendering tier:** A (host classes)
+
+## Examples
+
+```html
+<ui-topbar-left>Content</ui-topbar-left>
+```
+
+```html
+<ui-topbar-left><strong>Rich</strong></ui-topbar-left>
+```
+
+## Attributes and properties
+
+| Property | Attribute | Type | Default | Description |
+|---|---|---|---|---|
+| `busy` | `data-ui-busy` | boolean | false |  |
+
+## Methods
+
+None.
+
+## Events
+
+None.
+
+## Slots
+
+- `(default)` — Content.
+
+## CSS classes
+
+- Base class: `ui-topbar-left`
+
+
+---
+
+# ui-topbar-middle
+
+Middle content of topbar.
+
+- **Category:** Shell  
+- **Status:** stable  
+- **Since:** 2.0.0  
+- **Base class:** _UIElement  
+- **Rendering tier:** A (host classes)
+
+## Examples
+
+```html
+<ui-topbar-middle>Content</ui-topbar-middle>
+```
+
+```html
+<ui-topbar-middle><strong>Rich</strong></ui-topbar-middle>
+```
+
+## Attributes and properties
+
+| Property | Attribute | Type | Default | Description |
+|---|---|---|---|---|
+| `busy` | `data-ui-busy` | boolean | false |  |
+
+## Methods
+
+None.
+
+## Events
+
+None.
+
+## Slots
+
+- `(default)` — Content.
+
+## CSS classes
+
+- Base class: `ui-topbar-middle`
+
+
+---
+
+# ui-topbar-right
+
+Right content of topbar.
+
+- **Category:** Shell  
+- **Status:** stable  
+- **Since:** 2.0.0  
+- **Base class:** _UIElement  
+- **Rendering tier:** A (host classes)
+
+## Examples
+
+```html
+<ui-topbar-right>Content</ui-topbar-right>
+```
+
+```html
+<ui-topbar-right><strong>Rich</strong></ui-topbar-right>
+```
+
+## Attributes and properties
+
+| Property | Attribute | Type | Default | Description |
+|---|---|---|---|---|
+| `busy` | `data-ui-busy` | boolean | false |  |
+
+## Methods
+
+None.
+
+## Events
+
+None.
+
+## Slots
+
+- `(default)` — Content.
+
+## CSS classes
+
+- Base class: `ui-topbar-right`
+
+
+---
+
 # Browser support
 
 Target: current evergreen Chrome, Edge, Firefox and Safari.
@@ -2862,3 +3005,6 @@ UI.commands.register({ id: 'project.new', label: 'New project', shortcut: 'mod+n
 - [ui-toast-region](components/ui-toast-region.md) — Stacking region for toasts; created on demand by UI.toast().
 - [ui-tooltip](components/ui-tooltip.md) — Accessible tooltip attached to an anchor element.
 - [ui-topbar](components/ui-topbar.md) — Application top bar.
+- [ui-topbar-left](components/ui-topbar-left.md) — Left content of topbar.
+- [ui-topbar-middle](components/ui-topbar-middle.md) — Middle content of topbar.
+- [ui-topbar-right](components/ui-topbar-right.md) — Right content of topbar.

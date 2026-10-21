@@ -1391,7 +1391,7 @@ ui-tooltip:not([hidden]) {
   display: flex;
   align-items: center;
   min-width: 0;
-  padding-inline: var(--ui-space-6);
+  padding-inline: var(--ui-space-3);
   background: var(--ui-color-bg);
   border-bottom: 1px solid var(--ui-color-border);
 }
@@ -1399,6 +1399,23 @@ ui-tooltip:not([hidden]) {
   position: sticky;
   top: 0;
   z-index: 10;
+}
+.ui-topbar-left {
+  display: flex;
+  align-items: center;
+  gap: var(--ui-space-3);
+}
+.ui-topbar-middle {
+  display: flex;
+  align-items: center;
+  gap: var(--ui-space-3);
+  margin-inline: auto;
+}
+.ui-topbar-right {
+  display: flex;
+  align-items: center;
+  gap: var(--ui-space-3);
+  margin-left: auto;
 }
 .ui-main {
   grid-area: main;
@@ -1533,13 +1550,12 @@ ui-nav-item:has(+ .ui-nav__section) .ui-nav__item {
   text-overflow: ellipsis;
 }
 .ui-shell--collapsed .ui-nav__label,
-.ui-shell--collapsed .ui-nav__section,
-.ui-shell--collapsed .ui-sidebar__header span {
+.ui-shell--collapsed .ui-nav__section {
   display: none;
 }
 .ui-shell--collapsed .ui-nav__item {
   justify-content: center;
-  padding: 0 var(--ui-space-3);
+  padding: var(--ui-space-3);
 }
 .full-width {
   width: 100%;

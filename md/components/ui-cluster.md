@@ -25,6 +25,7 @@ Horizontal, wrapping layout primitive.
 | `busy` | `data-ui-busy` | boolean | false |  |
 | `gap` | `gap` | string | "md" | Spacing: xs, sm, md, lg or xl. |
 | `between` | `between` | boolean | false | Distribute with space-between. |
+| `horizontal` | `horizontal` | boolean | false | Align content horizontal instead of vertical. |
 | `end` | `end` | boolean | false | Align to the end. |
 | `nowrap` | `nowrap` | boolean | false | Disable wrapping. |
 
@@ -45,5 +46,6 @@ None.
 - Base class: `ui-cluster`
 - `gap` → `ui-cluster--{}`
 - `between` → `ui-cluster--between`
+- `horizontal` → `ui-cluster--horizontal`
 - `end` → `ui-cluster--end`
 - `nowrap` → `ui-cluster--nowrap`

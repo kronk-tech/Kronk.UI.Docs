@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/web-types",
   "name": "kronk-ui",
-  "version": "2.0.0-beta",
+  "version": "2.0.0-beta.2",
   "js-types-syntax": "typescript",
   "description-markup": "markdown",
   "contributions": {
@@ -145,6 +145,13 @@
               }
             },
             {
+              "name": "icon-only",
+              "description": "When true, the button will only display an icon.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
               "name": "primary",
               "description": "Primary emphasis.",
               "value": {
@@ -266,6 +273,13 @@
             {
               "name": "between",
               "description": "Distribute with space-between.",
+              "value": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "horizontal",
+              "description": "Align content horizontal instead of vertical.",
               "value": {
                 "type": "boolean"
               }
@@ -405,7 +419,7 @@
               "name": "cols",
               "description": "Column count: 2, 3, 4, 6 or 12.",
               "value": {
-                "type": "string"
+                "type": "number"
               }
             },
             {
@@ -433,7 +447,7 @@
               "name": "span",
               "description": "Number of columns to span (2, 3, 4, 6 or 12).",
               "value": {
-                "type": "string"
+                "type": "number"
               }
             }
           ],
@@ -1040,13 +1054,6 @@
               }
             },
             {
-              "name": "sidebar-open",
-              "description": "Mobile sidebar open state.",
-              "value": {
-                "type": "boolean"
-              }
-            },
-            {
               "name": "persist",
               "description": "Remember the collapsed state in localStorage.",
               "value": {
@@ -1580,6 +1587,48 @@
         {
           "name": "ui-topbar",
           "description": "Application top bar.",
+          "attributes": [
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-topbar-left",
+          "description": "Left content of topbar.",
+          "attributes": [
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-topbar-middle",
+          "description": "Middle content of topbar.",
+          "attributes": [
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
+          "name": "ui-topbar-right",
+          "description": "Right content of topbar.",
           "attributes": [
             {
               "name": "data-ui-busy",

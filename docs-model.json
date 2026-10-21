@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0-beta",
-  "generatedAt": "2026-10-16T12:05:06.608Z",
+  "version": "2.0.0-beta.2",
+  "generatedAt": "2026-10-21T09:20:40.393Z",
   "components": [
     {
       "tag": "ui-alert",
@@ -190,7 +190,14 @@
       "tag": "ui-button",
       "className": "UIButton",
       "base": "_UIElement",
-      "host": null,
+      "host": {
+        "class": "ui-button",
+        "modifiers": {
+          "variant": "ui-button--{}",
+          "primary": "ui-button--primary",
+          "iconOnly": "ui-button--icon-only"
+        }
+      },
       "props": [
         {
           "name": "busy",
@@ -221,6 +228,13 @@
           "description": "Visual variant."
         },
         {
+          "name": "iconOnly",
+          "attribute": "icon-only",
+          "type": "boolean",
+          "default": false,
+          "description": "When true, the button will only display an icon."
+        },
+        {
           "name": "primary",
           "attribute": "primary",
           "type": "boolean",
@@ -237,7 +251,8 @@
           "type": "Native button type (button, submit, reset).",
           "href": "When set, renders an anchor.",
           "variant": "Visual variant.",
-          "primary": "Primary emphasis."
+          "primary": "Primary emphasis.",
+          "iconOnly": "When true, the button will only display an icon."
         },
         "slots": {
           "": "Button content."
@@ -422,6 +437,7 @@
         "modifiers": {
           "gap": "ui-cluster--{}",
           "between": "ui-cluster--between",
+          "horizontal": "ui-cluster--horizontal",
           "end": "ui-cluster--end",
           "nowrap": "ui-cluster--nowrap"
         }
@@ -449,6 +465,13 @@
           "description": "Distribute with space-between."
         },
         {
+          "name": "horizontal",
+          "attribute": "horizontal",
+          "type": "boolean",
+          "default": false,
+          "description": "Align content horizontal instead of vertical."
+        },
+        {
           "name": "end",
           "attribute": "end",
           "type": "boolean",
@@ -469,6 +492,7 @@
         "props": {
           "gap": "Spacing: xs, sm, md, lg or xl.",
           "between": "Distribute with space-between.",
+          "horizontal": "Align content horizontal instead of vertical.",
           "end": "Align to the end.",
           "nowrap": "Disable wrapping."
         },
@@ -646,7 +670,7 @@
       "host": {
         "class": "ui-grid",
         "modifiers": {
-          "cols": "ui-grid--{}",
+          "cols": "ui-grid--cols-{}",
           "gap": "ui-grid--gap-{}"
         }
       },
@@ -661,8 +685,8 @@
         {
           "name": "cols",
           "attribute": "cols",
-          "type": "string",
-          "default": "",
+          "type": "number",
+          "default": 2,
           "description": "Column count: 2, 3, 4, 6 or 12."
         },
         {
@@ -710,7 +734,7 @@
         {
           "name": "span",
           "attribute": "span",
-          "type": "string",
+          "type": "number",
           "default": "",
           "description": "Number of columns to span (2, 3, 4, 6 or 12)."
         }
@@ -1610,13 +1634,6 @@
           "description": "Collapse the sidebar."
         },
         {
-          "name": "sidebarOpen",
-          "attribute": "sidebar-open",
-          "type": "boolean",
-          "default": false,
-          "description": "Mobile sidebar open state."
-        },
-        {
           "name": "persist",
           "attribute": "persist",
           "type": "boolean",
@@ -1629,7 +1646,6 @@
         "category": "Shell",
         "props": {
           "collapsed": "Collapse the sidebar.",
-          "sidebarOpen": "Mobile sidebar open state.",
           "persist": "Remember the collapsed state in localStorage."
         },
         "events": {
@@ -1637,7 +1653,6 @@
         },
         "methods": {
           "toggle": "Toggle collapsed state.",
-          "openSidebar": "Open the mobile sidebar.",
           "closeSidebar": "Close the mobile sidebar."
         },
         "slots": {
@@ -2495,6 +2510,93 @@
         "examples": [
           "<ui-topbar>Content</ui-topbar>",
           "<ui-topbar><strong>Rich</strong></ui-topbar>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-topbar-left",
+      "className": "UITopbarLeft",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-topbar-left",
+        "modifiers": {}
+      },
+      "props": [
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Left content of topbar.",
+        "category": "Shell",
+        "slots": {
+          "": "Content."
+        },
+        "examples": [
+          "<ui-topbar-left>Content</ui-topbar-left>",
+          "<ui-topbar-left><strong>Rich</strong></ui-topbar-left>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-topbar-middle",
+      "className": "UITopbarMiddle",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-topbar-middle",
+        "modifiers": {}
+      },
+      "props": [
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Middle content of topbar.",
+        "category": "Shell",
+        "slots": {
+          "": "Content."
+        },
+        "examples": [
+          "<ui-topbar-middle>Content</ui-topbar-middle>",
+          "<ui-topbar-middle><strong>Rich</strong></ui-topbar-middle>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-topbar-right",
+      "className": "UITopbarRight",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-topbar-right",
+        "modifiers": {}
+      },
+      "props": [
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Right content of topbar.",
+        "category": "Shell",
+        "slots": {
+          "": "Content."
+        },
+        "examples": [
+          "<ui-topbar-right>Content</ui-topbar-right>",
+          "<ui-topbar-right><strong>Rich</strong></ui-topbar-right>"
         ]
       }
     }

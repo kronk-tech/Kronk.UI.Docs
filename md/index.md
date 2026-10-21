@@ -50,3 +50,6 @@
 - [ui-toast-region](components/ui-toast-region.md) — Stacking region for toasts; created on demand by UI.toast().
 - [ui-tooltip](components/ui-tooltip.md) — Accessible tooltip attached to an anchor element.
 - [ui-topbar](components/ui-topbar.md) — Application top bar.
+- [ui-topbar-left](components/ui-topbar-left.md) — Left content of topbar.
+- [ui-topbar-middle](components/ui-topbar-middle.md) — Middle content of topbar.
+- [ui-topbar-right](components/ui-topbar-right.md) — Right content of topbar.
