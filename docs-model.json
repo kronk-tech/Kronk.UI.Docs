@@ -1,6 +1,6 @@
 {
   "version": "2.0.0-beta.2",
-  "generatedAt": "2026-10-21T09:20:40.393Z",
+  "generatedAt": "2026-10-22T10:10:32.228Z",
   "components": [
     {
       "tag": "ui-alert",
@@ -1007,6 +1007,35 @@
         "examples": [
           "<ui-kbd keys=\"mod+k\"></ui-kbd>",
           "<ui-kbd keys=\"shift+/\"></ui-kbd>"
+        ]
+      }
+    },
+    {
+      "tag": "ui-main",
+      "className": "UIMain",
+      "base": "_UIElement",
+      "host": {
+        "class": "ui-main",
+        "modifiers": {}
+      },
+      "props": [
+        {
+          "name": "busy",
+          "attribute": "data-ui-busy",
+          "type": "boolean",
+          "default": false,
+          "description": ""
+        }
+      ],
+      "docs": {
+        "summary": "Main content area.",
+        "category": "Shell",
+        "slots": {
+          "": "Content."
+        },
+        "examples": [
+          "<ui-main>Content</ui-main>",
+          "<ui-main><strong>Rich</strong></ui-main>"
         ]
       }
     },

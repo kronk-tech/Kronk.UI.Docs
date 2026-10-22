@@ -55,7 +55,7 @@
 | `--ui-container-md` | `56rem` |
 | `--ui-container-lg` | `72rem` |
 | `--ui-container-xl` | `88rem` |
-| `--ui-font-sans` | `"Euclid Circular", -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, Helvetica, Arial, sans-serif` |
+| `--ui-font-sans` | `"Euclid Circular A", -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, Helvetica, Arial, sans-serif` |
 | `--ui-font-mono` | `ui-monospace, "JetBrains Mono", SFMono-Regular, Menlo, Consolas, monospace` |
 | `--ui-text-xs` | `0.75rem` |
 | `--ui-text-sm` | `0.875rem` |

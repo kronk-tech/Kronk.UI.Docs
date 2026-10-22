@@ -980,6 +980,51 @@ None.
 
 ---
 
+# ui-main
+
+Main content area.
+
+- **Category:** Shell  
+- **Status:** stable  
+- **Since:** 2.0.0  
+- **Base class:** _UIElement  
+- **Rendering tier:** A (host classes)
+
+## Examples
+
+```html
+<ui-main>Content</ui-main>
+```
+
+```html
+<ui-main><strong>Rich</strong></ui-main>
+```
+
+## Attributes and properties
+
+| Property | Attribute | Type | Default | Description |
+|---|---|---|---|---|
+| `busy` | `data-ui-busy` | boolean | false |  |
+
+## Methods
+
+None.
+
+## Events
+
+None.
+
+## Slots
+
+- `(default)` — Content.
+
+## CSS classes
+
+- Base class: `ui-main`
+
+
+---
+
 # ui-modal
 
 Native <dialog> with promise-based open and close.
@@ -2908,7 +2953,7 @@ UI.commands.register({ id: 'project.new', label: 'New project', shortcut: 'mod+n
 | `--ui-container-md` | `56rem` |
 | `--ui-container-lg` | `72rem` |
 | `--ui-container-xl` | `88rem` |
-| `--ui-font-sans` | `"Euclid Circular", -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, Helvetica, Arial, sans-serif` |
+| `--ui-font-sans` | `"Euclid Circular A", -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, Helvetica, Arial, sans-serif` |
 | `--ui-font-mono` | `ui-monospace, "JetBrains Mono", SFMono-Regular, Menlo, Consolas, monospace` |
 | `--ui-text-xs` | `0.75rem` |
 | `--ui-text-sm` | `0.875rem` |
@@ -2974,6 +3019,7 @@ UI.commands.register({ id: 'project.new', label: 'New project', shortcut: 'mod+n
 - [ui-icon](components/ui-icon.md) — Font Awesome icon.
 - [ui-input](components/ui-input.md) — Labelled native input (text, email, password, number, date, file, color, checkbox, radio, range, …).
 - [ui-kbd](components/ui-kbd.md) — Keyboard shortcut hint.
+- [ui-main](components/ui-main.md) — Main content area.
 - [ui-modal](components/ui-modal.md) — Native <dialog> with promise-based open and close.
 - [ui-nav](components/ui-nav.md) — Navigation list.
 - [ui-nav-item](components/ui-nav-item.md) — Navigation item with icon and label.

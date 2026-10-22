@@ -631,6 +631,20 @@
           "events": []
         },
         {
+          "name": "ui-main",
+          "description": "Main content area.",
+          "attributes": [
+            {
+              "name": "data-ui-busy",
+              "description": "",
+              "value": {
+                "type": "boolean"
+              }
+            }
+          ],
+          "events": []
+        },
+        {
           "name": "ui-modal",
           "description": "Native <dialog> with promise-based open and close.",
           "attributes": [

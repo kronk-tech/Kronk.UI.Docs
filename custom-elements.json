@@ -2261,6 +2261,74 @@
     },
     {
       "kind": "javascript-module",
+      "path": "src/components/ui-main.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "UIMain",
+          "tagName": "ui-main",
+          "customElement": true,
+          "superclass": {
+            "name": "_UIElement"
+          },
+          "summary": "Main content area.",
+          "description": "Main content area.",
+          "attributes": [
+            {
+              "name": "data-ui-busy",
+              "fieldName": "busy",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "description": ""
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "busy",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "description": "",
+              "attribute": "data-ui-busy"
+            }
+          ],
+          "events": [],
+          "slots": [
+            {
+              "name": "",
+              "description": "Content."
+            }
+          ],
+          "x-category": "Shell",
+          "x-status": "stable",
+          "x-since": "2.0.0",
+          "x-tier": "A",
+          "x-host": {
+            "class": "ui-main",
+            "modifiers": {}
+          },
+          "x-examples": [
+            "<ui-main>Content</ui-main>",
+            "<ui-main><strong>Rich</strong></ui-main>"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "ui-main",
+          "declaration": {
+            "name": "UIMain"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
       "path": "src/components/ui-modal.js",
       "declarations": [
         {

@@ -152,7 +152,6 @@
   justify-content: center;
   gap: var(--ui-space-2);
   padding: var(--ui-space-2) var(--ui-space-4);
-  border: 1px solid transparent;
   border-radius: var(--ui-radius-md);
   font-size: var(--ui-text-sm);
   font-weight: var(--ui-font-weight-medium);
@@ -160,11 +159,9 @@
   white-space: nowrap;
   background: var(--ui-color-surface);
   color: var(--ui-color-text);
+  border: 1px solid transparent;
   border-color: var(--ui-color-border);
-  transition:
-    background-color 0.15s ease,
-    border-color 0.15s ease,
-    transform 0.05s ease;
+  transition: background-color 0.15s ease, transform 0.05s ease;
 }
 .ui-button:hover {
   background: var(--ui-color-surface-hover);
@@ -1859,7 +1856,7 @@ ui-nav-item:has(+ .ui-nav__section) .ui-nav__item {
 }
 :root {
   --ui-font-sans:
-    "Euclid Circular",
+    "Euclid Circular A",
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
@@ -1892,14 +1889,14 @@ ui-nav-item:has(+ .ui-nav__section) .ui-nav__item {
 }
 
 /* packages/core/src/styles/fouc.css */
-ui-select:not([ui-ready]),
-ui-input:not([ui-ready]),
-ui-textarea:not([ui-ready]),
-ui-switch:not([ui-ready]),
-ui-tabs:not([ui-ready]),
-ui-details:not([ui-ready]),
-ui-modal:not([ui-ready]) {
+@keyframes ui-fouc-fallback {
+  to {
+    visibility: visible;
+  }
+}
+:not(:defined) {
   visibility: hidden;
+  animation: ui-fouc-fallback 0s 3s forwards;
 }
 ui-modal {
   display: contents;
