@@ -1347,6 +1347,9 @@ ui-tooltip:not([hidden]) {
 .ui-cluster--nowrap {
   grid-template-columns: 1fr;
 }
+.ui-cluster--horizontal {
+  grid-auto-flow: column;
+}
 .ui-cluster .ui-card .ui-card__body {
   flex: 1;
 }
